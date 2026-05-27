@@ -1,14 +1,14 @@
-# Customer Churn & Revenue Insights Dashboard
+# Netflix Customer Churn & Revenue Insights Dashboard
 
 ## Project Overview
 
-This is a complete portfolio-ready data analytics project for a subscription-based company. It generates a realistic customer churn dataset, cleans and transforms the data with Python, documents SQL analysis workflows, performs exploratory analysis in a Jupyter notebook, and exports Tableau/Power BI-ready CSV files.
+This is a complete portfolio-ready data analytics project for a Netflix-style streaming subscription company. It generates a realistic synthetic customer churn dataset, cleans and transforms the data with Python, documents SQL analysis workflows, performs exploratory analysis in a Jupyter notebook, and exports Tableau/Power BI-ready CSV files.
 
 The project is designed to show an end-to-end analytics workflow: data generation, cleaning, feature engineering, SQL analysis, exploratory data analysis, dashboard preparation, and business recommendations.
 
 ## Business Problem
 
-Subscription companies lose revenue when customers cancel. Leadership needs to understand which customer segments churn most often, how much recurring revenue is being lost, and which retention actions could reduce churn.
+Streaming subscription companies lose revenue when customers cancel. Leadership needs to understand which customer segments churn most often, how much recurring revenue is being lost, and which retention actions could reduce churn.
 
 This project answers questions such as:
 
@@ -77,7 +77,7 @@ customer-churn-analytics/
 
 ## Dataset Description
 
-The generated sample dataset contains customer-level subscription records with the following fields:
+The generated sample dataset contains customer-level streaming subscription records with the following fields:
 
 | Column | Description |
 | --- | --- |
@@ -89,7 +89,7 @@ The generated sample dataset contains customer-level subscription records with t
 | payment_method | Customer payment method |
 | monthly_charges | Monthly subscription charge |
 | total_charges | Estimated lifetime charges |
-| internet_service | Fiber optic, DSL, or None |
+| streaming_plan | Mobile, Basic, Standard, or Premium |
 | support_tickets | Count of customer support tickets |
 | churn_status | Churned or Stayed |
 | churn_reason | Reason for churn or Not churned |
@@ -98,7 +98,7 @@ The raw dataset intentionally includes duplicate rows and a small number of miss
 
 ## Project Workflow
 
-1. Generate sample raw customer data with realistic churn patterns.
+1. Generate sample raw Netflix-style streaming customer data with realistic churn patterns.
 2. Load the raw CSV into Python using Pandas.
 3. Standardize text fields, remove duplicate customers, and fix numeric data types.
 4. Fill missing total charges and payment method values.
@@ -135,7 +135,7 @@ Suggested dashboard filters:
 - Contract type
 - Payment method
 - Tenure group
-- Internet service
+- Streaming plan
 - Age group
 - Churn status
 
@@ -145,12 +145,12 @@ Based on the generated sample dataset:
 
 - The cleaned dataset contains 1,500 unique customers.
 - 424 customers churned, producing an overall churn rate of 28.27%.
-- Total monthly recurring revenue is $85,615.98.
-- Lost monthly recurring revenue from churned customers is $25,666.31.
-- Estimated annualized revenue loss is $307,995.72.
+- Total monthly recurring revenue is $29,980.83.
+- Lost monthly recurring revenue from churned customers is $9,042.66.
+- Estimated annualized revenue loss is $108,511.92.
 - Month-to-month customers have the highest churn rate at 40%.
-- Customers with 0-6 months of tenure have the highest tenure-based churn rate at 54%.
-- Electronic check customers have the highest payment-method churn rate at 33%.
+- Customers with 0-6 months of tenure have the highest tenure-based churn rate at 48%.
+- Electronic check customers have the highest payment-method churn rate at 35%.
 - Competitor offers and price concerns are the most common churn reasons.
 
 ## Business Recommendations
@@ -203,7 +203,7 @@ These files can be imported directly into Tableau, Power BI, Excel, or Google Sh
 
 ## Resume-Ready Project Description
 
-Built an end-to-end customer churn analytics project for a subscription business using Python, SQL, and dashboard-ready CSV outputs. Generated and cleaned a realistic customer dataset, engineered tenure and revenue loss metrics, performed exploratory analysis in Jupyter Notebook, wrote SQL queries for churn and revenue analysis, and developed business recommendations to reduce churn and protect recurring revenue.
+Built an end-to-end Netflix-style customer churn analytics project for a streaming subscription business using Python, SQL, and dashboard-ready CSV outputs. Generated and cleaned a realistic synthetic customer dataset, engineered tenure and revenue loss metrics, performed exploratory analysis in Jupyter Notebook, wrote SQL queries for churn and revenue analysis, and developed business recommendations to reduce churn and protect recurring revenue.
 
 ## Future Improvements
 
@@ -231,4 +231,4 @@ Built an end-to-end customer churn analytics project for a subscription business
 
 ## Notes
 
-This project uses generated sample data, so it is safe to publish publicly. The dataset is realistic enough for portfolio analysis but does not contain real customer information.
+This project uses generated sample data, so it is safe to publish publicly. The dataset is realistic enough for portfolio analysis but does not contain real customer information. It is not official Netflix data and is not affiliated with Netflix.

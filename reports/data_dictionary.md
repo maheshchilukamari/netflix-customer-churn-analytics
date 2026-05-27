@@ -11,7 +11,7 @@
 | payment_method | Customer payment method. Missing values are cleaned as Unknown. |
 | monthly_charges | Customer monthly subscription charge. |
 | total_charges | Estimated total customer charges over their subscription lifetime. |
-| internet_service | Type of internet service attached to the subscription. |
+| streaming_plan | Streaming subscription plan: Mobile, Basic, Standard, or Premium. |
 | support_tickets | Number of support tickets associated with the customer. |
 | churn_status | Whether the customer churned or stayed. |
 | churn_reason | Stated reason for churn, or Not churned for retained customers. |

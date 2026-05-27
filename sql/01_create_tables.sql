@@ -1,5 +1,5 @@
 /*
-Create tables for the Customer Churn & Revenue Insights Dashboard project.
+Create tables for the Netflix Customer Churn & Revenue Insights Dashboard project.
 
 The SQL uses simple data types that are easy to adapt for SQLite or PostgreSQL.
 Load data/customer_churn_raw.csv into raw_customer_churn, then use the cleaning
@@ -17,7 +17,7 @@ CREATE TABLE raw_customer_churn (
     payment_method TEXT,
     monthly_charges NUMERIC,
     total_charges NUMERIC,
-    internet_service TEXT,
+    streaming_plan TEXT,
     support_tickets INTEGER,
     churn_status TEXT,
     churn_reason TEXT
@@ -35,7 +35,7 @@ CREATE TABLE cleaned_customer_churn (
     payment_method TEXT,
     monthly_charges NUMERIC,
     total_charges NUMERIC,
-    internet_service TEXT,
+    streaming_plan TEXT,
     support_tickets INTEGER,
     churn_status TEXT,
     churn_reason TEXT,

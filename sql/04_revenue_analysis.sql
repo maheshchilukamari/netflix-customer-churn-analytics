@@ -39,7 +39,7 @@ SELECT
     contract_type,
     tenure,
     payment_method,
-    internet_service,
+    streaming_plan,
     support_tickets,
     monthly_charges,
     annual_revenue_loss,

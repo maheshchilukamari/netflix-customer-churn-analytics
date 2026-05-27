@@ -1,7 +1,7 @@
 """
-Generate a realistic sample customer churn dataset.
+Generate a realistic Netflix-style customer churn dataset.
 
-This script creates a reproducible raw CSV file for a subscription business.
+This script creates a reproducible raw CSV file for a streaming subscription business.
 The generated data intentionally includes a small number of missing values and
 duplicate rows so the cleaning script has realistic work to do.
 """
@@ -69,7 +69,7 @@ def calculate_churn_probability(
     elif support_tickets >= 2:
         probability += 0.06
 
-    # Electronic check is a common churn-risk signal in telecom-style datasets.
+    # Electronic check can be a churn-risk signal because it may reflect billing friction.
     if payment_method == "Electronic check":
         probability += 0.08
 
@@ -105,17 +105,17 @@ def build_customer_dataset(row_count: int = 1500) -> pd.DataFrame:
         size=row_count,
         p=[0.33, 0.28, 0.29, 0.10],
     )
-    internet_services = np.random.choice(
-        ["Fiber optic", "DSL", "None"],
+    streaming_plans = np.random.choice(
+        ["Basic", "Standard", "Premium", "Mobile"],
         size=row_count,
-        p=[0.48, 0.39, 0.13],
+        p=[0.28, 0.39, 0.25, 0.08],
     )
 
     rows = []
     for index in range(row_count):
         contract_type = contract_types[index]
         payment_method = payment_methods[index]
-        internet_service = internet_services[index]
+        streaming_plan = streaming_plans[index]
 
         # Tenure is shaped so month-to-month customers are more likely to be new.
         if contract_type == "Month-to-month":
@@ -127,10 +127,11 @@ def build_customer_dataset(row_count: int = 1500) -> pd.DataFrame:
         tenure = int(np.clip(tenure, 1, 72))
 
         service_base_charge = {
-            "Fiber optic": 74,
-            "DSL": 52,
-            "None": 29,
-        }[internet_service]
+            "Mobile": 9.99,
+            "Basic": 15.49,
+            "Standard": 22.99,
+            "Premium": 29.99,
+        }[streaming_plan]
         contract_discount = {
             "Month-to-month": 0,
             "One year": -5,
@@ -140,10 +141,10 @@ def build_customer_dataset(row_count: int = 1500) -> pd.DataFrame:
             service_base_charge + contract_discount + np.random.normal(loc=0, scale=12),
             2,
         )
-        monthly_charges = float(np.clip(monthly_charges, 18.99, 119.99))
+        monthly_charges = float(np.clip(monthly_charges, 7.99, 39.99))
 
-        # Support tickets loosely rise with higher charges and fiber service.
-        ticket_lambda = 0.8 + (monthly_charges > 80) * 0.5 + (internet_service == "Fiber optic") * 0.3
+        # Support tickets loosely rise with higher charges and premium streaming plans.
+        ticket_lambda = 0.8 + (monthly_charges > 25) * 0.4 + (streaming_plan == "Premium") * 0.2
         support_tickets = int(np.random.poisson(lam=ticket_lambda))
 
         churn_probability = calculate_churn_probability(
@@ -171,7 +172,7 @@ def build_customer_dataset(row_count: int = 1500) -> pd.DataFrame:
                 "payment_method": payment_method,
                 "monthly_charges": monthly_charges,
                 "total_charges": round(total_charges, 2),
-                "internet_service": internet_service,
+                "streaming_plan": streaming_plan,
                 "support_tickets": support_tickets,
                 "churn_status": churn_status,
                 "churn_reason": churn_reason,

@@ -1,1 +1,1 @@
-"""Source package for the Customer Churn & Revenue Insights Dashboard project."""
+"""Source package for the Netflix Customer Churn & Revenue Insights Dashboard project."""

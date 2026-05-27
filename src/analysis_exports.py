@@ -68,7 +68,7 @@ def create_revenue_loss_summary(df: pd.DataFrame) -> pd.DataFrame:
 def create_segment_analysis(df: pd.DataFrame) -> pd.DataFrame:
     """Create customer segmentation metrics for dashboard filters and charts."""
     segment = (
-        df.groupby(["age_group", "internet_service", "tenure_group"], dropna=False)
+        df.groupby(["age_group", "streaming_plan", "tenure_group"], dropna=False)
         .agg(
             customers=("customer_id", "count"),
             churned_customers=("churn_flag", "sum"),

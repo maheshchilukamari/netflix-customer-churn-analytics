@@ -2,7 +2,7 @@
 
 ## Project Snapshot
 
-This project analyzes churn for a subscription-based company using Python, SQL, and dashboard-ready CSV outputs. The cleaned dataset contains 1,500 unique customers after removing 20 duplicate raw records.
+This project analyzes churn for a Netflix-style streaming subscription company using Python, SQL, and dashboard-ready CSV outputs. The cleaned dataset contains 1,500 unique customers after removing 20 duplicate raw records.
 
 ## Key Metrics
 
@@ -11,15 +11,15 @@ This project analyzes churn for a subscription-based company using Python, SQL, 
 | Total customers | 1,500 |
 | Churned customers | 424 |
 | Overall churn rate | 28.27% |
-| Monthly recurring revenue | $85,615.98 |
-| Lost monthly recurring revenue | $25,666.31 |
-| Estimated annual revenue loss | $307,995.72 |
+| Monthly recurring revenue | $29,980.83 |
+| Lost monthly recurring revenue | $9,042.66 |
+| Estimated annual revenue loss | $108,511.92 |
 
 ## Key Insights
 
 - Month-to-month customers had the highest churn rate at 40%, compared with 19% for one-year contracts and 9% for two-year contracts.
-- Customers in the first 6 months had a 54% churn rate, making early lifecycle retention the clearest opportunity.
-- Electronic check customers had the highest payment-method churn rate at 33%.
+- Customers in the first 6 months had a 48% churn rate, making early lifecycle retention the clearest opportunity.
+- Electronic check customers had the highest payment-method churn rate at 35%.
 - Competitor offers and price concerns were the most common churn reasons.
 
 ## Recommendations

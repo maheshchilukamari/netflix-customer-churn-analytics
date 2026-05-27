@@ -5,10 +5,10 @@ Use these outputs to identify customer groups that may need different retention
 strategies.
 */
 
--- Segment customers by age group and internet service.
+-- Segment customers by age group and streaming plan.
 SELECT
     age_group,
-    internet_service,
+    streaming_plan,
     COUNT(*) AS customers,
     SUM(CASE WHEN churn_status = 'Churned' THEN 1 ELSE 0 END) AS churned_customers,
     ROUND(
@@ -18,7 +18,7 @@ SELECT
     ROUND(AVG(monthly_charges), 2) AS avg_monthly_charges,
     ROUND(AVG(support_tickets), 2) AS avg_support_tickets
 FROM cleaned_customer_churn
-GROUP BY age_group, internet_service
+GROUP BY age_group, streaming_plan
 ORDER BY churn_rate_percent DESC, customers DESC;
 
 -- Find segments with both high churn and meaningful customer volume.
