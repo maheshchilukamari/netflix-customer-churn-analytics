@@ -6,6 +6,37 @@ This is a complete portfolio-ready data analytics project for a Netflix-style st
 
 The project is designed to show an end-to-end analytics workflow: data generation, cleaning, feature engineering, SQL analysis, exploratory data analysis, dashboard preparation, and business recommendations.
 
+## View The Results
+
+Visitors do not need to run the project to understand the analysis. The main results are already included in this repository:
+
+| Result | File |
+| --- | --- |
+| Executive summary and recommendations | [reports/executive_summary.md](reports/executive_summary.md) |
+| Full EDA notebook | [notebooks/customer_churn_eda.ipynb](notebooks/customer_churn_eda.ipynb) |
+| Dashboard-ready CSV files | [dashboard/](dashboard/) |
+| SQL analysis queries | [sql/](sql/) |
+| Python data pipeline | [src/run_pipeline.py](src/run_pipeline.py) |
+
+### Key Metrics
+
+| Metric | Value |
+| --- | ---: |
+| Total customers analyzed | 1,500 |
+| Churned customers | 424 |
+| Overall churn rate | 28.27% |
+| Monthly recurring revenue | $29,980.83 |
+| Lost monthly recurring revenue | $9,042.66 |
+| Estimated annual revenue loss | $108,511.92 |
+
+### Chart Preview
+
+![Churn Rate by Contract Type](images/churn_by_contract_type.png)
+
+![Churn Rate by Payment Method](images/churn_by_payment_method.png)
+
+![Monthly Revenue Loss by Tenure Group](images/revenue_loss_by_tenure_group.png)
+
 ## Business Problem
 
 Streaming subscription companies lose revenue when customers cancel. Leadership needs to understand which customer segments churn most often, how much recurring revenue is being lost, and which retention actions could reduce churn.
