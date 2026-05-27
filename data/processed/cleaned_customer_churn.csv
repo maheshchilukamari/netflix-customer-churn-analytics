@@ -1,0 +1,1501 @@
+customer_id,gender,age_group,tenure,contract_type,payment_method,monthly_charges,total_charges,internet_service,support_tickets,churn_status,churn_reason,tenure_group,monthly_revenue_loss,annual_revenue_loss,customer_lifetime_value
+CUST-00462,Male,35-44,27,Month-to-month,Credit card,55.93,1518.06,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1518.06
+CUST-01315,Female,35-44,72,Two year,Credit card,75.23,5393.1,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,5393.1
+CUST-01473,Male,45-54,1,Month-to-month,Electronic check,18.99,18.99,,0,Stayed,Not churned,0-6 months,0.0,0.0,18.99
+CUST-00745,Female,55-64,20,Month-to-month,Electronic check,79.12,1612.69,Fiber optic,0,Churned,Temporary need ended,13-24 months,79.12,949.44,1612.69
+CUST-00248,Male,25-34,17,Month-to-month,Credit card,75.61,1400.04,DSL,0,Churned,Price too high,13-24 months,75.61,907.32,1400.04
+CUST-00431,Female,35-44,21,One year,Bank transfer,69.74,1455.33,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1455.33
+CUST-00940,Male,25-34,20,Month-to-month,Electronic check,97.52,1938.17,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1938.17
+CUST-01491,Female,25-34,12,Month-to-month,Credit card,60.87,771.98,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,771.98
+CUST-00359,Male,55-64,30,Two year,Mailed check,21.26,643.07,,1,Stayed,Not churned,25-48 months,0.0,0.0,643.07
+CUST-00428,Male,35-44,43,One year,Credit card,72.12,3121.15,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,3121.15
+CUST-00052,Male,45-54,38,Month-to-month,Credit card,29.2,1050.1,,1,Stayed,Not churned,25-48 months,0.0,0.0,1050.1
+CUST-00655,Female,25-34,22,Month-to-month,Electronic check,98.65,2174.35,Fiber optic,2,Churned,Competitor offer,13-24 months,98.65,1183.8,2174.35
+CUST-00480,Male,55-64,3,Month-to-month,Credit card,89.83,228.63,Fiber optic,3,Stayed,Not churned,0-6 months,0.0,0.0,228.63
+CUST-01411,Female,25-34,15,Month-to-month,Bank transfer,63.07,914.0,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,914.0
+CUST-01236,Female,45-54,18,Month-to-month,Electronic check,67.56,1245.74,Fiber optic,0,Churned,Competitor offer,13-24 months,67.56,810.72,1245.74
+CUST-00077,Male,18-24,64,Two year,Bank transfer,41.25,2640.0,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,2640.0
+CUST-00811,Male,35-44,31,One year,Bank transfer,40.27,1239.59,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1239.59
+CUST-01266,Female,65+,19,Month-to-month,Electronic check,59.33,1148.22,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1148.22
+CUST-00652,Male,25-34,12,Month-to-month,Credit card,47.2,584.05,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,584.05
+CUST-01217,Female,45-54,18,Month-to-month,Credit card,52.84,992.24,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,992.24
+CUST-00142,Female,55-64,18,Two year,Credit card,60.28,1108.13,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1108.13
+CUST-00050,Female,45-54,16,Month-to-month,Electronic check,40.69,726.63,,1,Stayed,Not churned,13-24 months,0.0,0.0,726.63
+CUST-00728,Male,45-54,2,Month-to-month,Electronic check,83.98,172.2,Fiber optic,3,Churned,Temporary need ended,0-6 months,83.98,1007.76,172.2
+CUST-01461,Female,25-34,8,Month-to-month,Bank transfer,65.68,552.35,Fiber optic,2,Churned,Competitor offer,7-12 months,65.68,788.16,552.35
+CUST-01186,Male,18-24,28,One year,Electronic check,21.38,577.28,,2,Stayed,Not churned,25-48 months,0.0,0.0,577.28
+CUST-01038,Male,25-34,18,Two year,Electronic check,47.74,823.5,Fiber optic,1,Churned,Moved location,13-24 months,47.74,572.88,823.5
+CUST-00708,Male,55-64,12,Month-to-month,Bank transfer,69.46,899.35,DSL,3,Stayed,Not churned,7-12 months,0.0,0.0,899.35
+CUST-01085,Male,35-44,25,Month-to-month,Bank transfer,36.64,908.26,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,908.26
+CUST-00124,Female,65+,6,Month-to-month,Electronic check,50.58,312.48,,1,Stayed,Not churned,0-6 months,0.0,0.0,312.48
+CUST-00909,Female,65+,18,One year,Credit card,66.42,1184.44,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1184.44
+CUST-00352,Male,55-64,55,Month-to-month,Bank transfer,63.73,3497.46,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3497.46
+CUST-01345,Male,35-44,37,One year,Electronic check,36.45,1345.89,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1345.89
+CUST-01416,Male,45-54,23,Month-to-month,Credit card,43.08,1008.88,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1008.88
+CUST-01114,Male,45-54,13,Month-to-month,Credit card,71.82,878.18,Fiber optic,3,Churned,Price too high,13-24 months,71.82,861.84,878.18
+CUST-00620,Male,55-64,21,Month-to-month,Credit card,51.65,1123.97,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1123.97
+CUST-01487,Female,18-24,35,Month-to-month,Bank transfer,70.51,2455.06,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2455.06
+CUST-00523,Male,55-64,9,Month-to-month,Mailed check,69.9,654.47,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,654.47
+CUST-00310,Female,25-34,12,Month-to-month,Electronic check,40.72,566.28,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,566.28
+CUST-01339,Female,45-54,6,Month-to-month,Bank transfer,34.72,201.17,DSL,1,Churned,Temporary need ended,0-6 months,34.72,416.64,201.17
+CUST-01076,Female,45-54,10,One year,Credit card,53.69,522.04,Fiber optic,3,Stayed,Not churned,7-12 months,0.0,0.0,522.04
+CUST-00944,Male,55-64,29,Month-to-month,Mailed check,76.16,2205.73,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2205.73
+CUST-00590,Female,35-44,13,Month-to-month,Credit card,55.11,766.61,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,766.61
+CUST-01042,Male,45-54,17,Month-to-month,Electronic check,96.07,1649.04,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1649.04
+CUST-01025,Male,55-64,47,One year,Bank transfer,59.0,2825.56,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2825.56
+CUST-01234,Female,65+,72,Two year,Bank transfer,48.51,3517.79,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,3517.79
+CUST-01327,Female,45-54,5,Month-to-month,Electronic check,84.0,427.93,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,427.93
+CUST-01101,Female,45-54,24,One year,Credit card,76.33,1844.11,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1844.11
+CUST-01303,Female,65+,32,One year,Credit card,42.16,1348.09,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,1348.09
+CUST-00917,Female,35-44,37,One year,Bank transfer,68.52,2444.44,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2444.44
+CUST-00245,Female,35-44,55,One year,Credit card,52.57,2912.67,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2912.67
+CUST-00584,Female,55-64,30,Two year,Credit card,57.65,1720.12,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1720.12
+CUST-00487,Female,45-54,7,Month-to-month,Electronic check,23.95,113.04,,1,Churned,Price too high,7-12 months,23.95,287.4,113.04
+CUST-00797,Male,25-34,5,Month-to-month,Bank transfer,37.74,171.98,,2,Churned,Competitor offer,0-6 months,37.74,452.88,171.98
+CUST-00100,Female,55-64,34,Month-to-month,Credit card,18.99,601.26,,2,Stayed,Not churned,25-48 months,0.0,0.0,601.26
+CUST-00683,Female,18-24,13,One year,Credit card,48.65,623.38,DSL,0,Churned,Competitor offer,13-24 months,48.65,583.8,623.38
+CUST-00024,Female,25-34,30,Month-to-month,Bank transfer,88.21,2622.08,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2622.08
+CUST-00980,Male,45-54,34,Month-to-month,Credit card,79.25,2742.02,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2742.02
+CUST-01066,Male,25-34,1,Month-to-month,Credit card,32.9,79.64,DSL,1,Churned,Temporary need ended,0-6 months,32.9,394.8,79.64
+CUST-01489,Female,45-54,14,One year,Electronic check,63.46,895.87,DSL,2,Churned,Moved location,13-24 months,63.46,761.52,895.87
+CUST-01059,Female,18-24,24,Two year,Credit card,18.99,444.21,,1,Stayed,Not churned,13-24 months,0.0,0.0,444.21
+CUST-00060,Female,55-64,48,Two year,Mailed check,35.32,1766.59,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1766.59
+CUST-00125,Female,25-34,23,One year,Mailed check,38.01,886.05,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,886.05
+CUST-00071,Male,35-44,23,One year,Bank transfer,22.63,523.43,,0,Stayed,Not churned,13-24 months,0.0,0.0,523.43
+CUST-00629,Female,55-64,58,Two year,Bank transfer,60.84,3492.08,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,3492.08
+CUST-01165,Female,45-54,17,One year,Electronic check,32.58,537.67,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,537.67
+CUST-00501,Male,25-34,14,Month-to-month,Bank transfer,79.93,1166.37,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1166.37
+CUST-00845,Female,65+,11,Month-to-month,Mailed check,30.97,314.68,,0,Churned,Temporary need ended,7-12 months,30.97,371.64,314.68
+CUST-01456,Male,45-54,9,Month-to-month,Electronic check,44.52,395.23,,3,Stayed,Not churned,7-12 months,0.0,0.0,395.23
+CUST-01256,Female,25-34,3,One year,Bank transfer,38.56,79.97,DSL,3,Stayed,Not churned,0-6 months,0.0,0.0,79.97
+CUST-01223,Female,45-54,36,Two year,Electronic check,53.33,1936.19,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1936.19
+CUST-00991,Male,25-34,29,Month-to-month,Credit card,30.61,866.28,,1,Stayed,Not churned,25-48 months,0.0,0.0,866.28
+CUST-00820,Female,35-44,10,Month-to-month,Bank transfer,54.91,565.95,DSL,1,Churned,Competitor offer,7-12 months,54.91,658.92,565.95
+CUST-01450,Male,55-64,1,One year,Electronic check,70.33,70.33,Fiber optic,4,Stayed,Not churned,0-6 months,0.0,0.0,70.33
+CUST-00651,Female,35-44,11,One year,Credit card,81.16,877.68,Fiber optic,2,Churned,Product dissatisfaction,7-12 months,81.16,973.92,877.68
+CUST-00925,Female,25-34,23,Two year,Bank transfer,42.52,1031.62,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1031.62
+CUST-00817,Male,25-34,39,Month-to-month,Credit card,91.49,3586.33,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3586.33
+CUST-00068,Male,25-34,72,Two year,Credit card,55.56,3995.0,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,3995.0
+CUST-00695,Female,25-34,3,Month-to-month,Credit card,60.66,186.35,DSL,0,Churned,Price too high,0-6 months,60.66,727.92,186.35
+CUST-00317,Female,25-34,21,Month-to-month,Mailed check,51.29,1069.36,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1069.36
+CUST-00353,Male,55-64,29,Two year,Electronic check,64.69,1800.35,Fiber optic,1,Churned,Product dissatisfaction,25-48 months,64.69,776.28,1800.35
+CUST-01098,Female,35-44,25,Month-to-month,Electronic check,60.65,1528.43,Fiber optic,2,Churned,Price too high,25-48 months,60.65,727.8,1528.43
+CUST-00426,Male,25-34,6,One year,Credit card,68.09,413.88,Fiber optic,0,Churned,Competitor offer,0-6 months,68.09,817.08,413.88
+CUST-00830,Female,18-24,24,Month-to-month,Bank transfer,69.83,1727.84,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1727.84
+CUST-00549,Male,35-44,9,Month-to-month,Bank transfer,85.27,713.89,Fiber optic,1,Churned,Price too high,7-12 months,85.27,1023.24,713.89
+CUST-01422,Female,45-54,27,Two year,Mailed check,37.14,1009.17,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1009.17
+CUST-00870,Male,45-54,11,Month-to-month,Credit card,38.19,446.63,,0,Churned,Price too high,7-12 months,38.19,458.28,446.63
+CUST-00381,Female,45-54,28,Month-to-month,Credit card,48.24,1341.63,DSL,4,Stayed,Not churned,25-48 months,0.0,0.0,1341.63
+CUST-00669,Female,45-54,21,Month-to-month,Credit card,70.94,1537.93,Fiber optic,0,Churned,Price too high,13-24 months,70.94,851.28,1537.93
+CUST-00340,Female,25-34,15,One year,Credit card,61.16,964.72,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,964.72
+CUST-00814,Male,45-54,44,One year,Mailed check,57.82,2515.6,DSL,0,Churned,Moved location,25-48 months,57.82,693.84,2515.6
+CUST-00169,Female,25-34,28,One year,Electronic check,74.07,2057.64,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2057.64
+CUST-00240,Female,35-44,17,One year,Electronic check,30.17,559.25,,0,Stayed,Not churned,13-24 months,0.0,0.0,559.25
+CUST-01079,Female,35-44,33,One year,Mailed check,65.31,2182.09,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2182.09
+CUST-01007,Male,55-64,8,Month-to-month,Bank transfer,52.23,399.6,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,399.6
+CUST-00260,Female,35-44,40,Two year,Mailed check,60.59,2436.49,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2436.49
+CUST-00298,Female,18-24,5,Month-to-month,Electronic check,84.65,396.59,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,396.59
+CUST-01088,Female,45-54,1,One year,Bank transfer,70.36,70.36,DSL,1,Churned,Moved location,0-6 months,70.36,844.32,70.36
+CUST-00204,Male,35-44,63,Two year,Bank transfer,18.99,1130.92,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,1130.92
+CUST-00362,Male,45-54,38,Month-to-month,Electronic check,72.51,2767.74,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2767.74
+CUST-00975,Female,35-44,2,Month-to-month,Credit card,42.18,88.67,DSL,0,Churned,Price too high,0-6 months,42.18,506.16,88.67
+CUST-01062,Male,45-54,12,Month-to-month,Mailed check,59.0,733.91,DSL,0,Churned,Temporary need ended,7-12 months,59.0,708.0,733.91
+CUST-00030,Female,35-44,27,One year,Credit card,77.94,2107.65,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2107.65
+CUST-00507,Male,35-44,69,Two year,Electronic check,38.31,2695.17,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2695.17
+CUST-01220,Female,18-24,12,Month-to-month,Credit card,29.13,334.81,,2,Churned,Temporary need ended,7-12 months,29.13,349.56,334.81
+CUST-00412,Male,55-64,26,Month-to-month,Bank transfer,55.9,1510.45,Fiber optic,3,Churned,Competitor offer,25-48 months,55.9,670.8,1510.45
+CUST-00066,Male,35-44,8,Month-to-month,Electronic check,47.81,393.21,DSL,0,Churned,Temporary need ended,7-12 months,47.81,573.72,393.21
+CUST-01106,Female,35-44,28,One year,Bank transfer,60.39,1698.61,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1698.61
+CUST-00238,Female,25-34,55,Two year,Bank transfer,44.08,2466.77,DSL,4,Stayed,Not churned,49+ months,0.0,0.0,2466.77
+CUST-01032,Male,55-64,9,Month-to-month,Credit card,52.08,419.64,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,419.64
+CUST-00621,Female,55-64,37,One year,Credit card,71.31,2691.61,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2691.61
+CUST-00572,Male,35-44,19,Month-to-month,Electronic check,79.76,1556.63,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1556.63
+CUST-01081,Male,25-34,47,One year,Credit card,66.35,3104.26,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3104.26
+CUST-00427,Female,35-44,6,One year,Bank transfer,50.57,256.25,,2,Churned,Product dissatisfaction,0-6 months,50.57,606.84,256.25
+CUST-00889,Female,45-54,13,One year,Bank transfer,70.03,928.08,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,928.08
+CUST-00271,Male,35-44,23,Month-to-month,Credit card,59.0,1370.01,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1370.01
+CUST-01474,Female,45-54,2,Month-to-month,Electronic check,44.21,92.51,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,92.51
+CUST-00533,Male,35-44,5,Month-to-month,Bank transfer,37.18,186.39,,2,Stayed,Not churned,0-6 months,0.0,0.0,186.39
+CUST-00599,Female,45-54,10,Month-to-month,Bank transfer,52.97,570.97,,1,Churned,Price too high,7-12 months,52.97,635.64,570.97
+CUST-00894,Female,25-34,26,Month-to-month,Bank transfer,74.53,1879.35,Fiber optic,2,Churned,Temporary need ended,25-48 months,74.53,894.36,1879.35
+CUST-00810,Female,35-44,10,Month-to-month,Electronic check,89.97,949.95,Fiber optic,1,Churned,Price too high,7-12 months,89.97,1079.64,949.95
+CUST-01274,Female,35-44,21,Month-to-month,Electronic check,67.81,1472.37,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1472.37
+CUST-00414,Male,35-44,7,Month-to-month,Credit card,84.75,608.77,Fiber optic,3,Churned,Temporary need ended,7-12 months,84.75,1017.0,608.77
+CUST-00927,Female,25-34,36,One year,Mailed check,79.18,2906.62,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2906.62
+CUST-00731,Female,45-54,13,Month-to-month,Electronic check,69.13,924.61,Fiber optic,0,Churned,Price too high,13-24 months,69.13,829.56,924.61
+CUST-01378,Male,25-34,46,Two year,Electronic check,50.13,2293.01,Fiber optic,0,Churned,Product dissatisfaction,25-48 months,50.13,601.56,2293.01
+CUST-00719,Female,55-64,24,Month-to-month,Credit card,70.85,1672.3,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1672.3
+CUST-01221,Male,55-64,24,Month-to-month,Credit card,18.99,430.39,,2,Churned,Temporary need ended,13-24 months,18.99,227.88,430.39
+CUST-00045,Female,65+,24,One year,Bank transfer,45.12,1040.52,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1040.52
+CUST-00860,Female,25-34,29,Two year,Bank transfer,29.97,894.47,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,894.47
+CUST-01194,Male,35-44,18,One year,Bank transfer,75.1,1331.37,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1331.37
+CUST-00366,Female,55-64,44,One year,Electronic check,61.69,2657.8,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2657.8
+CUST-01049,Male,35-44,36,Two year,Credit card,59.46,2094.92,Fiber optic,0,Churned,Competitor offer,25-48 months,59.46,713.52,2094.92
+CUST-00116,Male,45-54,17,Two year,Credit card,63.89,1070.46,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1070.46
+CUST-00304,Male,25-34,10,Month-to-month,Credit card,52.02,546.58,DSL,1,Churned,Competitor offer,7-12 months,52.02,624.24,546.58
+CUST-00486,Male,18-24,47,One year,Credit card,54.11,2558.4,DSL,3,Churned,Product dissatisfaction,25-48 months,54.11,649.32,2558.4
+CUST-01183,Male,18-24,13,One year,Mailed check,40.64,572.8,DSL,0,Churned,Competitor offer,13-24 months,40.64,487.68,572.8
+CUST-00232,Female,45-54,1,One year,Credit card,18.99,18.99,,0,Churned,Moved location,0-6 months,18.99,227.88,18.99
+CUST-00423,Female,45-54,26,One year,Bank transfer,78.34,1997.56,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1997.56
+CUST-01362,Female,25-34,24,One year,Bank transfer,53.42,1302.81,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1302.81
+CUST-00947,Female,25-34,18,One year,Bank transfer,86.59,1596.86,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1596.86
+CUST-00079,Female,45-54,31,Month-to-month,Mailed check,52.35,1637.95,DSL,1,Churned,Competitor offer,25-48 months,52.35,628.2,1637.95
+CUST-00278,Male,35-44,3,Month-to-month,Credit card,66.23,240.31,Fiber optic,1,Churned,Price too high,0-6 months,66.23,794.76,240.31
+CUST-01402,Female,45-54,14,Month-to-month,Bank transfer,41.53,575.54,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,575.54
+CUST-00782,Male,35-44,39,Month-to-month,Bank transfer,49.08,1887.35,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1887.35
+CUST-00989,Female,35-44,10,Month-to-month,Bank transfer,77.04,724.38,Fiber optic,2,Churned,Competitor offer,7-12 months,77.04,924.48,724.38
+CUST-00272,Male,45-54,7,Month-to-month,Bank transfer,25.27,225.55,,0,Stayed,Not churned,7-12 months,0.0,0.0,225.55
+CUST-00016,Female,18-24,9,Month-to-month,Bank transfer,65.68,561.82,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,561.82
+CUST-01158,Male,55-64,49,Two year,Electronic check,72.85,3516.2,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3516.2
+CUST-01349,Male,35-44,35,Two year,Credit card,42.0,1518.62,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1518.62
+CUST-00941,Female,35-44,40,One year,Bank transfer,49.61,2016.17,DSL,1,Churned,Product dissatisfaction,25-48 months,49.61,595.32,2016.17
+CUST-00416,Female,45-54,46,One year,Mailed check,40.62,1942.69,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1942.69
+CUST-00514,Male,25-34,42,Two year,Electronic check,31.28,1330.15,DSL,0,Churned,Product dissatisfaction,25-48 months,31.28,375.36,1330.15
+CUST-00757,Male,35-44,25,Month-to-month,Credit card,52.9,1339.72,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1339.72
+CUST-00536,Male,35-44,18,Month-to-month,Bank transfer,69.31,1261.97,Fiber optic,1,Churned,Temporary need ended,13-24 months,69.31,831.72,1261.97
+CUST-00354,Female,55-64,8,Month-to-month,Bank transfer,45.13,393.04,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,393.04
+CUST-00818,Female,35-44,55,Two year,Mailed check,27.97,1561.7,,3,Stayed,Not churned,49+ months,0.0,0.0,1561.7
+CUST-00185,Female,25-34,29,Month-to-month,Electronic check,61.14,1812.36,Fiber optic,0,Churned,Temporary need ended,25-48 months,61.14,733.68,1812.36
+CUST-00382,Male,55-64,8,Month-to-month,Bank transfer,52.77,376.77,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,376.77
+CUST-00995,Female,35-44,26,Month-to-month,Bank transfer,19.1,454.57,,0,Stayed,Not churned,25-48 months,0.0,0.0,454.57
+CUST-01250,Male,45-54,72,Two year,Electronic check,36.17,2648.97,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2648.97
+CUST-01104,Male,25-34,15,Month-to-month,Electronic check,57.87,902.13,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,902.13
+CUST-01476,Male,18-24,18,Month-to-month,Mailed check,73.01,1271.0,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1271.0
+CUST-00901,Female,35-44,29,Month-to-month,Credit card,63.66,1849.55,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1849.55
+CUST-01034,Female,18-24,23,Two year,Electronic check,32.1,757.44,DSL,3,Stayed,Not churned,13-24 months,0.0,0.0,757.44
+CUST-00176,Female,25-34,8,Month-to-month,Electronic check,49.1,428.15,DSL,0,Churned,Temporary need ended,7-12 months,49.1,589.2,428.15
+CUST-00498,Female,18-24,45,Two year,Credit card,61.71,2765.28,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2765.28
+CUST-00766,Male,45-54,58,Month-to-month,Bank transfer,44.47,2602.23,,0,Churned,Competitor offer,49+ months,44.47,533.64,2602.23
+CUST-01341,Female,35-44,9,Month-to-month,Bank transfer,20.38,247.54,,0,Stayed,Not churned,7-12 months,0.0,0.0,247.54
+CUST-01308,Male,25-34,52,One year,Mailed check,59.21,3069.43,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3069.43
+CUST-00916,Female,65+,19,Month-to-month,Bank transfer,47.93,894.8,Fiber optic,2,Churned,Temporary need ended,13-24 months,47.93,575.16,894.8
+CUST-00715,Female,45-54,51,Two year,Bank transfer,55.61,2825.5,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2825.5
+CUST-00044,Male,25-34,13,Month-to-month,Credit card,79.26,1042.19,Fiber optic,0,Churned,Competitor offer,13-24 months,79.26,951.12,1042.19
+CUST-01400,Male,18-24,6,Month-to-month,Bank transfer,74.37,470.28,Fiber optic,0,Churned,Competitor offer,0-6 months,74.37,892.44,470.28
+CUST-01252,Female,45-54,15,Month-to-month,Electronic check,36.17,602.39,,2,Stayed,Not churned,13-24 months,0.0,0.0,602.39
+CUST-00241,Male,55-64,6,Month-to-month,Electronic check,18.99,118.37,,1,Stayed,Not churned,0-6 months,0.0,0.0,118.37
+CUST-01477,Male,55-64,6,Month-to-month,Credit card,67.8,516.71,DSL,1,Churned,Competitor offer,0-6 months,67.8,813.6,516.71
+CUST-00102,Male,25-34,46,One year,Electronic check,28.05,1310.95,DSL,1,Churned,Moved location,25-48 months,28.05,336.6,1310.95
+CUST-00713,Female,18-24,41,One year,Credit card,32.63,1306.55,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1306.55
+CUST-01238,Female,35-44,45,One year,Credit card,46.24,2091.0,DSL,0,Churned,Competitor offer,25-48 months,46.24,554.88,2091.0
+CUST-00108,Male,55-64,3,Month-to-month,Credit card,64.19,182.75,Fiber optic,2,Churned,Competitor offer,0-6 months,64.19,770.28,182.75
+CUST-00893,Male,35-44,43,One year,Electronic check,27.29,1172.74,,4,Stayed,Not churned,25-48 months,0.0,0.0,1172.74
+CUST-01064,Female,18-24,7,Month-to-month,Credit card,52.74,366.48,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,366.48
+CUST-00979,Female,25-34,4,Month-to-month,Electronic check,69.03,230.47,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,230.47
+CUST-01167,Male,25-34,14,Month-to-month,Electronic check,45.67,626.89,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,626.89
+CUST-00262,Male,55-64,12,Month-to-month,Mailed check,55.55,695.54,DSL,3,Churned,Price too high,7-12 months,55.55,666.6,695.54
+CUST-00463,Male,55-64,29,One year,Credit card,30.6,874.75,,3,Stayed,Not churned,25-48 months,0.0,0.0,874.75
+CUST-00819,Female,35-44,61,Two year,Credit card,26.94,1612.34,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,1612.34
+CUST-00716,Male,25-34,25,Month-to-month,Bank transfer,68.26,1724.55,Fiber optic,0,Churned,Competitor offer,25-48 months,68.26,819.12,1724.55
+CUST-00129,Female,25-34,44,Two year,Electronic check,59.0,2604.64,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2604.64
+CUST-00576,Male,55-64,11,Month-to-month,Bank transfer,46.66,439.16,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,439.16
+CUST-01289,Female,65+,17,Month-to-month,Mailed check,23.95,410.3,,0,Stayed,Not churned,13-24 months,0.0,0.0,410.3
+CUST-00863,Male,25-34,4,Month-to-month,Bank transfer,43.22,204.32,,1,Stayed,Not churned,0-6 months,0.0,0.0,204.32
+CUST-01035,Female,45-54,36,Month-to-month,Credit card,63.82,2298.13,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2298.13
+CUST-00591,Female,45-54,16,Two year,Credit card,56.78,905.18,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,905.18
+CUST-01365,Male,35-44,44,Month-to-month,Electronic check,59.81,2644.76,DSL,0,Churned,Temporary need ended,25-48 months,59.81,717.72,2644.76
+CUST-01089,Male,25-34,46,Two year,Mailed check,71.76,3275.77,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3275.77
+CUST-01054,Male,65+,1,One year,Electronic check,26.42,26.42,DSL,3,Churned,Product dissatisfaction,0-6 months,26.42,317.04,26.42
+CUST-00383,Male,45-54,14,Month-to-month,Electronic check,69.22,953.45,Fiber optic,1,Churned,Competitor offer,13-24 months,69.22,830.64,953.45
+CUST-00221,Male,25-34,5,Month-to-month,Bank transfer,71.67,396.11,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,396.11
+CUST-00033,Female,45-54,23,One year,Credit card,24.54,600.85,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,600.85
+CUST-00679,Male,45-54,49,Two year,Bank transfer,50.86,2558.18,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2558.18
+CUST-01006,Male,25-34,3,Month-to-month,Credit card,97.97,322.13,Fiber optic,4,Churned,Product dissatisfaction,0-6 months,97.97,1175.64,322.13
+CUST-00632,Male,18-24,8,Month-to-month,Bank transfer,79.45,592.6,Fiber optic,3,Churned,Price too high,7-12 months,79.45,953.4,592.6
+CUST-01488,Male,35-44,4,Month-to-month,Mailed check,18.99,174.81,,1,Stayed,Not churned,0-6 months,0.0,0.0,174.81
+CUST-01301,Female,45-54,72,Month-to-month,Credit card,62.6,4524.66,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4524.66
+CUST-00577,Female,25-34,14,Month-to-month,Electronic check,20.32,297.31,,0,Stayed,Not churned,13-24 months,0.0,0.0,297.31
+CUST-01318,Male,18-24,7,Month-to-month,Bank transfer,47.01,344.94,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,344.94
+CUST-00789,Female,35-44,24,Month-to-month,Credit card,39.08,985.37,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,985.37
+CUST-00937,Female,35-44,16,Month-to-month,Credit card,54.36,958.08,Fiber optic,0,Churned,Competitor offer,13-24 months,54.36,652.32,958.08
+CUST-01302,Male,55-64,50,Two year,Credit card,65.28,3299.95,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3299.95
+CUST-01091,Male,55-64,43,One year,Credit card,60.56,2550.41,Fiber optic,2,Churned,Moved location,25-48 months,60.56,726.72,2550.41
+CUST-00164,Male,35-44,9,Month-to-month,Electronic check,58.13,494.03,Fiber optic,1,Churned,Price too high,7-12 months,58.13,697.56,494.03
+CUST-00662,Male,45-54,14,Month-to-month,Credit card,87.2,1276.1,Fiber optic,4,Stayed,Not churned,13-24 months,0.0,0.0,1276.1
+CUST-00276,Female,25-34,51,Two year,Electronic check,22.35,1127.31,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,1127.31
+CUST-00951,Male,25-34,6,Month-to-month,Credit card,52.28,274.97,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,274.97
+CUST-00630,Female,35-44,37,One year,Electronic check,31.58,1156.87,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1156.87
+CUST-01269,Male,35-44,45,Two year,Credit card,18.99,867.7,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,867.7
+CUST-00844,Male,35-44,12,Month-to-month,Credit card,71.84,839.89,Fiber optic,0,Churned,Temporary need ended,7-12 months,71.84,862.08,839.89
+CUST-00290,Male,35-44,17,Month-to-month,Bank transfer,89.57,1450.84,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1450.84
+CUST-00307,Male,45-54,8,Month-to-month,Credit card,83.56,725.64,Fiber optic,1,Churned,Competitor offer,7-12 months,83.56,1002.72,725.64
+CUST-01204,Female,18-24,43,Two year,Credit card,75.04,3200.11,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3200.11
+CUST-00568,Female,25-34,19,One year,Bank transfer,57.46,1140.44,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1140.44
+CUST-00193,Male,35-44,52,Two year,Bank transfer,47.23,2471.92,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2471.92
+CUST-01074,Female,35-44,37,One year,Electronic check,71.81,2667.28,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2667.28
+CUST-00562,Female,35-44,52,Two year,Mailed check,75.16,3943.15,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,3943.15
+CUST-00494,Female,25-34,28,Two year,Electronic check,89.55,2483.47,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2483.47
+CUST-00064,Female,25-34,39,One year,Credit card,57.81,2218.18,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2218.18
+CUST-00701,Male,65+,6,One year,Credit card,48.12,216.61,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,216.61
+CUST-01080,Male,45-54,18,Month-to-month,Bank transfer,53.86,981.77,DSL,0,Churned,Temporary need ended,13-24 months,53.86,646.32,981.77
+CUST-00918,Male,18-24,14,Month-to-month,Credit card,20.38,294.48,,1,Stayed,Not churned,13-24 months,0.0,0.0,294.48
+CUST-01399,Male,35-44,30,Month-to-month,Mailed check,46.09,1374.56,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1374.56
+CUST-00333,Female,35-44,21,Month-to-month,Electronic check,55.61,1194.68,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1194.68
+CUST-00552,Male,35-44,26,Month-to-month,Electronic check,51.22,1321.23,DSL,0,Churned,Competitor offer,25-48 months,51.22,614.64,1321.23
+CUST-00535,Male,45-54,9,Month-to-month,Credit card,89.89,798.79,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,798.79
+CUST-00495,Female,45-54,21,One year,Credit card,25.58,507.3,,0,Stayed,Not churned,13-24 months,0.0,0.0,507.3
+CUST-00742,Female,18-24,39,Two year,Bank transfer,77.54,3064.48,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3064.48
+CUST-00199,Male,65+,13,Month-to-month,Credit card,55.86,744.9,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,744.9
+CUST-00325,Male,45-54,13,One year,Bank transfer,79.32,1059.52,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1059.52
+CUST-00275,Male,45-54,42,Two year,Bank transfer,24.61,994.12,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,994.12
+CUST-01139,Female,65+,34,One year,Credit card,33.8,1143.56,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1143.56
+CUST-01086,Female,45-54,7,Month-to-month,Credit card,62.25,382.35,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,382.35
+CUST-00571,Male,45-54,25,Month-to-month,Bank transfer,45.14,1162.32,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1162.32
+CUST-00219,Male,65+,22,One year,Bank transfer,69.17,1541.47,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1541.47
+CUST-01212,Female,35-44,25,One year,Mailed check,69.94,1768.34,Fiber optic,5,Stayed,Not churned,25-48 months,0.0,0.0,1768.34
+CUST-00031,Male,25-34,13,Month-to-month,Credit card,41.55,564.87,DSL,1,Churned,Price too high,13-24 months,41.55,498.6,564.87
+CUST-00057,Female,45-54,47,One year,Electronic check,54.29,2522.23,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2522.23
+CUST-01228,Female,25-34,10,One year,Credit card,67.73,684.42,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,684.42
+CUST-00899,Female,45-54,38,One year,Bank transfer,73.12,2781.65,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2781.65
+CUST-00932,Male,55-64,16,Month-to-month,Credit card,60.61,951.01,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,951.01
+CUST-00452,Male,25-34,16,One year,Credit card,32.31,473.91,,1,Stayed,Not churned,13-24 months,0.0,0.0,473.91
+CUST-00434,Female,45-54,32,Month-to-month,Bank transfer,44.52,1363.57,DSL,1,Churned,Price too high,25-48 months,44.52,534.24,1363.57
+CUST-00345,Female,65+,7,Month-to-month,Credit card,62.85,422.31,Fiber optic,0,Churned,Competitor offer,7-12 months,62.85,754.2,422.31
+CUST-01449,Male,35-44,22,Month-to-month,Electronic check,67.11,1500.81,DSL,2,Churned,Temporary need ended,13-24 months,67.11,805.32,1500.81
+CUST-00868,Female,35-44,22,One year,Bank transfer,71.14,1560.8,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1560.8
+CUST-00977,Male,25-34,19,Month-to-month,Credit card,52.48,1039.08,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1039.08
+CUST-01254,Female,35-44,15,Month-to-month,Electronic check,28.91,487.19,,1,Stayed,Not churned,13-24 months,0.0,0.0,487.19
+CUST-00773,Female,35-44,7,Month-to-month,Credit card,37.77,280.57,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,280.57
+CUST-01273,Male,55-64,11,Month-to-month,Credit card,63.45,707.67,DSL,2,Churned,Competitor offer,7-12 months,63.45,761.4,707.67
+CUST-00635,Female,45-54,10,Month-to-month,Mailed check,59.49,576.53,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,576.53
+CUST-00938,Male,35-44,15,Month-to-month,Electronic check,44.28,704.25,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,704.25
+CUST-00544,Male,25-34,1,Month-to-month,Electronic check,71.64,71.64,Fiber optic,4,Churned,Technical issues,0-6 months,71.64,859.68,71.64
+CUST-00986,Female,65+,43,Two year,Mailed check,56.42,2414.57,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2414.57
+CUST-01240,Female,18-24,26,Month-to-month,Bank transfer,75.69,1968.44,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1968.44
+CUST-01354,Male,55-64,37,Two year,Electronic check,28.21,1111.68,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1111.68
+CUST-01304,Male,65+,48,One year,Electronic check,25.76,1276.28,,0,Churned,Product dissatisfaction,25-48 months,25.76,309.12,1276.28
+CUST-00756,Male,35-44,35,Month-to-month,Bank transfer,56.15,1968.3,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1968.3
+CUST-01288,Female,25-34,1,One year,Electronic check,77.4,77.4,Fiber optic,2,Churned,Moved location,0-6 months,77.4,928.8,77.4
+CUST-00711,Male,45-54,28,Month-to-month,Mailed check,41.11,1194.7,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1194.7
+CUST-01201,Male,35-44,68,Two year,Credit card,75.78,5147.31,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,5147.31
+CUST-01468,Female,35-44,11,Month-to-month,Credit card,48.12,521.39,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,521.39
+CUST-00988,Female,55-64,1,Month-to-month,Electronic check,62.28,62.28,Fiber optic,1,Churned,Competitor offer,0-6 months,62.28,747.36,62.28
+CUST-01420,Male,25-34,3,Month-to-month,Bank transfer,67.85,147.06,DSL,1,Churned,Price too high,0-6 months,67.85,814.2,147.06
+CUST-00853,Female,45-54,49,One year,Credit card,34.67,1759.4,,0,Stayed,Not churned,49+ months,0.0,0.0,1759.4
+CUST-00237,Female,35-44,39,Month-to-month,Bank transfer,35.49,1367.53,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1367.53
+CUST-01305,Male,35-44,51,Two year,Bank transfer,67.24,3445.63,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,3445.63
+CUST-00983,Female,65+,12,Month-to-month,Bank transfer,18.99,253.82,,0,Churned,Price too high,7-12 months,18.99,227.88,253.82
+CUST-01466,Female,45-54,19,Month-to-month,Electronic check,74.13,1423.26,Fiber optic,2,Churned,Temporary need ended,13-24 months,74.13,889.56,1423.26
+CUST-00722,Female,35-44,52,Two year,Bank transfer,36.95,1959.64,Fiber optic,4,Stayed,Not churned,49+ months,0.0,0.0,1959.64
+CUST-00491,Female,45-54,4,Month-to-month,Mailed check,50.26,255.01,DSL,0,Churned,Temporary need ended,0-6 months,50.26,603.12,255.01
+CUST-00209,Female,45-54,21,Month-to-month,Electronic check,35.35,756.2,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,756.2
+CUST-01458,Male,55-64,3,Month-to-month,Bank transfer,77.84,268.41,Fiber optic,3,Churned,Temporary need ended,0-6 months,77.84,934.08,268.41
+CUST-00406,Male,25-34,48,Two year,Credit card,18.99,1001.95,,0,Stayed,Not churned,25-48 months,0.0,0.0,1001.95
+CUST-00372,Female,25-34,29,One year,Credit card,66.43,1894.67,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1894.67
+CUST-00059,Female,55-64,11,Month-to-month,Mailed check,55.19,612.02,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,612.02
+CUST-00555,Male,55-64,5,Month-to-month,Bank transfer,51.76,298.11,DSL,1,Churned,Price too high,0-6 months,51.76,621.12,298.11
+CUST-00368,Male,25-34,61,Month-to-month,Credit card,69.55,4265.78,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,4265.78
+CUST-01178,Female,18-24,53,Two year,Credit card,43.08,2260.97,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2260.97
+CUST-00744,Female,65+,15,Month-to-month,Mailed check,49.66,781.87,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,781.87
+CUST-01207,Male,25-34,40,One year,Electronic check,79.52,3199.49,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3199.49
+CUST-01050,Female,18-24,40,Month-to-month,Credit card,61.73,2485.97,DSL,0,Churned,Price too high,25-48 months,61.73,740.76,2485.97
+CUST-01227,Female,18-24,13,Month-to-month,Credit card,49.3,618.94,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,618.94
+CUST-00355,Female,55-64,32,Month-to-month,Electronic check,18.99,558.56,,1,Stayed,Not churned,25-48 months,0.0,0.0,558.56
+CUST-00987,Male,35-44,9,Month-to-month,Credit card,70.03,640.04,Fiber optic,1,Churned,Competitor offer,7-12 months,70.03,840.36,640.04
+CUST-01024,Male,35-44,60,Two year,Bank transfer,35.71,2147.4,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2147.4
+CUST-00539,Female,25-34,55,One year,Electronic check,65.52,3628.36,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,3628.36
+CUST-01170,Female,25-34,31,Month-to-month,Electronic check,98.53,3020.32,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3020.32
+CUST-01108,Male,25-34,15,Month-to-month,Electronic check,90.64,1308.84,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1308.84
+CUST-01431,Female,45-54,20,One year,Credit card,66.52,1327.08,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1327.08
+CUST-00234,Female,35-44,13,Month-to-month,Mailed check,61.12,794.56,Fiber optic,3,Churned,Price too high,13-24 months,61.12,733.44,794.56
+CUST-00482,Male,55-64,15,One year,Credit card,46.64,774.35,DSL,3,Stayed,Not churned,13-24 months,0.0,0.0,774.35
+CUST-00197,Male,18-24,42,Two year,Bank transfer,84.27,3466.51,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,3466.51
+CUST-01279,Female,35-44,9,Month-to-month,Electronic check,55.07,483.34,DSL,2,Churned,Price too high,7-12 months,55.07,660.84,483.34
+CUST-00082,Male,35-44,30,Two year,Credit card,40.73,1198.51,,0,Stayed,Not churned,25-48 months,0.0,0.0,1198.51
+CUST-01424,Female,25-34,32,One year,Electronic check,83.07,2641.58,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2641.58
+CUST-01084,Male,35-44,12,One year,Electronic check,29.79,389.65,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,389.65
+CUST-01436,Female,25-34,33,Month-to-month,Electronic check,31.57,1009.45,,3,Churned,Price too high,25-48 months,31.57,378.84,1009.45
+CUST-00112,Female,45-54,30,Month-to-month,Credit card,79.56,2363.98,Fiber optic,2,Churned,Price too high,25-48 months,79.56,954.72,2363.98
+CUST-01296,Female,45-54,14,Month-to-month,Electronic check,27.62,398.02,,1,Stayed,Not churned,13-24 months,0.0,0.0,398.02
+CUST-00799,Male,25-34,9,Month-to-month,Bank transfer,73.96,709.56,Fiber optic,1,Churned,Price too high,7-12 months,73.96,887.52,709.56
+CUST-01143,Male,45-54,2,Month-to-month,Credit card,60.64,95.84,DSL,0,Churned,Competitor offer,0-6 months,60.64,727.68,95.84
+CUST-01129,Female,35-44,5,Month-to-month,Bank transfer,87.47,500.94,Fiber optic,3,Stayed,Not churned,0-6 months,0.0,0.0,500.94
+CUST-01285,Female,55-64,9,One year,Credit card,81.26,760.12,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,760.12
+CUST-01382,Female,55-64,11,Month-to-month,Electronic check,72.49,840.91,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,840.91
+CUST-00311,Female,45-54,28,One year,Credit card,81.88,2300.29,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2300.29
+CUST-00606,Female,25-34,21,Month-to-month,Credit card,75.24,1573.05,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1573.05
+CUST-00747,Female,18-24,40,One year,Electronic check,41.25,1599.43,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1599.43
+CUST-00567,Female,25-34,43,One year,Bank transfer,49.7,2158.34,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2158.34
+CUST-00439,Male,35-44,64,Two year,Electronic check,59.78,3815.01,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3815.01
+CUST-01141,Male,25-34,22,Month-to-month,Bank transfer,22.84,512.34,,0,Stayed,Not churned,13-24 months,0.0,0.0,512.34
+CUST-00343,Female,35-44,13,One year,Bank transfer,50.54,667.95,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,667.95
+CUST-01111,Male,55-64,8,One year,Credit card,65.11,534.25,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,534.25
+CUST-01041,Male,45-54,10,Two year,Credit card,44.43,485.92,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,485.92
+CUST-01056,Female,65+,12,Month-to-month,Electronic check,93.42,1138.16,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,1138.16
+CUST-00351,Female,25-34,12,Month-to-month,Mailed check,72.64,869.73,Fiber optic,1,Churned,Price too high,7-12 months,72.64,871.68,869.73
+CUST-00934,Male,25-34,17,Month-to-month,Credit card,70.69,1240.11,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1240.11
+CUST-01262,Male,18-24,48,Two year,Mailed check,73.8,3546.68,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3546.68
+CUST-00753,Male,45-54,6,Month-to-month,Electronic check,92.81,583.06,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,583.06
+CUST-01388,Female,35-44,8,Month-to-month,Mailed check,24.93,250.2,,1,Stayed,Not churned,7-12 months,0.0,0.0,250.2
+CUST-00553,Male,25-34,17,One year,Credit card,51.6,842.51,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,842.51
+CUST-00999,Male,65+,41,Month-to-month,Bank transfer,64.48,2706.79,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2706.79
+CUST-01331,Male,35-44,14,Month-to-month,Mailed check,68.99,1000.54,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1000.54
+CUST-00775,Male,65+,30,One year,Bank transfer,72.53,2220.75,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2220.75
+CUST-00454,Male,45-54,15,Month-to-month,Electronic check,71.68,1061.19,Fiber optic,0,Churned,Price too high,13-24 months,71.68,860.16,1061.19
+CUST-00255,Female,65+,8,Month-to-month,Electronic check,95.18,761.44,Fiber optic,3,Stayed,Not churned,7-12 months,0.0,0.0,761.44
+CUST-00323,Male,45-54,41,One year,Bank transfer,37.26,1486.26,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1486.26
+CUST-01109,Male,45-54,42,Two year,Bank transfer,18.99,834.29,,1,Stayed,Not churned,25-48 months,0.0,0.0,834.29
+CUST-00421,Male,45-54,25,One year,Mailed check,18.99,458.34,,0,Stayed,Not churned,25-48 months,0.0,0.0,458.34
+CUST-01322,Female,25-34,57,Two year,Bank transfer,54.82,3140.56,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3140.56
+CUST-01340,Female,35-44,24,Month-to-month,Electronic check,34.1,841.15,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,841.15
+CUST-01361,Male,55-64,10,Month-to-month,Bank transfer,55.42,613.84,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,613.84
+CUST-00945,Female,35-44,31,Month-to-month,Credit card,58.12,1826.84,DSL,0,Churned,Competitor offer,25-48 months,58.12,697.44,1826.84
+CUST-00614,Female,55-64,38,Two year,Electronic check,69.88,2691.39,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2691.39
+CUST-00087,Male,45-54,22,Month-to-month,Bank transfer,67.63,1492.68,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1492.68
+CUST-01441,Male,25-34,65,Two year,Bank transfer,36.41,2334.24,DSL,2,Churned,Competitor offer,49+ months,36.41,436.92,2334.24
+CUST-00266,Male,25-34,20,Month-to-month,Mailed check,71.83,1443.79,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1443.79
+CUST-00288,Male,45-54,28,Two year,Mailed check,60.66,1698.94,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1698.94
+CUST-00429,Female,45-54,34,Two year,Electronic check,80.2,2692.81,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2692.81
+CUST-01145,Female,18-24,42,Two year,Bank transfer,23.5,1033.31,,0,Churned,Competitor offer,25-48 months,23.5,282.0,1033.31
+CUST-00545,Male,55-64,72,Two year,Electronic check,45.05,3242.38,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,3242.38
+CUST-00430,Female,18-24,14,One year,Mailed check,55.9,870.29,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,870.29
+CUST-01233,Female,18-24,11,Month-to-month,Electronic check,73.38,780.16,Fiber optic,1,Churned,Price too high,7-12 months,73.38,880.56,780.16
+CUST-00222,Male,25-34,34,Month-to-month,Credit card,59.76,2055.93,DSL,3,Churned,Price too high,25-48 months,59.76,717.12,2055.93
+CUST-00114,Male,25-34,30,Month-to-month,Credit card,18.99,538.9,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,538.9
+CUST-00585,Male,35-44,10,Month-to-month,Credit card,48.62,463.91,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,463.91
+CUST-01033,Female,25-34,15,Month-to-month,Electronic check,58.16,939.68,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,939.68
+CUST-00175,Male,45-54,4,Month-to-month,Bank transfer,67.5,225.04,DSL,1,Churned,Competitor offer,0-6 months,67.5,810.0,225.04
+CUST-00848,Male,35-44,16,One year,Credit card,60.89,985.05,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,985.05
+CUST-00375,Female,45-54,37,Two year,Credit card,58.95,2127.95,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2127.95
+CUST-01192,Male,45-54,45,Two year,Credit card,51.11,2294.19,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2294.19
+CUST-00019,Female,25-34,9,Month-to-month,Credit card,53.84,459.23,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,459.23
+CUST-01157,Female,55-64,11,One year,Electronic check,56.99,696.31,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,696.31
+CUST-00286,Female,55-64,22,Month-to-month,Bank transfer,38.27,879.49,DSL,1,Churned,Price too high,13-24 months,38.27,459.24,879.49
+CUST-00887,Male,35-44,52,Two year,Bank transfer,65.64,3406.37,Fiber optic,3,Stayed,Not churned,49+ months,0.0,0.0,3406.37
+CUST-00644,Female,25-34,19,Month-to-month,Electronic check,28.38,552.36,,0,Stayed,Not churned,13-24 months,0.0,0.0,552.36
+CUST-01213,Female,35-44,42,One year,Bank transfer,56.02,2300.26,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2300.26
+CUST-00032,Female,45-54,17,Month-to-month,Credit card,66.95,1146.22,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1146.22
+CUST-01019,Male,45-54,32,Month-to-month,Credit card,81.06,2548.05,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2548.05
+CUST-00211,Male,25-34,24,Month-to-month,Bank transfer,41.48,1018.64,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1018.64
+CUST-00990,Male,35-44,52,Two year,Mailed check,58.24,3046.32,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3046.32
+CUST-00603,Female,25-34,9,Month-to-month,Bank transfer,73.38,632.1,Fiber optic,3,Churned,Competitor offer,7-12 months,73.38,880.56,632.1
+CUST-01174,Female,25-34,10,Month-to-month,Credit card,76.62,766.2,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,766.2
+CUST-00440,Female,18-24,47,Two year,Electronic check,48.65,2324.89,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2324.89
+CUST-00953,Female,35-44,38,Two year,Credit card,58.96,2240.48,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2240.48
+CUST-01469,Male,65+,50,Two year,Mailed check,51.1,2566.44,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2566.44
+CUST-00479,Male,55-64,8,Month-to-month,Credit card,47.63,451.92,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,451.92
+CUST-00189,Male,45-54,46,Two year,Bank transfer,89.58,4063.79,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,4063.79
+CUST-00527,Female,45-54,40,Two year,Credit card,51.12,2089.64,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2089.64
+CUST-01358,Female,18-24,16,One year,Credit card,18.99,310.56,,1,Stayed,Not churned,13-24 months,0.0,0.0,310.56
+CUST-00483,Female,35-44,32,Month-to-month,Electronic check,48.78,1563.81,DSL,3,Stayed,Not churned,25-48 months,0.0,0.0,1563.81
+CUST-00395,Female,35-44,52,Two year,Bank transfer,49.52,2602.39,,0,Stayed,Not churned,49+ months,0.0,0.0,2602.39
+CUST-00922,Female,18-24,19,Month-to-month,Credit card,59.23,1113.0,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1113.0
+CUST-00084,Female,35-44,22,One year,Electronic check,75.05,1645.77,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1645.77
+CUST-01480,Female,65+,36,One year,Bank transfer,49.08,1769.99,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1769.99
+CUST-00049,Male,18-24,11,Month-to-month,Electronic check,34.3,413.09,DSL,1,Churned,Price too high,7-12 months,34.3,411.6,413.09
+CUST-01445,Male,45-54,6,Month-to-month,Mailed check,98.43,605.11,Fiber optic,2,Churned,Temporary need ended,0-6 months,98.43,1181.16,605.11
+CUST-00156,Female,55-64,1,One year,Credit card,51.23,120.95,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,120.95
+CUST-01280,Female,25-34,6,Month-to-month,Credit card,42.99,277.14,DSL,1,Churned,Temporary need ended,0-6 months,42.99,515.88,277.14
+CUST-01156,Male,35-44,25,Month-to-month,Credit card,57.09,1424.15,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1424.15
+CUST-00417,Female,55-64,4,Month-to-month,Credit card,67.06,278.57,Fiber optic,1,Churned,Price too high,0-6 months,67.06,804.72,278.57
+CUST-01069,Female,55-64,44,One year,Electronic check,46.03,1975.35,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,1975.35
+CUST-01053,Male,55-64,60,Two year,Mailed check,30.56,1821.4,,0,Stayed,Not churned,49+ months,0.0,0.0,1821.4
+CUST-01247,Female,35-44,30,Month-to-month,Electronic check,53.45,1596.41,DSL,3,Stayed,Not churned,25-48 months,0.0,0.0,1596.41
+CUST-01117,Female,35-44,52,Two year,Electronic check,35.72,1774.73,DSL,2,Stayed,Not churned,49+ months,0.0,0.0,1774.73
+CUST-00530,Male,45-54,16,Month-to-month,Credit card,43.25,756.68,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,756.68
+CUST-00180,Female,45-54,30,One year,Electronic check,75.45,2246.71,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2246.71
+CUST-01374,Female,35-44,3,Month-to-month,Electronic check,69.09,131.31,DSL,1,Churned,Competitor offer,0-6 months,69.09,829.08,131.31
+CUST-00433,Male,35-44,28,One year,Mailed check,36.41,1053.13,,0,Stayed,Not churned,25-48 months,0.0,0.0,1053.13
+CUST-00528,Female,65+,23,One year,Credit card,45.67,1000.81,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,1000.81
+CUST-00835,Female,25-34,21,Month-to-month,Mailed check,24.74,500.45,,2,Stayed,Not churned,13-24 months,0.0,0.0,500.45
+CUST-00364,Male,35-44,20,Month-to-month,Bank transfer,67.75,1378.11,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1378.11
+CUST-01193,Female,18-24,6,Month-to-month,Electronic check,42.21,253.26,DSL,1,Churned,Competitor offer,0-6 months,42.21,506.52,253.26
+CUST-01215,Male,18-24,3,One year,Electronic check,55.6,135.07,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,135.07
+CUST-00347,Male,25-34,11,Month-to-month,Mailed check,79.51,864.3,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,864.3
+CUST-00465,Male,35-44,9,Month-to-month,Bank transfer,53.68,503.21,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,503.21
+CUST-00529,Female,25-34,69,Two year,Electronic check,70.2,4817.79,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4817.79
+CUST-00673,Female,25-34,13,One year,Credit card,47.88,640.85,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,640.85
+CUST-01168,Female,45-54,5,Month-to-month,Electronic check,72.22,330.07,Fiber optic,1,Churned,Temporary need ended,0-6 months,72.22,866.64,330.07
+CUST-00602,Female,35-44,16,One year,Bank transfer,59.22,959.02,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,959.02
+CUST-01112,Female,18-24,23,Month-to-month,Electronic check,34.73,784.79,,0,Stayed,Not churned,13-24 months,0.0,0.0,784.79
+CUST-01356,Male,35-44,34,One year,Electronic check,54.21,1864.99,DSL,1,Churned,Competitor offer,25-48 months,54.21,650.52,1864.99
+CUST-00244,Female,18-24,9,One year,Mailed check,40.93,384.84,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,384.84
+CUST-01134,Female,25-34,23,One year,Credit card,99.04,2278.78,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,2278.78
+CUST-00874,Female,35-44,41,Two year,Electronic check,76.49,3133.42,Fiber optic,0,Churned,Moved location,25-48 months,76.49,917.88,3133.42
+CUST-00783,Female,35-44,37,Month-to-month,Credit card,54.94,2062.6,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2062.6
+CUST-00911,Male,45-54,17,Month-to-month,Electronic check,71.22,1198.77,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1198.77
+CUST-01094,Male,35-44,54,Two year,Mailed check,72.27,3902.86,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3902.86
+CUST-01440,Male,18-24,22,Month-to-month,Credit card,88.19,1968.29,Fiber optic,0,Churned,Price too high,13-24 months,88.19,1058.28,1968.29
+CUST-00583,Female,35-44,19,Month-to-month,Electronic check,62.6,1207.48,DSL,3,Stayed,Not churned,13-24 months,0.0,0.0,1207.48
+CUST-00309,Male,25-34,33,Month-to-month,Credit card,61.85,2009.15,DSL,3,Stayed,Not churned,25-48 months,0.0,0.0,2009.15
+CUST-00902,Female,18-24,12,Month-to-month,Mailed check,81.79,989.81,Fiber optic,2,Churned,Competitor offer,7-12 months,81.79,981.48,989.81
+CUST-00399,Male,35-44,19,Month-to-month,Credit card,91.45,1720.75,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1720.75
+CUST-00424,Female,35-44,19,Month-to-month,Electronic check,82.11,1594.69,Fiber optic,1,Churned,Competitor offer,13-24 months,82.11,985.32,1594.69
+CUST-00371,Female,55-64,6,Month-to-month,Bank transfer,55.35,325.77,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,325.77
+CUST-00055,Male,25-34,12,One year,Bank transfer,68.2,781.15,DSL,1,Churned,Competitor offer,7-12 months,68.2,818.4,781.15
+CUST-01002,Male,45-54,66,Two year,Credit card,59.77,3947.53,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3947.53
+CUST-00619,Male,18-24,51,Two year,Electronic check,46.17,2356.9,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2356.9
+CUST-00313,Female,25-34,41,One year,Credit card,40.41,1627.57,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1627.57
+CUST-00942,Male,35-44,72,Two year,Credit card,21.1,1493.34,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,1493.34
+CUST-01293,Male,35-44,18,One year,Mailed check,76.98,1387.07,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1387.07
+CUST-00110,Female,35-44,37,One year,Bank transfer,23.29,869.37,,1,Stayed,Not churned,25-48 months,0.0,0.0,869.37
+CUST-01287,Female,65+,30,Two year,Credit card,34.22,983.12,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,983.12
+CUST-00707,Female,25-34,31,One year,Electronic check,22.79,677.22,,2,Churned,Competitor offer,25-48 months,22.79,273.48,677.22
+CUST-00101,Female,25-34,46,Month-to-month,Credit card,89.22,4121.32,Fiber optic,0,Churned,Temporary need ended,25-48 months,89.22,1070.64,4121.32
+CUST-00472,Male,55-64,26,One year,Electronic check,43.73,1156.11,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1156.11
+CUST-00794,Male,35-44,34,One year,Credit card,65.33,2207.94,Fiber optic,1,Churned,Competitor offer,25-48 months,65.33,783.96,2207.94
+CUST-01395,Female,25-34,64,Two year,Bank transfer,68.71,4377.69,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4377.69
+CUST-00267,Male,45-54,7,Month-to-month,Electronic check,30.92,173.76,,1,Stayed,Not churned,7-12 months,0.0,0.0,173.76
+CUST-00694,Female,35-44,1,Month-to-month,Mailed check,48.63,52.95,DSL,2,Churned,Competitor offer,0-6 months,48.63,583.56,52.95
+CUST-00297,Male,45-54,25,One year,Credit card,76.42,1961.45,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1961.45
+CUST-01366,Female,35-44,10,One year,Bank transfer,72.67,761.49,Fiber optic,4,Stayed,Not churned,7-12 months,0.0,0.0,761.49
+CUST-00965,Female,45-54,26,Month-to-month,Credit card,76.16,1976.77,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1976.77
+CUST-00803,Male,35-44,23,Two year,Electronic check,61.43,1480.96,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1480.96
+CUST-00971,Male,25-34,69,Two year,Electronic check,53.96,3662.33,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3662.33
+CUST-00378,Female,35-44,7,Month-to-month,Electronic check,50.64,338.0,DSL,0,Churned,Competitor offer,7-12 months,50.64,607.68,338.0
+CUST-00287,Female,45-54,7,Month-to-month,Electronic check,60.54,389.86,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,389.86
+CUST-01459,Female,25-34,15,Month-to-month,Electronic check,44.67,688.03,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,688.03
+CUST-00746,Male,35-44,14,Month-to-month,Bank transfer,22.98,316.74,,2,Stayed,Not churned,13-24 months,0.0,0.0,316.74
+CUST-00127,Male,25-34,26,One year,Bank transfer,43.67,1152.38,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1152.38
+CUST-00328,Male,65+,3,Month-to-month,Credit card,89.61,268.83,Fiber optic,3,Churned,Price too high,0-6 months,89.61,1075.32,268.83
+CUST-00293,Male,35-44,14,Month-to-month,Credit card,18.99,274.06,,1,Churned,Competitor offer,13-24 months,18.99,227.88,274.06
+CUST-00561,Male,18-24,3,Month-to-month,Mailed check,64.88,169.79,Fiber optic,1,Churned,Competitor offer,0-6 months,64.88,778.56,169.79
+CUST-01375,Female,45-54,6,Month-to-month,Bank transfer,63.8,373.04,Fiber optic,2,Churned,Competitor offer,0-6 months,63.8,765.6,373.04
+CUST-01150,Male,35-44,27,One year,Bank transfer,66.28,1749.64,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1749.64
+CUST-00356,Male,25-34,14,Month-to-month,Credit card,29.83,450.98,,1,Churned,Temporary need ended,13-24 months,29.83,357.96,450.98
+CUST-01237,Male,65+,10,Month-to-month,Electronic check,36.8,408.86,DSL,1,Churned,Temporary need ended,7-12 months,36.8,441.6,408.86
+CUST-00171,Male,35-44,17,One year,Bank transfer,58.18,974.83,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,974.83
+CUST-00862,Female,35-44,20,One year,Credit card,21.81,487.19,,1,Stayed,Not churned,13-24 months,0.0,0.0,487.19
+CUST-01433,Female,18-24,11,Month-to-month,Credit card,75.37,785.59,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,785.59
+CUST-00637,Male,18-24,50,Two year,Bank transfer,18.99,891.99,,0,Stayed,Not churned,49+ months,0.0,0.0,891.99
+CUST-00210,Female,45-54,32,One year,Electronic check,74.71,2419.7,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2419.7
+CUST-00615,Male,45-54,8,Month-to-month,Credit card,52.09,451.8,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,451.8
+CUST-00586,Female,35-44,16,Month-to-month,Bank transfer,72.7,1129.17,Fiber optic,2,Churned,Price too high,13-24 months,72.7,872.4,1129.17
+CUST-00141,Male,35-44,8,Month-to-month,Mailed check,69.42,568.66,Fiber optic,3,Stayed,Not churned,7-12 months,0.0,0.0,568.66
+CUST-01011,Female,18-24,8,Month-to-month,Credit card,43.32,333.08,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,333.08
+CUST-00665,Female,35-44,16,One year,Credit card,21.19,361.03,,4,Churned,Poor customer support,13-24 months,21.19,254.28,361.03
+CUST-01205,Female,45-54,13,Month-to-month,Mailed check,60.5,780.59,,0,Stayed,Not churned,13-24 months,0.0,0.0,780.59
+CUST-00702,Female,25-34,32,One year,Mailed check,54.23,1714.84,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1714.84
+CUST-01455,Female,55-64,33,Two year,Credit card,35.79,1176.75,,1,Stayed,Not churned,25-48 months,0.0,0.0,1176.75
+CUST-00650,Female,55-64,32,Two year,Credit card,37.54,1188.89,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1188.89
+CUST-00200,Male,35-44,2,Month-to-month,Mailed check,71.42,144.7,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,144.7
+CUST-00910,Female,35-44,14,Month-to-month,Unknown,45.86,663.01,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,663.01
+CUST-01232,Female,35-44,21,One year,Bank transfer,78.43,1667.45,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1667.45
+CUST-01075,Male,25-34,18,One year,Electronic check,39.45,659.71,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,659.71
+CUST-01044,Male,45-54,40,One year,Electronic check,79.23,3101.04,Fiber optic,2,Churned,Competitor offer,25-48 months,79.23,950.76,3101.04
+CUST-00515,Female,35-44,42,Two year,Credit card,59.15,2461.6,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2461.6
+CUST-00011,Female,55-64,26,One year,Credit card,42.46,1161.83,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1161.83
+CUST-00148,Female,55-64,51,One year,Credit card,37.12,1885.58,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,1885.58
+CUST-00737,Female,55-64,40,One year,Electronic check,18.99,734.46,,0,Churned,Moved location,25-48 months,18.99,227.88,734.46
+CUST-00283,Female,35-44,40,Two year,Bank transfer,42.83,1698.59,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1698.59
+CUST-00299,Male,18-24,11,Month-to-month,Credit card,43.24,500.27,DSL,0,Churned,Temporary need ended,7-12 months,43.24,518.88,500.27
+CUST-00627,Female,45-54,2,Month-to-month,Bank transfer,49.51,103.36,DSL,1,Churned,Price too high,0-6 months,49.51,594.12,103.36
+CUST-00292,Female,45-54,35,Two year,Mailed check,72.95,2553.11,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2553.11
+CUST-01417,Female,45-54,18,Month-to-month,Mailed check,62.98,1142.8,Fiber optic,1,Churned,Temporary need ended,13-24 months,62.98,755.76,1142.8
+CUST-00611,Female,25-34,28,One year,Mailed check,42.74,1282.85,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1282.85
+CUST-01055,Male,18-24,14,One year,Electronic check,51.97,726.51,DSL,1,Churned,Product dissatisfaction,13-24 months,51.97,623.64,726.51
+CUST-01394,Male,45-54,27,Month-to-month,Credit card,60.92,1614.95,DSL,0,Churned,Competitor offer,25-48 months,60.92,731.04,1614.95
+CUST-00966,Female,25-34,28,One year,Bank transfer,56.01,1588.55,Fiber optic,1,Churned,Competitor offer,25-48 months,56.01,672.12,1588.55
+CUST-00130,Male,35-44,60,Two year,Bank transfer,74.32,4436.35,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4436.35
+CUST-00592,Male,65+,1,Month-to-month,Credit card,74.38,74.38,Fiber optic,2,Churned,Temporary need ended,0-6 months,74.38,892.56,74.38
+CUST-00332,Male,45-54,22,One year,Electronic check,44.12,946.52,DSL,0,Churned,Moved location,13-24 months,44.12,529.44,946.52
+CUST-00324,Female,45-54,36,One year,Bank transfer,34.93,1241.42,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1241.42
+CUST-00723,Female,25-34,37,Two year,Credit card,36.76,1323.32,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1323.32
+CUST-01325,Male,25-34,51,Two year,Credit card,61.22,3130.32,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3130.32
+CUST-00598,Female,45-54,53,One year,Credit card,83.29,4407.35,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4407.35
+CUST-00136,Female,25-34,22,One year,Mailed check,69.39,1576.78,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1576.78
+CUST-00725,Male,18-24,12,Month-to-month,Bank transfer,66.8,809.96,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,809.96
+CUST-01294,Male,25-34,39,Two year,Mailed check,36.51,1377.28,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1377.28
+CUST-00436,Male,55-64,6,Month-to-month,Bank transfer,34.69,230.49,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,230.49
+CUST-00781,Male,25-34,32,Month-to-month,Mailed check,71.64,2262.71,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2262.71
+CUST-00793,Female,25-34,63,One year,Credit card,90.37,5661.53,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,5661.53
+CUST-01334,Male,25-34,20,One year,Bank transfer,60.04,1243.66,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1243.66
+CUST-00681,Male,25-34,4,One year,Bank transfer,46.0,201.65,DSL,2,Stayed,Not churned,0-6 months,0.0,0.0,201.65
+CUST-00159,Female,35-44,47,Two year,Credit card,69.63,3231.43,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3231.43
+CUST-01031,Female,45-54,10,One year,Bank transfer,35.03,430.18,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,430.18
+CUST-01312,Male,45-54,42,Two year,Mailed check,42.44,1754.49,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1754.49
+CUST-00984,Female,25-34,12,Month-to-month,Electronic check,48.34,568.48,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,568.48
+CUST-00196,Female,18-24,29,Month-to-month,Electronic check,94.75,2734.3,Fiber optic,1,Churned,Competitor offer,25-48 months,94.75,1137.0,2734.3
+CUST-01259,Female,45-54,6,Month-to-month,Bank transfer,55.86,384.24,DSL,1,Churned,Price too high,0-6 months,55.86,670.32,384.24
+CUST-01444,Female,45-54,10,Month-to-month,Electronic check,62.49,624.49,DSL,0,Churned,Competitor offer,7-12 months,62.49,749.88,624.49
+CUST-00411,Female,25-34,17,Month-to-month,Electronic check,60.02,964.32,Fiber optic,3,Churned,Price too high,13-24 months,60.02,720.24,964.32
+CUST-00097,Male,25-34,52,Two year,Electronic check,61.59,3229.05,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3229.05
+CUST-00597,Male,35-44,26,Month-to-month,Electronic check,60.69,1568.54,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,1568.54
+CUST-00157,Male,35-44,72,Two year,Electronic check,32.58,2365.26,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2365.26
+CUST-00420,Male,35-44,26,Month-to-month,Bank transfer,40.87,1124.28,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1124.28
+CUST-01166,Male,25-34,20,Month-to-month,Electronic check,64.42,1224.97,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1224.97
+CUST-00478,Male,35-44,23,Month-to-month,Credit card,96.28,2238.22,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,2238.22
+CUST-00622,Female,35-44,35,Month-to-month,Mailed check,75.62,2632.47,Fiber optic,1,Churned,Temporary need ended,25-48 months,75.62,907.44,2632.47
+CUST-00661,Female,45-54,10,Month-to-month,Electronic check,48.76,448.49,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,448.49
+CUST-01457,Male,45-54,23,One year,Credit card,47.31,1088.8,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1088.8
+CUST-00448,Male,25-34,45,One year,Electronic check,28.05,1248.8,DSL,0,Churned,Moved location,25-48 months,28.05,336.6,1248.8
+CUST-00179,Male,25-34,48,Two year,Electronic check,66.16,3154.91,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3154.91
+CUST-00391,Male,25-34,5,Month-to-month,Credit card,105.25,556.64,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,556.64
+CUST-01309,Female,35-44,58,Two year,Electronic check,66.67,3896.77,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3896.77
+CUST-01224,Male,35-44,37,Two year,Credit card,56.03,2020.35,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2020.35
+CUST-01260,Male,18-24,46,Month-to-month,Credit card,108.84,5014.85,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,5014.85
+CUST-00618,Female,45-54,69,Two year,Bank transfer,64.07,4361.29,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,4361.29
+CUST-01261,Female,25-34,9,Month-to-month,Electronic check,55.16,539.57,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,539.57
+CUST-01344,Male,65+,42,Two year,Credit card,23.09,986.65,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,986.65
+CUST-01014,Female,35-44,3,Month-to-month,Electronic check,72.55,187.87,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,187.87
+CUST-01499,Female,25-34,7,Month-to-month,Bank transfer,68.66,488.35,Fiber optic,4,Churned,Poor customer support,7-12 months,68.66,823.92,488.35
+CUST-00760,Male,35-44,35,Two year,Electronic check,52.71,1802.77,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1802.77
+CUST-00670,Female,25-34,25,Month-to-month,Electronic check,61.15,1501.3,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1501.3
+CUST-00295,Female,18-24,70,Two year,Credit card,54.93,3876.68,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3876.68
+CUST-00908,Female,25-34,7,Month-to-month,Bank transfer,60.54,354.03,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,354.03
+CUST-00890,Female,45-54,11,Month-to-month,Electronic check,48.57,517.09,DSL,1,Churned,Competitor offer,7-12 months,48.57,582.84,517.09
+CUST-00089,Male,35-44,1,One year,Electronic check,29.22,29.22,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,29.22
+CUST-00998,Female,55-64,6,Month-to-month,Electronic check,43.41,263.19,,1,Churned,Price too high,0-6 months,43.41,520.92,263.19
+CUST-00950,Male,35-44,2,Month-to-month,Credit card,50.14,61.63,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,61.63
+CUST-00589,Female,55-64,12,Month-to-month,Bank transfer,83.38,1002.39,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,1002.39
+CUST-00675,Female,25-34,28,One year,Bank transfer,66.31,1898.48,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1898.48
+CUST-01407,Male,65+,53,Two year,Bank transfer,52.28,2733.87,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2733.87
+CUST-00712,Male,55-64,10,One year,Credit card,74.52,805.58,Fiber optic,0,Churned,Moved location,7-12 months,74.52,894.24,805.58
+CUST-00964,Female,35-44,46,One year,Credit card,37.66,1734.75,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1734.75
+CUST-00291,Female,25-34,5,Month-to-month,Credit card,92.24,386.45,Fiber optic,1,Churned,Temporary need ended,0-6 months,92.24,1106.88,386.45
+CUST-01500,Male,55-64,24,Month-to-month,Credit card,50.54,1245.44,DSL,0,Churned,Price too high,13-24 months,50.54,606.48,1245.44
+CUST-00608,Female,55-64,2,Month-to-month,Credit card,61.04,173.41,DSL,0,Churned,Price too high,0-6 months,61.04,732.48,173.41
+CUST-00349,Female,55-64,14,Month-to-month,Electronic check,55.92,753.65,DSL,1,Churned,Competitor offer,13-24 months,55.92,671.04,753.65
+CUST-00705,Female,45-54,72,Two year,Mailed check,52.35,3777.56,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3777.56
+CUST-01432,Male,45-54,31,One year,Bank transfer,66.68,2077.12,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2077.12
+CUST-00706,Male,55-64,67,Two year,Bank transfer,30.81,2063.22,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2063.22
+CUST-00847,Female,45-54,72,Two year,Credit card,82.33,5869.23,Fiber optic,4,Stayed,Not churned,49+ months,0.0,0.0,5869.23
+CUST-00612,Male,25-34,16,Month-to-month,Electronic check,63.65,1048.4,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1048.4
+CUST-00459,Female,45-54,51,One year,Credit card,90.34,4629.74,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4629.74
+CUST-00376,Female,35-44,12,One year,Electronic check,71.44,858.63,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,858.63
+CUST-00334,Female,45-54,4,Month-to-month,Credit card,67.47,256.43,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,256.43
+CUST-01199,Male,45-54,15,Month-to-month,Mailed check,39.98,601.03,,2,Stayed,Not churned,13-24 months,0.0,0.0,601.03
+CUST-01343,Male,55-64,29,Two year,Credit card,59.83,1723.02,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1723.02
+CUST-01180,Male,35-44,3,Month-to-month,Credit card,42.37,195.1,DSL,1,Churned,Competitor offer,0-6 months,42.37,508.44,195.1
+CUST-01409,Male,25-34,40,Month-to-month,Credit card,50.25,1967.82,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1967.82
+CUST-00579,Female,65+,34,One year,Bank transfer,73.05,2496.23,Fiber optic,0,Churned,Competitor offer,25-48 months,73.05,876.6,2496.23
+CUST-00329,Female,45-54,9,Month-to-month,Credit card,71.74,651.25,Fiber optic,3,Churned,Price too high,7-12 months,71.74,860.88,651.25
+CUST-00319,Female,45-54,41,Two year,Electronic check,45.61,1841.15,DSL,1,Churned,Moved location,25-48 months,45.61,547.32,1841.15
+CUST-01169,Female,45-54,31,Month-to-month,Credit card,62.03,1861.96,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1861.96
+CUST-01347,Female,45-54,15,Two year,Credit card,58.64,875.78,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,875.78
+CUST-00013,Male,65+,52,Month-to-month,Credit card,33.71,1770.37,,1,Churned,Price too high,49+ months,33.71,404.52,1770.37
+CUST-00172,Female,55-64,5,Month-to-month,Electronic check,82.73,428.78,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,428.78
+CUST-00261,Male,35-44,26,Month-to-month,Bank transfer,72.86,1954.92,Fiber optic,5,Churned,Technical issues,25-48 months,72.86,874.32,1954.92
+CUST-00839,Male,25-34,64,Two year,Mailed check,74.49,4757.39,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4757.39
+CUST-00880,Female,45-54,34,Month-to-month,Credit card,70.91,2410.99,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2410.99
+CUST-01472,Male,25-34,61,Two year,Credit card,75.67,4628.24,Fiber optic,3,Stayed,Not churned,49+ months,0.0,0.0,4628.24
+CUST-00139,Female,65+,43,Month-to-month,Electronic check,46.01,2020.33,DSL,0,Churned,Temporary need ended,25-48 months,46.01,552.12,2020.33
+CUST-00550,Male,18-24,3,One year,Bank transfer,69.23,248.89,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,248.89
+CUST-01188,Female,35-44,25,One year,Mailed check,69.4,1773.13,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1773.13
+CUST-00865,Female,35-44,47,Month-to-month,Bank transfer,56.02,2697.34,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2697.34
+CUST-01023,Male,25-34,37,One year,Electronic check,21.34,731.9,,1,Stayed,Not churned,25-48 months,0.0,0.0,731.9
+CUST-00559,Male,45-54,16,Month-to-month,Bank transfer,46.31,694.06,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,694.06
+CUST-00140,Male,55-64,18,Month-to-month,Electronic check,43.58,789.6,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,789.6
+CUST-01329,Male,35-44,26,Month-to-month,Bank transfer,59.47,1559.34,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1559.34
+CUST-01377,Female,35-44,17,Month-to-month,Electronic check,69.71,1134.43,DSL,0,Churned,Competitor offer,13-24 months,69.71,836.52,1134.43
+CUST-00225,Female,45-54,29,Month-to-month,Credit card,79.24,2312.0,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2312.0
+CUST-00600,Female,35-44,32,One year,Credit card,59.6,1920.23,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1920.23
+CUST-00410,Female,25-34,12,Month-to-month,Bank transfer,38.6,520.13,,2,Stayed,Not churned,7-12 months,0.0,0.0,520.13
+CUST-00326,Male,35-44,19,One year,Credit card,101.56,1940.04,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1940.04
+CUST-00300,Female,18-24,51,Two year,Electronic check,49.0,2519.2,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,2519.2
+CUST-00905,Female,45-54,58,Two year,Bank transfer,72.26,4181.27,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,4181.27
+CUST-00931,Female,45-54,64,Two year,Bank transfer,70.16,4508.04,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4508.04
+CUST-01189,Female,35-44,10,One year,Credit card,54.87,558.81,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,558.81
+CUST-01410,Male,25-34,59,One year,Credit card,57.37,3425.88,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,3425.88
+CUST-00967,Male,35-44,21,Month-to-month,Electronic check,50.92,1125.63,DSL,0,Churned,Price too high,13-24 months,50.92,611.04,1125.63
+CUST-01008,Male,35-44,23,Month-to-month,Credit card,76.55,1809.17,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1809.17
+CUST-00574,Male,55-64,46,Two year,Credit card,18.99,912.81,,2,Stayed,Not churned,25-48 months,0.0,0.0,912.81
+CUST-00504,Male,25-34,11,Month-to-month,Bank transfer,86.61,968.82,Fiber optic,0,Churned,Temporary need ended,7-12 months,86.61,1039.32,968.82
+CUST-00825,Male,55-64,19,Month-to-month,Credit card,73.28,1335.53,Fiber optic,0,Churned,Competitor offer,13-24 months,73.28,879.36,1335.53
+CUST-00004,Male,35-44,20,One year,Credit card,81.7,1643.74,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1643.74
+CUST-00778,Male,35-44,36,One year,Bank transfer,54.82,1966.62,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1966.62
+CUST-00468,Male,35-44,41,One year,Electronic check,78.85,3236.98,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3236.98
+CUST-00322,Male,25-34,8,Month-to-month,Credit card,48.08,340.4,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,340.4
+CUST-00006,Female,35-44,21,Two year,Credit card,25.91,573.29,,1,Stayed,Not churned,13-24 months,0.0,0.0,573.29
+CUST-00994,Male,35-44,19,Month-to-month,Credit card,66.24,1219.25,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1219.25
+CUST-00548,Male,45-54,23,Month-to-month,Bank transfer,59.83,1361.69,DSL,2,Churned,Price too high,13-24 months,59.83,717.96,1361.69
+CUST-00765,Female,45-54,18,Month-to-month,Mailed check,48.81,851.25,DSL,1,Churned,Price too high,13-24 months,48.81,585.72,851.25
+CUST-00040,Female,35-44,7,Month-to-month,Credit card,41.55,265.74,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,265.74
+CUST-00543,Female,35-44,31,Month-to-month,Credit card,18.99,602.4,,0,Churned,Price too high,25-48 months,18.99,227.88,602.4
+CUST-00243,Male,45-54,37,One year,Credit card,59.71,2189.84,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2189.84
+CUST-00137,Male,35-44,31,One year,Credit card,45.44,1424.77,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1424.77
+CUST-01203,Female,25-34,17,Month-to-month,Bank transfer,67.72,1181.5,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1181.5
+CUST-00616,Male,25-34,18,Month-to-month,Electronic check,52.06,913.97,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,913.97
+CUST-01122,Male,55-64,6,Month-to-month,Mailed check,72.53,400.66,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,400.66
+CUST-01103,Male,45-54,58,One year,Credit card,37.64,2153.74,,1,Stayed,Not churned,49+ months,0.0,0.0,2153.74
+CUST-01486,Female,65+,65,One year,Credit card,50.74,3320.69,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3320.69
+CUST-01385,Male,18-24,63,Two year,Bank transfer,52.68,3339.81,DSL,2,Stayed,Not churned,49+ months,0.0,0.0,3339.81
+CUST-00582,Male,18-24,54,Two year,Credit card,18.99,1086.15,,2,Stayed,Not churned,49+ months,0.0,0.0,1086.15
+CUST-01495,Male,25-34,30,One year,Credit card,57.74,1749.71,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1749.71
+CUST-00807,Male,18-24,15,Month-to-month,Bank transfer,51.44,771.6,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,771.6
+CUST-01408,Male,25-34,26,Month-to-month,Electronic check,18.99,493.92,,0,Stayed,Not churned,25-48 months,0.0,0.0,493.92
+CUST-00377,Male,45-54,39,One year,Bank transfer,79.17,3072.78,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,3072.78
+CUST-00315,Male,18-24,1,Month-to-month,Electronic check,82.65,93.83,Fiber optic,1,Churned,Competitor offer,0-6 months,82.65,991.8,93.83
+CUST-00443,Female,45-54,20,Month-to-month,Electronic check,58.58,1176.13,DSL,0,Churned,Competitor offer,13-24 months,58.58,702.96,1176.13
+CUST-00320,Female,35-44,27,One year,Credit card,63.63,1773.76,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1773.76
+CUST-01151,Male,25-34,16,Month-to-month,Electronic check,44.52,710.07,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,710.07
+CUST-00812,Male,55-64,9,Month-to-month,Electronic check,80.13,745.15,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,745.15
+CUST-01147,Male,65+,1,Month-to-month,Credit card,61.81,61.81,DSL,2,Churned,Competitor offer,0-6 months,61.81,741.72,61.81
+CUST-00425,Female,45-54,39,Two year,Credit card,72.24,2866.41,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2866.41
+CUST-00554,Male,65+,7,Month-to-month,Credit card,94.13,629.65,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,629.65
+CUST-00595,Male,25-34,26,Month-to-month,Credit card,48.79,1314.83,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1314.83
+CUST-01253,Female,25-34,33,Month-to-month,Credit card,88.39,2947.48,Fiber optic,1,Churned,Competitor offer,25-48 months,88.39,1060.68,2947.48
+CUST-00671,Female,45-54,14,Month-to-month,Bank transfer,94.64,1293.02,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1293.02
+CUST-00788,Female,35-44,4,Month-to-month,Credit card,45.87,213.99,DSL,1,Churned,Temporary need ended,0-6 months,45.87,550.44,213.99
+CUST-01235,Male,65+,19,Month-to-month,Electronic check,49.54,941.26,Fiber optic,4,Churned,Poor customer support,13-24 months,49.54,594.48,941.26
+CUST-00680,Male,35-44,3,Month-to-month,Mailed check,68.33,207.26,DSL,1,Churned,Temporary need ended,0-6 months,68.33,819.96,207.26
+CUST-00228,Female,65+,20,Month-to-month,Electronic check,18.99,319.68,,1,Churned,Competitor offer,13-24 months,18.99,227.88,319.68
+CUST-01320,Female,35-44,11,Month-to-month,Bank transfer,29.57,388.91,,1,Stayed,Not churned,7-12 months,0.0,0.0,388.91
+CUST-00904,Male,25-34,21,Month-to-month,Credit card,51.67,1114.85,DSL,0,Churned,Price too high,13-24 months,51.67,620.04,1114.85
+CUST-01000,Female,35-44,6,Month-to-month,Electronic check,42.25,328.13,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,328.13
+CUST-01179,Male,25-34,10,Month-to-month,Electronic check,87.76,830.83,Fiber optic,0,Churned,Price too high,7-12 months,87.76,1053.12,830.83
+CUST-00067,Female,45-54,9,Month-to-month,Credit card,28.63,257.67,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,257.67
+CUST-00394,Male,25-34,3,Month-to-month,Credit card,64.69,154.73,DSL,0,Churned,Price too high,0-6 months,64.69,776.28,154.73
+CUST-00580,Female,45-54,24,Month-to-month,Bank transfer,47.28,1161.92,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1161.92
+CUST-01010,Female,55-64,20,Month-to-month,Bank transfer,59.91,1243.9,Fiber optic,0,Churned,Competitor offer,13-24 months,59.91,718.92,1243.9
+CUST-00212,Male,18-24,44,One year,Bank transfer,59.7,2585.2,Fiber optic,0,Churned,Product dissatisfaction,25-48 months,59.7,716.4,2585.2
+CUST-01175,Male,55-64,28,Two year,Mailed check,60.65,1745.12,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1745.12
+CUST-00800,Male,35-44,45,One year,Credit card,52.49,2384.16,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2384.16
+CUST-00537,Male,25-34,6,Month-to-month,Electronic check,63.94,403.78,DSL,0,Churned,Temporary need ended,0-6 months,63.94,767.28,403.78
+CUST-00850,Male,18-24,35,Month-to-month,Electronic check,58.85,2060.89,Fiber optic,0,Churned,Competitor offer,25-48 months,58.85,706.2,2060.89
+CUST-00949,Male,18-24,9,Month-to-month,Bank transfer,32.93,164.86,,0,Stayed,Not churned,7-12 months,0.0,0.0,164.86
+CUST-00086,Female,25-34,10,One year,Mailed check,86.71,858.94,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,858.94
+CUST-01369,Female,25-34,48,Month-to-month,Electronic check,61.47,2980.24,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2980.24
+CUST-00273,Male,55-64,46,One year,Credit card,92.15,4240.53,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,4240.53
+CUST-01133,Female,18-24,14,One year,Credit card,58.7,880.69,DSL,1,Churned,Competitor offer,13-24 months,58.7,704.4,880.69
+CUST-00866,Male,18-24,4,Month-to-month,Mailed check,85.56,333.74,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,333.74
+CUST-01463,Female,35-44,17,Two year,Bank transfer,28.17,496.54,,1,Stayed,Not churned,13-24 months,0.0,0.0,496.54
+CUST-00631,Male,25-34,34,One year,Bank transfer,68.21,2339.96,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2339.96
+CUST-01383,Male,25-34,39,One year,Bank transfer,22.13,895.15,,0,Stayed,Not churned,25-48 months,0.0,0.0,895.15
+CUST-01419,Female,35-44,7,Month-to-month,Credit card,75.69,479.62,Fiber optic,1,Churned,Competitor offer,7-12 months,75.69,908.28,479.62
+CUST-01281,Male,18-24,9,Month-to-month,Electronic check,37.88,362.94,DSL,0,Churned,Price too high,7-12 months,37.88,454.56,362.94
+CUST-00274,Male,65+,1,Month-to-month,Electronic check,59.65,59.65,DSL,2,Stayed,Not churned,0-6 months,0.0,0.0,59.65
+CUST-00758,Male,35-44,5,Month-to-month,Bank transfer,51.28,253.65,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,253.65
+CUST-00363,Female,25-34,3,One year,Credit card,67.48,150.48,Fiber optic,0,Churned,Competitor offer,0-6 months,67.48,809.76,150.48
+CUST-00623,Female,65+,13,Month-to-month,Credit card,40.9,531.7,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,531.7
+CUST-00003,Male,18-24,33,Month-to-month,Credit card,33.84,1116.72,,0,Stayed,Not churned,25-48 months,0.0,0.0,1116.72
+CUST-00007,Female,35-44,26,Two year,Electronic check,37.88,1009.49,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1009.49
+CUST-00312,Female,45-54,15,One year,Electronic check,41.6,645.24,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,645.24
+CUST-00678,Female,45-54,7,Month-to-month,Credit card,83.9,555.24,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,555.24
+CUST-00666,Female,65+,19,Month-to-month,Mailed check,36.84,633.07,DSL,0,Churned,Competitor offer,13-24 months,36.84,442.08,633.07
+CUST-00959,Female,35-44,22,Month-to-month,Mailed check,22.68,463.37,DSL,1,Churned,Temporary need ended,13-24 months,22.68,272.16,463.37
+CUST-01498,Female,25-34,9,Month-to-month,Electronic check,38.42,346.33,DSL,0,Churned,Competitor offer,7-12 months,38.42,461.04,346.33
+CUST-00216,Female,65+,1,Month-to-month,Credit card,46.68,46.68,DSL,4,Churned,Technical issues,0-6 months,46.68,560.16,46.68
+CUST-01030,Male,65+,15,Month-to-month,Credit card,77.58,1165.49,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1165.49
+CUST-00028,Male,25-34,32,One year,Mailed check,83.66,2681.81,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2681.81
+CUST-01095,Female,25-34,14,Month-to-month,Bank transfer,69.26,965.69,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,965.69
+CUST-00900,Female,45-54,72,Two year,Electronic check,70.33,5090.27,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,5090.27
+CUST-00692,Female,55-64,9,Month-to-month,Electronic check,73.63,674.37,Fiber optic,1,Churned,Temporary need ended,7-12 months,73.63,883.56,674.37
+CUST-00639,Female,25-34,28,Month-to-month,Electronic check,74.76,2043.41,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2043.41
+CUST-00768,Male,45-54,5,Month-to-month,Bank transfer,71.76,342.02,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,342.02
+CUST-00846,Female,45-54,39,One year,Bank transfer,67.24,2615.83,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2615.83
+CUST-00625,Male,65+,29,Month-to-month,Mailed check,55.41,1606.64,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1606.64
+CUST-00869,Male,35-44,29,One year,Electronic check,61.55,1762.12,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1762.12
+CUST-00257,Male,65+,34,One year,Credit card,34.24,1199.92,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1199.92
+CUST-00026,Male,25-34,31,Month-to-month,Bank transfer,69.9,2185.61,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2185.61
+CUST-00337,Male,25-34,27,Two year,Bank transfer,66.79,1856.96,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1856.96
+CUST-00573,Female,25-34,36,Two year,Bank transfer,68.55,2474.3,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2474.3
+CUST-00048,Male,35-44,8,Month-to-month,Electronic check,63.49,497.46,DSL,0,Churned,Price too high,7-12 months,63.49,761.88,497.46
+CUST-00107,Female,18-24,2,One year,Electronic check,18.99,79.82,DSL,0,Churned,Product dissatisfaction,0-6 months,18.99,227.88,79.82
+CUST-00350,Male,45-54,13,Month-to-month,Credit card,60.58,818.74,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,818.74
+CUST-00056,Male,25-34,56,Two year,Bank transfer,37.64,2125.52,DSL,2,Stayed,Not churned,49+ months,0.0,0.0,2125.52
+CUST-00827,Female,55-64,12,Month-to-month,Credit card,52.36,631.78,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,631.78
+CUST-00214,Female,35-44,44,One year,Electronic check,46.3,2022.69,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2022.69
+CUST-00121,Male,35-44,1,Month-to-month,Electronic check,92.18,106.55,Fiber optic,0,Churned,Price too high,0-6 months,92.18,1106.16,106.55
+CUST-00985,Male,35-44,47,Two year,Electronic check,43.49,2070.67,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2070.67
+CUST-00073,Female,45-54,13,Month-to-month,Credit card,85.68,1135.68,Fiber optic,1,Churned,Competitor offer,13-24 months,85.68,1028.16,1135.68
+CUST-00837,Male,35-44,28,Two year,Bank transfer,64.18,1832.03,Fiber optic,4,Churned,Poor customer support,25-48 months,64.18,770.16,1832.03
+CUST-00875,Female,45-54,2,Month-to-month,Bank transfer,51.59,113.11,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,113.11
+CUST-00046,Male,35-44,30,One year,Electronic check,59.64,1803.79,DSL,0,Churned,Product dissatisfaction,25-48 months,59.64,715.68,1803.79
+CUST-01346,Female,35-44,24,Month-to-month,Credit card,74.88,1801.8,Fiber optic,0,Churned,Temporary need ended,13-24 months,74.88,898.56,1801.8
+CUST-00524,Male,18-24,3,Month-to-month,Electronic check,91.88,325.58,Fiber optic,1,Churned,Price too high,0-6 months,91.88,1102.56,325.58
+CUST-00888,Female,45-54,16,One year,Mailed check,63.36,986.17,Fiber optic,0,Churned,Moved location,13-24 months,63.36,760.32,986.17
+CUST-00809,Female,25-34,17,Month-to-month,Electronic check,32.55,550.5,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,550.5
+CUST-00883,Female,55-64,72,Two year,Credit card,59.55,4294.6,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4294.6
+CUST-00813,Female,35-44,27,Month-to-month,Mailed check,69.43,1867.36,Fiber optic,2,Churned,Temporary need ended,25-48 months,69.43,833.16,1867.36
+CUST-00534,Male,65+,22,Month-to-month,Bank transfer,85.93,1837.15,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1837.15
+CUST-01152,Male,35-44,4,Month-to-month,Electronic check,81.73,411.88,Fiber optic,2,Churned,Competitor offer,0-6 months,81.73,980.76,411.88
+CUST-00604,Female,45-54,12,Month-to-month,Bank transfer,56.04,639.59,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,639.59
+CUST-00466,Female,35-44,33,One year,Credit card,86.36,2845.97,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2845.97
+CUST-01162,Female,55-64,17,Month-to-month,Credit card,87.38,1475.17,Fiber optic,0,Churned,Temporary need ended,13-24 months,87.38,1048.56,1475.17
+CUST-01297,Female,18-24,23,Month-to-month,Credit card,69.18,1617.22,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1617.22
+CUST-00821,Male,55-64,19,Month-to-month,Credit card,52.99,1023.38,DSL,3,Stayed,Not churned,13-24 months,0.0,0.0,1023.38
+CUST-00968,Female,18-24,14,Month-to-month,Electronic check,66.66,947.45,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,947.45
+CUST-00061,Female,35-44,19,Month-to-month,Electronic check,69.65,1349.31,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1349.31
+CUST-00906,Male,45-54,11,Month-to-month,Electronic check,86.13,946.1,Fiber optic,3,Churned,Competitor offer,7-12 months,86.13,1033.56,946.1
+CUST-00093,Male,25-34,4,Month-to-month,Bank transfer,59.82,274.14,Fiber optic,1,Churned,Competitor offer,0-6 months,59.82,717.84,274.14
+CUST-00667,Female,45-54,72,Two year,Credit card,40.28,2818.15,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,2818.15
+CUST-00721,Male,45-54,18,Month-to-month,Credit card,36.59,693.68,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,693.68
+CUST-00195,Female,35-44,20,Month-to-month,Unknown,46.61,955.78,DSL,1,Churned,Competitor offer,13-24 months,46.61,559.32,955.78
+CUST-00281,Male,18-24,8,Month-to-month,Credit card,33.12,228.12,DSL,2,Churned,Price too high,7-12 months,33.12,397.44,228.12
+CUST-00696,Male,35-44,13,Month-to-month,Electronic check,57.67,654.42,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,654.42
+CUST-00360,Male,45-54,31,One year,Electronic check,39.58,1260.14,DSL,2,Churned,Product dissatisfaction,25-48 months,39.58,474.96,1260.14
+CUST-00520,Female,45-54,14,Month-to-month,Electronic check,69.98,1000.53,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1000.53
+CUST-01126,Male,65+,8,One year,Electronic check,66.29,583.0,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,583.0
+CUST-00786,Male,25-34,17,Month-to-month,Electronic check,33.61,509.95,,0,Stayed,Not churned,13-24 months,0.0,0.0,509.95
+CUST-00183,Male,45-54,1,Month-to-month,Mailed check,81.85,81.85,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,81.85
+CUST-01120,Female,25-34,38,One year,Credit card,48.55,1762.17,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1762.17
+CUST-00111,Female,55-64,46,One year,Bank transfer,22.4,984.17,,3,Stayed,Not churned,25-48 months,0.0,0.0,984.17
+CUST-00043,Female,35-44,27,Month-to-month,Credit card,58.22,1509.9,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1509.9
+CUST-01439,Female,65+,64,Two year,Credit card,52.39,3328.71,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,3328.71
+CUST-00205,Male,35-44,15,One year,Bank transfer,58.15,921.11,Fiber optic,2,Churned,Competitor offer,13-24 months,58.15,697.8,921.11
+CUST-00840,Male,35-44,11,One year,Credit card,29.19,304.76,,2,Stayed,Not churned,7-12 months,0.0,0.0,304.76
+CUST-00053,Male,55-64,14,Month-to-month,Credit card,34.89,502.25,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,502.25
+CUST-00546,Female,45-54,9,Month-to-month,Bank transfer,70.61,672.33,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,672.33
+CUST-01121,Male,45-54,42,Month-to-month,Credit card,24.42,1093.47,,1,Churned,Competitor offer,25-48 months,24.42,293.04,1093.47
+CUST-00915,Male,35-44,26,Two year,Credit card,50.3,1321.11,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1321.11
+CUST-00943,Male,45-54,8,Month-to-month,Credit card,23.45,239.08,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,239.08
+CUST-00184,Male,55-64,5,Month-to-month,Credit card,18.99,115.53,,1,Churned,Price too high,0-6 months,18.99,227.88,115.53
+CUST-00138,Male,25-34,42,One year,Electronic check,23.03,930.02,,1,Stayed,Not churned,25-48 months,0.0,0.0,930.02
+CUST-01138,Female,45-54,16,Month-to-month,Electronic check,45.45,744.06,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,744.06
+CUST-00081,Male,25-34,34,One year,Mailed check,89.42,3039.01,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,3039.01
+CUST-01230,Female,35-44,2,Month-to-month,Mailed check,71.11,154.82,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,154.82
+CUST-00106,Female,35-44,8,Month-to-month,Electronic check,83.84,639.08,Fiber optic,1,Churned,Price too high,7-12 months,83.84,1006.08,639.08
+CUST-00542,Male,35-44,58,Two year,Bank transfer,40.26,2311.78,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2311.78
+CUST-00755,Female,55-64,12,Month-to-month,Electronic check,85.55,996.51,Fiber optic,1,Churned,Competitor offer,7-12 months,85.55,1026.6,996.51
+CUST-00481,Male,25-34,26,Month-to-month,Mailed check,57.96,1529.19,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1529.19
+CUST-00166,Male,55-64,44,Month-to-month,Electronic check,70.54,3062.04,DSL,0,Churned,Competitor offer,25-48 months,70.54,846.48,3062.04
+CUST-00249,Male,45-54,54,Two year,Bank transfer,49.81,2710.57,DSL,2,Churned,Competitor offer,49+ months,49.81,597.72,2710.57
+CUST-00308,Female,25-34,26,Month-to-month,Mailed check,87.61,2302.14,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2302.14
+CUST-00447,Male,35-44,72,Two year,Electronic check,18.99,1372.14,,0,Stayed,Not churned,49+ months,0.0,0.0,1372.14
+CUST-01413,Female,45-54,24,One year,Electronic check,57.68,1366.64,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1366.64
+CUST-00335,Female,55-64,37,Two year,Bank transfer,83.38,3096.86,Fiber optic,1,Churned,Competitor offer,25-48 months,83.38,1000.56,3096.86
+CUST-00098,Female,18-24,24,Month-to-month,Credit card,81.98,2001.05,DSL,2,Churned,Competitor offer,13-24 months,81.98,983.76,2001.05
+CUST-01464,Male,65+,21,Month-to-month,Electronic check,80.12,1693.77,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1693.77
+CUST-00738,Male,25-34,60,One year,Electronic check,80.4,4819.46,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,4819.46
+CUST-00856,Female,25-34,17,Month-to-month,Bank transfer,56.66,929.42,Fiber optic,1,Churned,Competitor offer,13-24 months,56.66,679.92,929.42
+CUST-00963,Female,45-54,2,Month-to-month,Credit card,18.99,91.47,,0,Stayed,Not churned,0-6 months,0.0,0.0,91.47
+CUST-00103,Female,25-34,72,Two year,Mailed check,65.82,4798.56,Fiber optic,1,Churned,Moved location,49+ months,65.82,789.84,4798.56
+CUST-00435,Female,45-54,13,One year,Bank transfer,43.11,567.85,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,567.85
+CUST-00075,Male,25-34,23,One year,Electronic check,61.8,1352.66,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1352.66
+CUST-01360,Male,25-34,1,Month-to-month,Bank transfer,18.99,23.81,,2,Churned,Price too high,0-6 months,18.99,227.88,23.81
+CUST-01263,Female,45-54,38,Month-to-month,Mailed check,73.8,2851.57,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2851.57
+CUST-01379,Female,45-54,12,Month-to-month,Bank transfer,54.75,671.84,DSL,4,Churned,Poor customer support,7-12 months,54.75,657.0,671.84
+CUST-00303,Male,35-44,15,One year,Mailed check,47.83,742.38,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,742.38
+CUST-01313,Male,45-54,13,Month-to-month,Electronic check,68.83,916.03,Fiber optic,1,Churned,Competitor offer,13-24 months,68.83,825.96,916.03
+CUST-01282,Male,55-64,11,One year,Bank transfer,79.8,910.93,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,910.93
+CUST-01241,Male,35-44,20,One year,Electronic check,46.25,895.18,DSL,2,Churned,Competitor offer,13-24 months,46.25,555.0,895.18
+CUST-00763,Female,55-64,11,Month-to-month,Bank transfer,57.84,599.86,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,599.86
+CUST-00734,Male,55-64,16,Month-to-month,Bank transfer,62.66,1006.9,Fiber optic,0,Churned,Competitor offer,13-24 months,62.66,751.92,1006.9
+CUST-00389,Male,45-54,6,Month-to-month,Credit card,54.37,316.8,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,316.8
+CUST-00236,Male,55-64,23,Month-to-month,Credit card,50.59,1188.15,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1188.15
+CUST-01264,Female,35-44,10,Month-to-month,Credit card,57.74,540.47,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,540.47
+CUST-00268,Male,35-44,11,One year,Credit card,74.62,855.31,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,855.31
+CUST-00306,Male,45-54,38,Month-to-month,Bank transfer,77.52,2974.11,Fiber optic,2,Churned,Temporary need ended,25-48 months,77.52,930.24,2974.11
+CUST-00808,Male,45-54,20,Month-to-month,Bank transfer,61.03,1223.96,Fiber optic,1,Churned,Price too high,13-24 months,61.03,732.36,1223.96
+CUST-00118,Female,45-54,17,Month-to-month,Electronic check,19.52,371.26,,3,Stayed,Not churned,13-24 months,0.0,0.0,371.26
+CUST-01229,Male,25-34,25,Month-to-month,Credit card,38.92,1015.91,,2,Churned,Competitor offer,25-48 months,38.92,467.04,1015.91
+CUST-00674,Male,55-64,18,Month-to-month,Credit card,67.18,1179.61,Fiber optic,1,Churned,Competitor offer,13-24 months,67.18,806.16,1179.61
+CUST-00250,Male,25-34,26,One year,Electronic check,66.79,1760.05,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1760.05
+CUST-01107,Female,18-24,23,Two year,Electronic check,88.15,2023.85,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,2023.85
+CUST-01092,Male,55-64,7,Month-to-month,Bank transfer,18.99,120.45,,0,Churned,Temporary need ended,7-12 months,18.99,227.88,120.45
+CUST-00072,Female,25-34,29,One year,Electronic check,68.46,1952.93,Fiber optic,1,Churned,Competitor offer,25-48 months,68.46,821.52,1952.93
+CUST-00095,Male,45-54,11,Month-to-month,Bank transfer,80.37,860.85,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,860.85
+CUST-01036,Male,55-64,54,Two year,Credit card,27.58,1481.49,DSL,2,Stayed,Not churned,49+ months,0.0,0.0,1481.49
+CUST-00034,Male,25-34,4,Month-to-month,Credit card,64.86,272.93,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,272.93
+CUST-01115,Male,25-34,32,One year,Bank transfer,54.77,1769.91,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1769.91
+CUST-00449,Female,25-34,17,One year,Electronic check,100.03,1715.18,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1715.18
+CUST-00446,Male,35-44,25,One year,Mailed check,54.48,1373.95,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1373.95
+CUST-00772,Male,35-44,44,Two year,Credit card,26.74,1160.21,,3,Stayed,Not churned,25-48 months,0.0,0.0,1160.21
+CUST-00717,Male,55-64,25,Month-to-month,Bank transfer,90.98,2263.38,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2263.38
+CUST-00907,Male,35-44,12,Month-to-month,Mailed check,68.13,814.03,Fiber optic,1,Churned,Temporary need ended,7-12 months,68.13,817.56,814.03
+CUST-01243,Male,25-34,42,One year,Electronic check,50.94,2153.53,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2153.53
+CUST-01177,Male,35-44,14,One year,Bank transfer,18.99,290.3,,2,Stayed,Not churned,13-24 months,0.0,0.0,290.3
+CUST-01047,Female,18-24,30,Month-to-month,Credit card,46.31,1374.14,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1374.14
+CUST-00078,Female,45-54,18,Month-to-month,Credit card,43.87,783.65,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,783.65
+CUST-00085,Female,65+,19,One year,Electronic check,69.54,1339.92,Fiber optic,0,Churned,Competitor offer,13-24 months,69.54,834.48,1339.92
+CUST-01160,Female,45-54,42,One year,Electronic check,59.42,2536.1,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2536.1
+CUST-00083,Female,45-54,9,Month-to-month,Electronic check,84.56,710.86,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,710.86
+CUST-00458,Female,35-44,38,One year,Electronic check,54.91,2086.58,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2086.58
+CUST-00939,Female,35-44,3,Month-to-month,Credit card,36.62,83.65,DSL,3,Stayed,Not churned,0-6 months,0.0,0.0,83.65
+CUST-00677,Female,25-34,17,Month-to-month,Electronic check,41.79,745.46,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,745.46
+CUST-01005,Male,25-34,10,Month-to-month,Credit card,79.42,752.86,Fiber optic,2,Churned,Price too high,7-12 months,79.42,953.04,752.86
+CUST-01090,Female,45-54,17,Month-to-month,Electronic check,47.83,822.56,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,822.56
+CUST-00437,Female,25-34,44,Month-to-month,Mailed check,40.55,1806.63,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1806.63
+CUST-00771,Female,25-34,24,One year,Credit card,64.55,1520.96,Fiber optic,0,Churned,Competitor offer,13-24 months,64.55,774.6,1520.96
+CUST-00645,Female,35-44,41,One year,Bank transfer,75.04,3021.03,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3021.03
+CUST-00842,Male,18-24,10,Month-to-month,Mailed check,76.7,793.71,Fiber optic,1,Churned,Competitor offer,7-12 months,76.7,920.4,793.71
+CUST-00926,Female,55-64,13,Month-to-month,Bank transfer,85.89,1094.38,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1094.38
+CUST-01210,Male,25-34,16,Month-to-month,Mailed check,42.86,671.81,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,671.81
+CUST-00405,Female,45-54,45,One year,Mailed check,63.28,2847.6,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2847.6
+CUST-01323,Male,45-54,39,One year,Electronic check,38.08,1517.81,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1517.81
+CUST-01214,Male,35-44,15,Month-to-month,Mailed check,52.79,776.53,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,776.53
+CUST-01099,Male,25-34,10,Month-to-month,Electronic check,109.11,1048.87,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,1048.87
+CUST-00105,Male,18-24,15,Month-to-month,Electronic check,80.95,1230.35,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1230.35
+CUST-00610,Male,65+,52,Two year,Mailed check,71.97,3736.78,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3736.78
+CUST-01405,Male,35-44,30,Two year,Credit card,86.3,2590.11,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2590.11
+CUST-00689,Male,45-54,48,Month-to-month,Mailed check,36.31,1708.98,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1708.98
+CUST-00969,Male,35-44,20,One year,Electronic check,58.27,1105.08,DSL,3,Stayed,Not churned,13-24 months,0.0,0.0,1105.08
+CUST-01332,Male,45-54,9,Month-to-month,Bank transfer,47.49,393.6,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,393.6
+CUST-00063,Male,45-54,33,One year,Electronic check,47.44,1597.41,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1597.41
+CUST-00282,Female,55-64,8,Month-to-month,Credit card,55.81,444.94,DSL,0,Churned,Temporary need ended,7-12 months,55.81,669.72,444.94
+CUST-00779,Male,45-54,21,One year,Mailed check,23.66,534.28,,0,Stayed,Not churned,13-24 months,0.0,0.0,534.28
+CUST-01387,Male,35-44,52,Two year,Bank transfer,83.15,4283.25,Fiber optic,2,Churned,Moved location,49+ months,83.15,997.8,4283.25
+CUST-00239,Male,35-44,27,One year,Bank transfer,67.09,1812.65,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1812.65
+CUST-00224,Female,25-34,13,Month-to-month,Bank transfer,74.18,1001.33,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1001.33
+CUST-00146,Female,45-54,17,Month-to-month,Electronic check,78.88,1307.65,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1307.65
+CUST-01418,Female,55-64,15,Month-to-month,Electronic check,88.19,1268.79,Fiber optic,6,Stayed,Not churned,13-24 months,0.0,0.0,1268.79
+CUST-00374,Male,55-64,33,One year,Credit card,32.19,1078.62,,1,Stayed,Not churned,25-48 months,0.0,0.0,1078.62
+CUST-01246,Male,45-54,32,Two year,Electronic check,74.11,2384.91,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2384.91
+CUST-00119,Male,35-44,13,Month-to-month,Credit card,83.21,1081.67,Fiber optic,2,Churned,Price too high,13-24 months,83.21,998.52,1081.67
+CUST-01142,Female,25-34,12,Month-to-month,Electronic check,62.37,811.08,Fiber optic,1,Churned,Competitor offer,7-12 months,62.37,748.44,811.08
+CUST-00251,Female,35-44,2,Month-to-month,Bank transfer,86.63,176.67,Fiber optic,2,Churned,Temporary need ended,0-6 months,86.63,1039.56,176.67
+CUST-01465,Male,55-64,27,One year,Bank transfer,71.7,1959.39,Fiber optic,3,Churned,Product dissatisfaction,25-48 months,71.7,860.4,1959.39
+CUST-01226,Male,25-34,28,One year,Electronic check,36.81,983.09,,1,Stayed,Not churned,25-48 months,0.0,0.0,983.09
+CUST-01097,Female,25-34,30,Month-to-month,Bank transfer,39.16,1184.15,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1184.15
+CUST-00010,Male,45-54,34,Month-to-month,Mailed check,74.03,2580.34,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2580.34
+CUST-00450,Female,35-44,32,Month-to-month,Electronic check,48.56,1561.58,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1561.58
+CUST-01173,Male,45-54,45,Month-to-month,Electronic check,62.3,2801.9,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2801.9
+CUST-00709,Female,25-34,14,Month-to-month,Electronic check,66.36,918.16,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,918.16
+CUST-00256,Male,55-64,8,Month-to-month,Electronic check,63.31,490.45,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,490.45
+CUST-00594,Female,35-44,21,One year,Credit card,37.84,822.8,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,822.8
+CUST-00390,Male,65+,72,One year,Electronic check,55.12,3902.83,DSL,2,Stayed,Not churned,49+ months,0.0,0.0,3902.83
+CUST-01043,Female,55-64,12,Month-to-month,Electronic check,57.69,765.6,DSL,1,Churned,Price too high,7-12 months,57.69,692.28,765.6
+CUST-01218,Male,65+,7,Month-to-month,Credit card,42.09,309.22,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,309.22
+CUST-00558,Female,35-44,10,Month-to-month,Credit card,78.77,827.72,Fiber optic,0,Churned,Price too high,7-12 months,78.77,945.24,827.72
+CUST-01350,Female,35-44,32,One year,Bank transfer,18.99,613.3,,2,Stayed,Not churned,25-48 months,0.0,0.0,613.3
+CUST-00859,Male,35-44,21,Month-to-month,Electronic check,34.85,791.49,,3,Stayed,Not churned,13-24 months,0.0,0.0,791.49
+CUST-00461,Female,25-34,27,Month-to-month,Bank transfer,60.51,1637.36,Fiber optic,1,Churned,Temporary need ended,25-48 months,60.51,726.12,1637.36
+CUST-00724,Male,25-34,2,Month-to-month,Bank transfer,75.24,140.98,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,140.98
+CUST-01401,Female,25-34,30,Month-to-month,Electronic check,69.03,2037.83,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2037.83
+CUST-00145,Female,18-24,14,Month-to-month,Electronic check,76.77,1080.31,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1080.31
+CUST-00502,Male,25-34,68,Two year,Bank transfer,87.1,5902.79,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,5902.79
+CUST-01113,Female,25-34,14,Month-to-month,Electronic check,72.38,1011.01,Fiber optic,1,Churned,Price too high,13-24 months,72.38,868.56,1011.01
+CUST-00740,Female,25-34,21,One year,Bank transfer,30.5,608.99,,2,Stayed,Not churned,13-24 months,0.0,0.0,608.99
+CUST-01404,Male,35-44,20,Month-to-month,Bank transfer,66.32,1390.19,Fiber optic,0,Churned,Temporary need ended,13-24 months,66.32,795.84,1390.19
+CUST-00732,Male,18-24,61,Two year,Bank transfer,49.27,3060.37,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3060.37
+CUST-00540,Female,25-34,15,Month-to-month,Mailed check,69.28,1077.87,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1077.87
+CUST-00178,Female,35-44,71,Two year,Mailed check,57.23,4090.28,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4090.28
+CUST-01467,Male,45-54,20,Month-to-month,Mailed check,53.37,1060.02,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1060.02
+CUST-00698,Male,55-64,24,One year,Credit card,65.36,1540.62,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1540.62
+CUST-01390,Female,55-64,29,Month-to-month,Bank transfer,72.49,2115.99,Fiber optic,2,Churned,Competitor offer,25-48 months,72.49,869.88,2115.99
+CUST-01316,Male,45-54,55,Month-to-month,Credit card,44.86,2465.65,,0,Stayed,Not churned,49+ months,0.0,0.0,2465.65
+CUST-00923,Male,45-54,25,One year,Mailed check,79.82,1968.61,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,1968.61
+CUST-00919,Male,18-24,33,One year,Bank transfer,32.01,1044.09,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1044.09
+CUST-00008,Male,35-44,9,Month-to-month,Credit card,72.52,673.77,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,673.77
+CUST-00882,Male,55-64,48,One year,Bank transfer,68.36,3260.58,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,3260.58
+CUST-00668,Female,25-34,8,Month-to-month,Credit card,78.35,590.58,DSL,3,Churned,Price too high,7-12 months,78.35,940.2,590.58
+CUST-01176,Male,25-34,48,Two year,Credit card,74.38,3599.4,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3599.4
+CUST-00358,Male,35-44,6,Month-to-month,Mailed check,68.28,416.09,Fiber optic,1,Churned,Competitor offer,0-6 months,68.28,819.36,416.09
+CUST-00784,Female,18-24,60,Two year,Electronic check,65.79,3926.37,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3926.37
+CUST-00736,Male,45-54,7,Month-to-month,Credit card,49.32,317.56,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,317.56
+CUST-00330,Female,25-34,14,One year,Bank transfer,62.81,882.34,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,882.34
+CUST-01211,Female,45-54,15,Month-to-month,Credit card,80.05,1227.61,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1227.61
+CUST-01164,Male,45-54,6,Month-to-month,Bank transfer,51.61,282.91,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,282.91
+CUST-01132,Female,45-54,7,Month-to-month,Bank transfer,78.8,527.77,Fiber optic,3,Churned,Competitor offer,7-12 months,78.8,945.6,527.77
+CUST-00259,Male,25-34,1,Month-to-month,Bank transfer,37.83,37.83,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,37.83
+CUST-01191,Female,35-44,37,One year,Credit card,63.92,2359.93,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2359.93
+CUST-00373,Female,35-44,23,Month-to-month,Unknown,23.07,478.74,,0,Stayed,Not churned,13-24 months,0.0,0.0,478.74
+CUST-01118,Male,25-34,11,Month-to-month,Credit card,49.66,521.77,Fiber optic,0,Churned,Price too high,7-12 months,49.66,595.92,521.77
+CUST-01058,Female,25-34,8,Month-to-month,Electronic check,83.22,642.78,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,642.78
+CUST-00143,Female,35-44,22,One year,Electronic check,71.45,1554.56,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1554.56
+CUST-00526,Female,25-34,8,Month-to-month,Bank transfer,29.82,262.96,,0,Stayed,Not churned,7-12 months,0.0,0.0,262.96
+CUST-01415,Male,25-34,33,Month-to-month,Bank transfer,45.97,1522.94,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1522.94
+CUST-00233,Male,35-44,24,Month-to-month,Electronic check,43.41,1041.84,DSL,0,Churned,Temporary need ended,13-24 months,43.41,520.92,1041.84
+CUST-01271,Male,18-24,9,One year,Electronic check,84.42,743.19,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,743.19
+CUST-01443,Male,25-34,11,Month-to-month,Credit card,78.34,910.41,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,910.41
+CUST-00441,Female,18-24,14,Month-to-month,Bank transfer,85.14,1199.26,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1199.26
+CUST-00532,Male,35-44,59,Two year,Bank transfer,26.26,1451.21,,0,Stayed,Not churned,49+ months,0.0,0.0,1451.21
+CUST-01386,Female,65+,8,One year,Bank transfer,72.82,574.54,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,574.54
+CUST-00227,Male,35-44,14,Month-to-month,Mailed check,97.8,1369.62,Fiber optic,4,Churned,Poor customer support,13-24 months,97.8,1173.6,1369.62
+CUST-01048,Female,35-44,37,One year,Credit card,78.23,2882.88,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2882.88
+CUST-00229,Male,55-64,17,Month-to-month,Electronic check,50.07,875.95,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,875.95
+CUST-01299,Male,65+,15,Month-to-month,Mailed check,98.13,1461.9,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1461.9
+CUST-01317,Male,35-44,17,One year,Credit card,65.45,1076.34,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1076.34
+CUST-00213,Male,45-54,52,Month-to-month,Credit card,96.77,5028.06,Fiber optic,2,Churned,Temporary need ended,49+ months,96.77,1161.24,5028.06
+CUST-00886,Female,35-44,37,Two year,Bank transfer,18.99,679.75,,1,Stayed,Not churned,25-48 months,0.0,0.0,679.75
+CUST-00080,Female,35-44,66,Two year,Electronic check,69.04,4512.3,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4512.3
+CUST-00149,Female,45-54,41,One year,Electronic check,44.0,1791.1,DSL,2,Churned,Moved location,25-48 months,44.0,528.0,1791.1
+CUST-00815,Male,65+,7,Month-to-month,Bank transfer,52.2,393.05,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,393.05
+CUST-00924,Male,35-44,31,Month-to-month,Bank transfer,47.78,1457.79,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1457.79
+CUST-00933,Male,65+,34,One year,Electronic check,62.87,2187.53,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2187.53
+CUST-00672,Male,18-24,24,Month-to-month,Bank transfer,47.67,1188.61,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1188.61
+CUST-01171,Male,45-54,9,Month-to-month,Electronic check,55.98,471.21,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,471.21
+CUST-00556,Female,45-54,20,One year,Electronic check,51.44,1005.63,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1005.63
+CUST-01367,Male,35-44,15,Month-to-month,Electronic check,51.52,747.5,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,747.5
+CUST-00134,Female,45-54,24,One year,Electronic check,74.6,1825.3,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1825.3
+CUST-01202,Female,65+,37,Month-to-month,Bank transfer,75.57,2835.28,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2835.28
+CUST-00824,Female,25-34,56,Month-to-month,Mailed check,27.01,1509.95,,0,Stayed,Not churned,49+ months,0.0,0.0,1509.95
+CUST-00409,Male,25-34,25,Month-to-month,Electronic check,42.54,1070.89,DSL,1,Churned,Competitor offer,25-48 months,42.54,510.48,1070.89
+CUST-00369,Female,25-34,12,Month-to-month,Bank transfer,41.33,490.37,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,490.37
+CUST-00508,Male,45-54,9,Month-to-month,Electronic check,48.25,423.5,,0,Stayed,Not churned,7-12 months,0.0,0.0,423.5
+CUST-01198,Male,25-34,27,Month-to-month,Bank transfer,54.0,1509.12,DSL,1,Churned,Competitor offer,25-48 months,54.0,648.0,1509.12
+CUST-00505,Male,25-34,43,Two year,Electronic check,68.08,2919.44,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2919.44
+CUST-01352,Male,25-34,1,One year,Mailed check,73.16,99.9,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,99.9
+CUST-00348,Female,25-34,33,Month-to-month,Credit card,28.71,927.89,,2,Stayed,Not churned,25-48 months,0.0,0.0,927.89
+CUST-00387,Female,18-24,57,Month-to-month,Bank transfer,35.34,1983.14,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,1983.14
+CUST-00001,Female,35-44,45,One year,Bank transfer,48.94,2198.25,DSL,0,Churned,Product dissatisfaction,25-48 months,48.94,587.28,2198.25
+CUST-00361,Female,45-54,56,Two year,Electronic check,57.58,3196.66,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3196.66
+CUST-00895,Male,55-64,37,One year,Electronic check,50.2,1847.45,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1847.45
+CUST-00829,Male,45-54,39,Two year,Bank transfer,18.99,763.7,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,763.7
+CUST-01435,Female,45-54,34,Month-to-month,Bank transfer,60.14,2045.51,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2045.51
+CUST-00476,Male,65+,71,Two year,Bank transfer,18.99,1375.45,,0,Stayed,Not churned,49+ months,0.0,0.0,1375.45
+CUST-01300,Male,25-34,13,One year,Credit card,48.01,596.51,DSL,3,Stayed,Not churned,13-24 months,0.0,0.0,596.51
+CUST-00058,Female,35-44,2,Month-to-month,Electronic check,65.12,95.12,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,95.12
+CUST-00638,Female,45-54,4,Month-to-month,Credit card,54.38,228.9,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,228.9
+CUST-01326,Female,55-64,56,Two year,Bank transfer,69.89,3868.64,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3868.64
+CUST-01421,Female,25-34,8,Month-to-month,Credit card,79.29,641.47,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,641.47
+CUST-00974,Female,45-54,20,One year,Electronic check,52.03,1040.52,Fiber optic,2,Churned,Competitor offer,13-24 months,52.03,624.36,1040.52
+CUST-00173,Male,55-64,8,Month-to-month,Electronic check,61.6,483.19,Fiber optic,1,Churned,Temporary need ended,7-12 months,61.6,739.2,483.19
+CUST-00451,Male,18-24,13,Month-to-month,Bank transfer,81.56,1056.47,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1056.47
+CUST-00126,Female,45-54,33,One year,Electronic check,35.65,1184.54,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1184.54
+CUST-01001,Female,55-64,37,One year,Bank transfer,36.99,1399.54,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1399.54
+CUST-00531,Male,25-34,22,Month-to-month,Credit card,48.69,1037.45,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,1037.45
+CUST-00858,Female,18-24,16,One year,Mailed check,80.59,1285.36,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1285.36
+CUST-00714,Female,65+,12,One year,Electronic check,29.12,354.56,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,354.56
+CUST-00091,Female,45-54,7,Month-to-month,Bank transfer,64.81,437.53,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,437.53
+CUST-01471,Male,35-44,60,Two year,Electronic check,44.1,2651.81,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2651.81
+CUST-00182,Female,65+,16,Month-to-month,Credit card,102.46,1693.97,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1693.97
+CUST-00876,Female,25-34,12,Month-to-month,Electronic check,74.11,896.06,Fiber optic,0,Churned,Competitor offer,7-12 months,74.11,889.32,896.06
+CUST-01027,Male,25-34,7,Month-to-month,Electronic check,69.77,512.92,Fiber optic,2,Churned,Competitor offer,7-12 months,69.77,837.24,512.92
+CUST-00787,Male,65+,4,One year,Mailed check,18.99,51.82,,0,Stayed,Not churned,0-6 months,0.0,0.0,51.82
+CUST-00415,Male,35-44,30,One year,Credit card,72.95,2199.44,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2199.44
+CUST-00252,Female,25-34,7,Month-to-month,Bank transfer,91.21,656.45,Fiber optic,0,Churned,Competitor offer,7-12 months,91.21,1094.52,656.45
+CUST-00070,Male,35-44,20,One year,Electronic check,76.43,1513.09,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1513.09
+CUST-00804,Male,25-34,43,Two year,Electronic check,67.0,2882.91,Fiber optic,0,Churned,Moved location,25-48 months,67.0,804.0,2882.91
+CUST-00132,Female,35-44,46,Two year,Credit card,44.72,1995.68,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1995.68
+CUST-00301,Female,65+,4,Month-to-month,Credit card,43.43,214.96,DSL,0,Churned,Temporary need ended,0-6 months,43.43,521.16,214.96
+CUST-01037,Female,45-54,36,Two year,Credit card,64.82,2402.91,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2402.91
+CUST-00327,Male,18-24,38,Two year,Electronic check,18.99,697.51,,0,Stayed,Not churned,25-48 months,0.0,0.0,697.51
+CUST-01485,Female,35-44,13,Month-to-month,Credit card,81.97,1066.24,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1066.24
+CUST-01182,Female,55-64,8,One year,Bank transfer,73.3,511.9,Fiber optic,0,Churned,Product dissatisfaction,7-12 months,73.3,879.6,511.9
+CUST-00500,Male,25-34,34,One year,Bank transfer,37.99,1313.6,DSL,0,Churned,Product dissatisfaction,25-48 months,37.99,455.88,1313.6
+CUST-00342,Female,35-44,19,One year,Mailed check,66.64,1252.09,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1252.09
+CUST-00833,Female,45-54,38,Two year,Credit card,45.86,1763.26,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1763.26
+CUST-00365,Male,65+,43,Two year,Credit card,65.38,2805.23,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2805.23
+CUST-00496,Female,45-54,5,Month-to-month,Electronic check,62.27,285.53,Fiber optic,2,Churned,Temporary need ended,0-6 months,62.27,747.24,285.53
+CUST-01447,Male,35-44,11,Month-to-month,Bank transfer,79.65,818.55,DSL,3,Churned,Temporary need ended,7-12 months,79.65,955.8,818.55
+CUST-00339,Female,55-64,39,One year,Credit card,80.71,3148.0,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3148.0
+CUST-00422,Male,18-24,52,One year,Electronic check,83.98,4376.4,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4376.4
+CUST-00165,Female,65+,9,Month-to-month,Electronic check,70.39,576.55,Fiber optic,2,Churned,Price too high,7-12 months,70.39,844.68,576.55
+CUST-00029,Male,55-64,23,One year,Bank transfer,28.43,663.14,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,663.14
+CUST-00517,Female,35-44,13,Month-to-month,Credit card,51.65,685.29,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,685.29
+CUST-00194,Male,25-34,26,Month-to-month,Bank transfer,22.34,614.71,,1,Stayed,Not churned,25-48 months,0.0,0.0,614.71
+CUST-01146,Male,35-44,38,One year,Credit card,49.47,1900.86,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1900.86
+CUST-01381,Female,35-44,8,Month-to-month,Credit card,70.53,578.47,Fiber optic,1,Churned,Competitor offer,7-12 months,70.53,846.36,578.47
+CUST-00946,Female,25-34,3,Month-to-month,Credit card,77.25,157.41,DSL,1,Churned,Temporary need ended,0-6 months,77.25,927.0,157.41
+CUST-01380,Male,25-34,46,Month-to-month,Bank transfer,70.91,3308.55,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3308.55
+CUST-00170,Male,55-64,9,Month-to-month,Electronic check,65.48,614.99,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,614.99
+CUST-00168,Female,55-64,10,Month-to-month,Electronic check,35.5,388.14,,0,Stayed,Not churned,7-12 months,0.0,0.0,388.14
+CUST-00653,Male,45-54,38,Two year,Mailed check,49.3,1894.11,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1894.11
+CUST-00174,Female,55-64,13,Month-to-month,Credit card,31.65,396.41,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,396.41
+CUST-00519,Male,18-24,14,Month-to-month,Bank transfer,25.61,356.79,,1,Stayed,Not churned,13-24 months,0.0,0.0,356.79
+CUST-01231,Male,45-54,24,One year,Electronic check,72.39,1712.01,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1712.01
+CUST-01197,Male,45-54,7,Month-to-month,Bank transfer,64.78,481.08,Fiber optic,1,Churned,Competitor offer,7-12 months,64.78,777.36,481.08
+CUST-00913,Male,35-44,2,Month-to-month,Electronic check,71.75,188.17,Fiber optic,2,Churned,Temporary need ended,0-6 months,71.75,861.0,188.17
+CUST-00492,Male,25-34,52,One year,Bank transfer,74.15,3853.41,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3853.41
+CUST-00954,Male,35-44,20,Month-to-month,Bank transfer,56.53,1072.46,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1072.46
+CUST-00074,Male,55-64,54,Month-to-month,Electronic check,83.87,4528.51,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,4528.51
+CUST-01272,Male,25-34,58,Two year,Electronic check,18.99,1117.97,,1,Stayed,Not churned,49+ months,0.0,0.0,1117.97
+CUST-00588,Female,45-54,33,One year,Credit card,67.0,2206.56,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2206.56
+CUST-00751,Female,25-34,41,Two year,Bank transfer,61.46,2516.45,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2516.45
+CUST-00658,Female,35-44,44,Month-to-month,Electronic check,71.86,3163.02,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3163.02
+CUST-00843,Female,18-24,28,Month-to-month,Credit card,56.69,1590.8,Fiber optic,3,Churned,Competitor offer,25-48 months,56.69,680.28,1590.8
+CUST-00235,Female,25-34,7,Month-to-month,Bank transfer,99.04,703.04,Fiber optic,2,Churned,Competitor offer,7-12 months,99.04,1188.48,703.04
+CUST-00733,Male,55-64,6,Month-to-month,Electronic check,29.67,165.38,,1,Churned,Competitor offer,0-6 months,29.67,356.04,165.38
+CUST-00215,Male,18-24,8,Month-to-month,Bank transfer,45.19,383.8,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,383.8
+CUST-00163,Male,55-64,28,Month-to-month,Bank transfer,85.39,2384.65,Fiber optic,4,Churned,Technical issues,25-48 months,85.39,1024.68,2384.65
+CUST-00133,Female,45-54,34,Two year,Electronic check,48.68,1630.52,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1630.52
+CUST-01119,Female,55-64,12,Month-to-month,Bank transfer,58.07,658.06,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,658.06
+CUST-00223,Female,25-34,10,Month-to-month,Credit card,71.74,705.06,Fiber optic,0,Churned,Temporary need ended,7-12 months,71.74,860.88,705.06
+CUST-01245,Male,45-54,19,Month-to-month,Credit card,76.41,1393.13,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1393.13
+CUST-00935,Female,65+,10,Month-to-month,Bank transfer,35.66,394.51,,0,Churned,Price too high,7-12 months,35.66,427.92,394.51
+CUST-00186,Male,55-64,14,Month-to-month,Bank transfer,56.79,768.77,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,768.77
+CUST-00042,Female,25-34,22,Two year,Bank transfer,60.49,1335.8,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1335.8
+CUST-00693,Female,45-54,26,One year,Electronic check,53.49,1452.66,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1452.66
+CUST-00109,Female,25-34,8,One year,Mailed check,67.7,580.52,Fiber optic,3,Stayed,Not churned,7-12 months,0.0,0.0,580.52
+CUST-00039,Male,25-34,13,Month-to-month,Credit card,89.93,1246.41,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1246.41
+CUST-00569,Male,25-34,25,One year,Mailed check,69.39,1735.49,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1735.49
+CUST-01286,Male,25-34,37,One year,Mailed check,60.4,2232.27,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2232.27
+CUST-01462,Male,35-44,11,Month-to-month,Mailed check,56.11,657.76,Fiber optic,3,Stayed,Not churned,7-12 months,0.0,0.0,657.76
+CUST-00484,Male,35-44,26,Two year,Electronic check,76.39,1972.74,Fiber optic,2,Churned,Product dissatisfaction,25-48 months,76.39,916.68,1972.74
+CUST-00469,Female,35-44,12,Two year,Mailed check,18.99,236.28,,1,Churned,Moved location,7-12 months,18.99,227.88,236.28
+CUST-00891,Male,35-44,12,One year,Credit card,67.49,772.32,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,772.32
+CUST-00948,Male,25-34,22,One year,Electronic check,54.01,1217.72,Fiber optic,4,Churned,Technical issues,13-24 months,54.01,648.12,1217.72
+CUST-00025,Female,35-44,15,Month-to-month,Electronic check,82.67,1210.8,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1210.8
+CUST-01028,Male,65+,4,Month-to-month,Credit card,18.99,79.67,,0,Stayed,Not churned,0-6 months,0.0,0.0,79.67
+CUST-01209,Female,18-24,8,Month-to-month,Electronic check,75.62,554.31,Fiber optic,0,Churned,Competitor offer,7-12 months,75.62,907.44,554.31
+CUST-00069,Female,45-54,41,Month-to-month,Credit card,85.49,3501.38,Fiber optic,3,Churned,Competitor offer,25-48 months,85.49,1025.88,3501.38
+CUST-00885,Male,25-34,40,Two year,Electronic check,18.99,747.46,,0,Stayed,Not churned,25-48 months,0.0,0.0,747.46
+CUST-01284,Female,45-54,25,Month-to-month,Credit card,42.35,1111.64,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1111.64
+CUST-00367,Male,18-24,7,Month-to-month,Bank transfer,60.11,351.44,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,351.44
+CUST-00506,Female,45-54,46,One year,Credit card,52.06,2413.44,DSL,0,Churned,Competitor offer,25-48 months,52.06,624.72,2413.44
+CUST-00851,Female,45-54,15,Month-to-month,Electronic check,91.69,1389.65,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1389.65
+CUST-01335,Male,35-44,10,Month-to-month,Electronic check,67.55,704.36,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,704.36
+CUST-00384,Male,45-54,5,Month-to-month,Credit card,78.12,409.54,Fiber optic,1,Churned,Temporary need ended,0-6 months,78.12,937.44,409.54
+CUST-00735,Female,45-54,6,Month-to-month,Bank transfer,81.75,552.37,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,552.37
+CUST-00718,Male,25-34,16,Month-to-month,Electronic check,80.34,1258.54,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1258.54
+CUST-01355,Female,25-34,38,One year,Bank transfer,83.95,3169.65,Fiber optic,0,Churned,Product dissatisfaction,25-48 months,83.95,1007.4,3169.65
+CUST-00455,Female,65+,48,Two year,Bank transfer,18.99,936.27,,0,Stayed,Not churned,25-48 months,0.0,0.0,936.27
+CUST-00265,Male,25-34,1,Two year,Bank transfer,49.69,49.69,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,49.69
+CUST-00076,Male,25-34,60,Two year,Credit card,78.5,4646.71,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,4646.71
+CUST-00445,Male,45-54,56,Two year,Electronic check,39.81,2248.85,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2248.85
+CUST-00396,Male,45-54,32,Two year,Credit card,78.63,2481.02,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2481.02
+CUST-00177,Male,18-24,9,One year,Credit card,34.77,256.75,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,256.75
+CUST-01330,Female,18-24,37,Two year,Bank transfer,66.03,2431.17,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2431.17
+CUST-01068,Female,25-34,47,Two year,Electronic check,18.99,865.41,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,865.41
+CUST-01051,Male,35-44,56,Two year,Credit card,18.99,1024.77,,3,Stayed,Not churned,49+ months,0.0,0.0,1024.77
+CUST-00596,Female,45-54,53,One year,Bank transfer,80.89,4273.04,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4273.04
+CUST-00062,Female,25-34,10,Month-to-month,Credit card,75.01,713.71,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,713.71
+CUST-00873,Male,45-54,28,Month-to-month,Bank transfer,63.95,1787.75,DSL,3,Stayed,Not churned,25-48 months,0.0,0.0,1787.75
+CUST-01135,Male,45-54,1,One year,Credit card,33.5,33.5,DSL,2,Churned,Product dissatisfaction,0-6 months,33.5,402.0,33.5
+CUST-01426,Male,55-64,49,Month-to-month,Electronic check,89.96,4474.12,Fiber optic,4,Churned,Poor customer support,49+ months,89.96,1079.52,4474.12
+CUST-00279,Male,25-34,24,Month-to-month,Credit card,34.55,828.08,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,828.08
+CUST-00037,Female,25-34,48,Month-to-month,Bank transfer,52.42,2517.16,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2517.16
+CUST-00663,Male,35-44,26,Month-to-month,Credit card,60.37,1573.84,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1573.84
+CUST-01371,Male,55-64,20,Month-to-month,Credit card,56.01,1106.9,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,1106.9
+CUST-01102,Male,18-24,49,Month-to-month,Credit card,75.31,3703.75,Fiber optic,2,Churned,Competitor offer,49+ months,75.31,903.72,3703.75
+CUST-00978,Female,45-54,38,One year,Electronic check,40.68,1581.99,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1581.99
+CUST-00739,Female,18-24,20,One year,Credit card,72.14,1396.52,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1396.52
+CUST-00192,Male,35-44,20,Two year,Bank transfer,31.81,629.22,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,629.22
+CUST-00920,Female,35-44,27,Two year,Credit card,65.83,1775.74,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1775.74
+CUST-00457,Female,45-54,11,Month-to-month,Bank transfer,54.96,565.18,DSL,1,Churned,Temporary need ended,7-12 months,54.96,659.52,565.18
+CUST-00676,Male,55-64,35,Month-to-month,Electronic check,64.02,2224.69,DSL,1,Churned,Price too high,25-48 months,64.02,768.24,2224.69
+CUST-00761,Female,45-54,32,Month-to-month,Credit card,74.37,2416.3,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2416.3
+CUST-01372,Female,65+,12,Month-to-month,Credit card,63.37,813.22,DSL,0,Churned,Temporary need ended,7-12 months,63.37,760.44,813.22
+CUST-00729,Female,25-34,32,Month-to-month,Credit card,34.46,1067.69,,2,Churned,Competitor offer,25-48 months,34.46,413.52,1067.69
+CUST-00413,Male,65+,19,Month-to-month,Bank transfer,35.01,617.19,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,617.19
+CUST-00826,Male,65+,5,Month-to-month,Bank transfer,48.57,302.08,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,302.08
+CUST-00617,Female,35-44,32,One year,Bank transfer,62.42,1989.68,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1989.68
+CUST-00115,Male,35-44,18,Month-to-month,Credit card,49.59,849.14,Fiber optic,2,Churned,Price too high,13-24 months,49.59,595.08,849.14
+CUST-00418,Female,45-54,32,One year,Bank transfer,35.32,1151.71,,0,Stayed,Not churned,25-48 months,0.0,0.0,1151.71
+CUST-01448,Male,35-44,44,Two year,Credit card,51.14,2250.99,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2250.99
+CUST-00970,Female,35-44,41,Month-to-month,Bank transfer,74.23,3030.8,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3030.8
+CUST-00605,Female,45-54,6,Month-to-month,Credit card,48.19,261.02,DSL,2,Stayed,Not churned,0-6 months,0.0,0.0,261.02
+CUST-01454,Male,35-44,72,Two year,Electronic check,18.99,1338.74,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,1338.74
+CUST-00090,Female,45-54,4,Month-to-month,Electronic check,70.63,248.42,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,248.42
+CUST-00849,Female,45-54,23,One year,Bank transfer,36.53,794.36,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,794.36
+CUST-01161,Male,35-44,8,Month-to-month,Credit card,46.24,379.15,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,379.15
+CUST-01453,Male,45-54,44,Two year,Electronic check,51.28,2262.16,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2262.16
+CUST-00754,Female,55-64,43,One year,Credit card,66.05,2840.15,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2840.15
+CUST-00499,Male,18-24,3,Month-to-month,Electronic check,61.95,190.29,Fiber optic,0,Churned,Temporary need ended,0-6 months,61.95,743.4,190.29
+CUST-00012,Male,45-54,23,Month-to-month,Bank transfer,64.16,1518.11,DSL,0,Churned,Price too high,13-24 months,64.16,769.92,1518.11
+CUST-00397,Male,45-54,61,Two year,Credit card,44.82,2698.19,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2698.19
+CUST-00285,Male,45-54,6,Month-to-month,Bank transfer,64.36,360.54,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,360.54
+CUST-01067,Female,25-34,7,Month-to-month,Electronic check,73.64,515.48,Fiber optic,1,Churned,Temporary need ended,7-12 months,73.64,883.68,515.48
+CUST-00691,Female,25-34,46,Two year,Bank transfer,43.94,2007.24,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2007.24
+CUST-01248,Female,25-34,5,Month-to-month,Mailed check,75.01,314.26,DSL,1,Churned,Price too high,0-6 months,75.01,900.12,314.26
+CUST-01423,Female,55-64,22,One year,Credit card,93.85,2030.28,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,2030.28
+CUST-00690,Female,45-54,3,Month-to-month,Credit card,59.93,194.0,Fiber optic,1,Churned,Price too high,0-6 months,59.93,719.16,194.0
+CUST-00852,Male,55-64,19,Month-to-month,Mailed check,18.99,319.61,,0,Stayed,Not churned,13-24 months,0.0,0.0,319.61
+CUST-00160,Male,35-44,14,Month-to-month,Electronic check,50.55,793.14,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,793.14
+CUST-00896,Female,35-44,47,Two year,Bank transfer,47.78,2221.51,,2,Stayed,Not churned,25-48 months,0.0,0.0,2221.51
+CUST-01206,Male,55-64,9,Month-to-month,Credit card,75.16,679.7,Fiber optic,1,Churned,Price too high,7-12 months,75.16,901.92,679.7
+CUST-00258,Male,35-44,6,Month-to-month,Electronic check,61.11,350.33,DSL,1,Churned,Price too high,0-6 months,61.11,733.32,350.33
+CUST-00336,Female,45-54,40,One year,Credit card,45.92,1742.32,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1742.32
+CUST-01427,Female,55-64,30,Month-to-month,Electronic check,65.24,1966.0,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1966.0
+CUST-01040,Female,45-54,19,One year,Bank transfer,36.35,668.22,DSL,3,Churned,Moved location,13-24 months,36.35,436.2,668.22
+CUST-00516,Female,35-44,46,Two year,Credit card,73.34,3325.1,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3325.1
+CUST-01016,Male,55-64,18,Month-to-month,Electronic check,33.96,586.83,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,586.83
+CUST-00769,Female,25-34,5,Month-to-month,Electronic check,62.62,270.74,,0,Stayed,Not churned,0-6 months,0.0,0.0,270.74
+CUST-01336,Male,55-64,26,Month-to-month,Bank transfer,80.23,2074.99,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2074.99
+CUST-00762,Female,45-54,21,One year,Electronic check,68.0,1421.08,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1421.08
+CUST-00522,Female,35-44,5,Month-to-month,Bank transfer,82.02,471.39,Fiber optic,0,Churned,Temporary need ended,0-6 months,82.02,984.24,471.39
+CUST-00023,Female,35-44,28,One year,Electronic check,65.39,1879.12,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1879.12
+CUST-00357,Female,45-54,39,One year,Credit card,39.45,1513.82,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1513.82
+CUST-01291,Female,45-54,32,One year,Credit card,42.68,1357.09,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1357.09
+CUST-00341,Female,35-44,72,Two year,Unknown,64.51,4720.29,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4720.29
+CUST-00432,Male,35-44,62,Two year,Bank transfer,18.99,1207.21,,1,Stayed,Not churned,49+ months,0.0,0.0,1207.21
+CUST-00474,Male,35-44,30,One year,Electronic check,21.3,597.44,,1,Stayed,Not churned,25-48 months,0.0,0.0,597.44
+CUST-00218,Male,45-54,2,Month-to-month,Mailed check,75.88,106.58,Fiber optic,2,Churned,Competitor offer,0-6 months,75.88,910.56,106.58
+CUST-00912,Female,25-34,23,Month-to-month,Credit card,28.55,618.01,,3,Stayed,Not churned,13-24 months,0.0,0.0,618.01
+CUST-01222,Female,45-54,34,One year,Bank transfer,71.04,2346.64,Fiber optic,0,Churned,Product dissatisfaction,25-48 months,71.04,852.48,2346.64
+CUST-01012,Male,55-64,13,Month-to-month,Mailed check,61.72,837.97,DSL,3,Stayed,Not churned,13-24 months,0.0,0.0,837.97
+CUST-01479,Male,45-54,26,One year,Bank transfer,18.99,512.2,,1,Churned,Product dissatisfaction,25-48 months,18.99,227.88,512.2
+CUST-00094,Male,25-34,43,Two year,Credit card,50.19,2152.83,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2152.83
+CUST-01009,Female,55-64,44,One year,Credit card,72.23,3220.5,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3220.5
+CUST-01071,Female,35-44,28,Month-to-month,Mailed check,59.34,1691.77,Fiber optic,0,Churned,Price too high,25-48 months,59.34,712.08,1691.77
+CUST-01093,Male,35-44,10,Month-to-month,Credit card,49.25,498.37,DSL,1,Churned,Competitor offer,7-12 months,49.25,591.0,498.37
+CUST-00697,Female,35-44,51,Two year,Electronic check,30.56,1556.38,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,1556.38
+CUST-00997,Male,35-44,20,Month-to-month,Bank transfer,55.52,1094.28,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1094.28
+CUST-00154,Female,35-44,18,Month-to-month,Unknown,68.18,1242.7,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1242.7
+CUST-01100,Female,25-34,19,Month-to-month,Electronic check,45.6,783.1,,1,Stayed,Not churned,13-24 months,0.0,0.0,783.1
+CUST-01319,Female,18-24,9,Month-to-month,Mailed check,63.6,584.62,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,584.62
+CUST-00790,Male,25-34,48,Two year,Electronic check,50.57,2406.7,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2406.7
+CUST-00581,Female,18-24,5,Month-to-month,Credit card,18.99,80.02,,1,Churned,Competitor offer,0-6 months,18.99,227.88,80.02
+CUST-00704,Female,18-24,37,Two year,Electronic check,86.24,3222.73,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3222.73
+CUST-01278,Male,25-34,28,Month-to-month,Credit card,87.08,2501.23,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2501.23
+CUST-00488,Female,35-44,38,Month-to-month,Bank transfer,67.68,2620.56,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2620.56
+CUST-00560,Male,35-44,15,Month-to-month,Bank transfer,39.7,580.68,,0,Stayed,Not churned,13-24 months,0.0,0.0,580.68
+CUST-00802,Female,35-44,52,Two year,Credit card,65.9,3448.52,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3448.52
+CUST-00513,Male,55-64,41,Two year,Bank transfer,27.67,1147.57,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1147.57
+CUST-00634,Male,35-44,53,Month-to-month,Credit card,57.02,3004.68,DSL,0,Churned,Competitor offer,49+ months,57.02,684.24,3004.68
+CUST-01125,Male,35-44,17,Two year,Credit card,58.42,999.92,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,999.92
+CUST-01357,Male,25-34,32,Month-to-month,Credit card,18.99,658.74,,1,Stayed,Not churned,25-48 months,0.0,0.0,658.74
+CUST-00791,Female,45-54,11,Month-to-month,Credit card,54.3,523.21,DSL,0,Churned,Competitor offer,7-12 months,54.3,651.6,523.21
+CUST-00117,Male,65+,37,One year,Electronic check,52.37,1937.41,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1937.41
+CUST-00741,Female,45-54,44,Two year,Mailed check,65.22,2821.76,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2821.76
+CUST-01082,Female,55-64,12,Month-to-month,Bank transfer,50.39,613.65,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,613.65
+CUST-00831,Female,25-34,12,Month-to-month,Credit card,39.13,480.62,,0,Churned,Competitor offer,7-12 months,39.13,469.56,480.62
+CUST-00120,Male,45-54,15,Month-to-month,Electronic check,32.53,465.04,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,465.04
+CUST-00657,Female,25-34,11,Month-to-month,Credit card,90.69,958.76,Fiber optic,3,Stayed,Not churned,7-12 months,0.0,0.0,958.76
+CUST-00636,Female,55-64,20,Month-to-month,Bank transfer,65.82,1356.73,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1356.73
+CUST-00370,Female,45-54,25,One year,Electronic check,71.3,1813.27,DSL,2,Churned,Competitor offer,25-48 months,71.3,855.6,1813.27
+CUST-00269,Female,35-44,5,One year,Electronic check,71.12,371.39,Fiber optic,0,Stayed,Not churned,0-6 months,0.0,0.0,371.39
+CUST-00656,Female,25-34,14,Month-to-month,Credit card,69.16,997.01,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,997.01
+CUST-00936,Female,35-44,10,One year,Electronic check,63.08,659.44,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,659.44
+CUST-00823,Female,45-54,41,Two year,Bank transfer,23.97,940.45,,0,Stayed,Not churned,25-48 months,0.0,0.0,940.45
+CUST-00867,Female,25-34,29,Month-to-month,Electronic check,81.93,2393.83,Fiber optic,3,Churned,Price too high,25-48 months,81.93,983.16,2393.83
+CUST-00047,Female,55-64,33,Month-to-month,Credit card,61.52,2029.59,Fiber optic,0,Churned,Competitor offer,25-48 months,61.52,738.24,2029.59
+CUST-01310,Male,45-54,18,One year,Bank transfer,62.01,1100.01,Fiber optic,2,Churned,Competitor offer,13-24 months,62.01,744.12,1100.01
+CUST-00992,Male,25-34,4,Month-to-month,Electronic check,79.22,272.93,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,272.93
+CUST-00877,Male,25-34,13,Month-to-month,Bank transfer,74.91,911.91,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,911.91
+CUST-00774,Female,45-54,26,One year,Electronic check,82.62,2124.6,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2124.6
+CUST-00005,Female,35-44,45,One year,Bank transfer,95.78,4310.14,Fiber optic,1,Churned,Moved location,25-48 months,95.78,1149.36,4310.14
+CUST-01004,Male,65+,30,Month-to-month,Unknown,48.85,1501.53,DSL,2,Churned,Price too high,25-48 months,48.85,586.2,1501.53
+CUST-01321,Female,55-64,37,One year,Electronic check,71.65,2625.75,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2625.75
+CUST-00264,Male,35-44,15,Month-to-month,Credit card,18.99,270.1,,0,Churned,Competitor offer,13-24 months,18.99,227.88,270.1
+CUST-01200,Female,45-54,20,One year,Credit card,30.21,641.19,,2,Stayed,Not churned,13-24 months,0.0,0.0,641.19
+CUST-01389,Male,55-64,5,Month-to-month,Electronic check,79.21,343.28,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,343.28
+CUST-00444,Female,45-54,9,Two year,Bank transfer,70.17,574.86,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,574.86
+CUST-01003,Male,35-44,40,One year,Credit card,77.55,3161.93,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,3161.93
+CUST-01078,Male,45-54,1,Month-to-month,Mailed check,32.68,32.68,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,32.68
+CUST-00838,Female,35-44,9,Month-to-month,Bank transfer,46.93,433.75,DSL,0,Churned,Price too high,7-12 months,46.93,563.16,433.75
+CUST-01359,Female,18-24,50,One year,Credit card,66.78,3317.71,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3317.71
+CUST-00305,Male,35-44,16,Month-to-month,Electronic check,82.51,1315.24,Fiber optic,1,Churned,Competitor offer,13-24 months,82.51,990.12,1315.24
+CUST-01190,Male,35-44,35,One year,Electronic check,59.29,2013.0,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2013.0
+CUST-00314,Male,18-24,7,Month-to-month,Bank transfer,76.3,591.47,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,591.47
+CUST-00150,Female,45-54,33,Month-to-month,Credit card,29.11,994.81,,1,Stayed,Not churned,25-48 months,0.0,0.0,994.81
+CUST-01149,Male,35-44,41,One year,Electronic check,63.83,2614.25,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2614.25
+CUST-00575,Male,55-64,52,Two year,Mailed check,87.91,4535.0,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,4535.0
+CUST-00051,Male,65+,2,Month-to-month,Mailed check,46.28,46.9,DSL,0,Churned,Price too high,0-6 months,46.28,555.36,46.9
+CUST-01324,Female,25-34,9,Month-to-month,Electronic check,49.85,479.47,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,479.47
+CUST-00727,Female,25-34,9,Month-to-month,Bank transfer,83.73,796.36,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,796.36
+CUST-00834,Female,45-54,31,Month-to-month,Credit card,38.07,1244.25,,0,Stayed,Not churned,25-48 months,0.0,0.0,1244.25
+CUST-01116,Male,25-34,24,Month-to-month,Electronic check,18.99,455.58,,0,Stayed,Not churned,13-24 months,0.0,0.0,455.58
+CUST-00471,Female,18-24,3,Month-to-month,Bank transfer,61.74,177.64,DSL,1,Stayed,Not churned,0-6 months,0.0,0.0,177.64
+CUST-00972,Male,65+,51,One year,Credit card,73.46,3715.83,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3715.83
+CUST-00654,Male,55-64,22,Month-to-month,Electronic check,63.71,1388.15,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1388.15
+CUST-00400,Male,45-54,29,One year,Mailed check,39.9,1161.68,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1161.68
+CUST-00512,Female,18-24,5,Month-to-month,Electronic check,66.19,371.9,DSL,0,Churned,Temporary need ended,0-6 months,66.19,794.28,371.9
+CUST-00321,Male,25-34,48,One year,Credit card,36.3,1744.84,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1744.84
+CUST-00020,Female,55-64,20,One year,Credit card,70.81,1484.91,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1484.91
+CUST-00685,Male,45-54,12,One year,Electronic check,52.2,643.13,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,643.13
+CUST-00036,Male,25-34,7,Month-to-month,Bank transfer,88.06,668.85,Fiber optic,1,Churned,Competitor offer,7-12 months,88.06,1056.72,668.85
+CUST-00903,Female,35-44,41,Two year,Mailed check,51.68,2060.03,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2060.03
+CUST-00828,Female,18-24,20,Month-to-month,Credit card,65.13,1326.64,Fiber optic,1,Churned,Competitor offer,13-24 months,65.13,781.56,1326.64
+CUST-00408,Female,35-44,39,Two year,Credit card,68.79,2697.82,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2697.82
+CUST-00921,Male,25-34,36,Two year,Credit card,36.97,1316.56,,0,Stayed,Not churned,25-48 months,0.0,0.0,1316.56
+CUST-00538,Female,25-34,27,Month-to-month,Mailed check,45.45,1216.53,,0,Churned,Temporary need ended,25-48 months,45.45,545.4,1216.53
+CUST-00759,Male,25-34,5,Month-to-month,Bank transfer,44.27,221.01,,0,Stayed,Not churned,0-6 months,0.0,0.0,221.01
+CUST-01063,Male,18-24,37,One year,Credit card,50.54,1863.13,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1863.13
+CUST-00246,Male,35-44,22,Month-to-month,Credit card,56.76,1240.01,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1240.01
+CUST-01128,Female,45-54,72,Two year,Bank transfer,50.82,3666.74,Fiber optic,3,Stayed,Not churned,49+ months,0.0,0.0,3666.74
+CUST-00785,Female,25-34,22,Two year,Bank transfer,36.88,849.95,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,849.95
+CUST-00490,Male,45-54,30,Month-to-month,Electronic check,52.98,1579.74,DSL,0,Churned,Temporary need ended,25-48 months,52.98,635.76,1579.74
+CUST-00155,Male,18-24,3,Month-to-month,Bank transfer,94.31,201.52,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,201.52
+CUST-00962,Male,55-64,24,Month-to-month,Credit card,63.14,1525.85,Fiber optic,1,Churned,Price too high,13-24 months,63.14,757.68,1525.85
+CUST-00854,Male,55-64,67,Two year,Bank transfer,42.6,2751.06,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2751.06
+CUST-00626,Female,45-54,29,Month-to-month,Electronic check,64.69,1810.11,Fiber optic,0,Churned,Price too high,25-48 months,64.69,776.28,1810.11
+CUST-00686,Male,55-64,7,One year,Mailed check,70.68,503.11,Fiber optic,2,Churned,Competitor offer,7-12 months,70.68,848.16,503.11
+CUST-00570,Female,35-44,42,Two year,Credit card,66.63,2810.04,Fiber optic,0,Churned,Product dissatisfaction,25-48 months,66.63,799.56,2810.04
+CUST-01446,Female,25-34,49,Two year,Bank transfer,55.83,2705.33,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2705.33
+CUST-00018,Male,55-64,13,Month-to-month,Electronic check,81.91,1055.2,DSL,2,Churned,Price too high,13-24 months,81.91,982.92,1055.2
+CUST-00128,Male,35-44,2,Month-to-month,Bank transfer,76.21,156.15,Fiber optic,0,Churned,Competitor offer,0-6 months,76.21,914.52,156.15
+CUST-01494,Female,35-44,69,Two year,Bank transfer,37.8,2557.38,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2557.38
+CUST-00928,Male,65+,51,One year,Credit card,37.94,1956.85,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,1956.85
+CUST-00981,Female,25-34,60,Two year,Electronic check,51.95,3125.82,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3125.82
+CUST-01490,Female,55-64,31,One year,Electronic check,43.35,1312.01,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1312.01
+CUST-00191,Female,25-34,9,Month-to-month,Bank transfer,64.56,637.12,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,637.12
+CUST-01140,Male,45-54,47,One year,Credit card,74.96,3485.34,Fiber optic,2,Churned,Moved location,25-48 months,74.96,899.52,3485.34
+CUST-00993,Female,45-54,16,One year,Bank transfer,57.68,890.49,Fiber optic,4,Stayed,Not churned,13-24 months,0.0,0.0,890.49
+CUST-01484,Female,55-64,31,One year,Credit card,46.32,1418.36,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1418.36
+CUST-01270,Female,45-54,72,Two year,Mailed check,66.29,4719.92,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4719.92
+CUST-00607,Female,55-64,47,Two year,Bank transfer,59.67,2749.73,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2749.73
+CUST-00181,Female,35-44,14,Month-to-month,Credit card,39.21,547.14,DSL,0,Churned,Competitor offer,13-24 months,39.21,470.52,547.14
+CUST-00302,Male,45-54,72,Two year,Credit card,40.25,2953.15,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,2953.15
+CUST-00497,Male,65+,14,Two year,Credit card,73.36,1084.66,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1084.66
+CUST-01311,Female,25-34,8,Month-to-month,Credit card,42.31,336.7,,0,Stayed,Not churned,7-12 months,0.0,0.0,336.7
+CUST-01275,Female,35-44,34,One year,Credit card,108.61,3765.56,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3765.56
+CUST-01353,Female,25-34,14,Month-to-month,Electronic check,74.03,977.67,DSL,1,Churned,Competitor offer,13-24 months,74.03,888.36,977.67
+CUST-00518,Male,55-64,8,Month-to-month,Credit card,63.62,553.7,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,553.7
+CUST-01070,Female,55-64,37,Two year,Mailed check,67.08,2463.34,Fiber optic,0,Churned,Product dissatisfaction,25-48 months,67.08,804.96,2463.34
+CUST-00477,Female,25-34,54,Two year,Credit card,29.6,1522.66,DSL,2,Stayed,Not churned,49+ months,0.0,0.0,1522.66
+CUST-00158,Male,25-34,3,Month-to-month,Bank transfer,51.85,115.23,DSL,0,Churned,Competitor offer,0-6 months,51.85,622.2,115.23
+CUST-01196,Male,35-44,19,Month-to-month,Credit card,41.94,838.14,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,838.14
+CUST-00017,Female,45-54,11,One year,Bank transfer,71.72,820.6,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,820.6
+CUST-01073,Female,25-34,49,One year,Electronic check,27.68,1367.79,DSL,0,Churned,Moved location,49+ months,27.68,332.16,1367.79
+CUST-01497,Male,25-34,22,Month-to-month,Bank transfer,94.93,2053.32,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,2053.32
+CUST-00547,Female,18-24,2,Month-to-month,Bank transfer,58.45,121.44,DSL,1,Churned,Temporary need ended,0-6 months,58.45,701.4,121.44
+CUST-00659,Male,35-44,20,One year,Bank transfer,62.78,1264.56,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1264.56
+CUST-01244,Male,25-34,19,Month-to-month,Mailed check,54.41,1084.19,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1084.19
+CUST-01020,Female,45-54,24,Month-to-month,Electronic check,54.74,1308.51,DSL,2,Churned,Price too high,13-24 months,54.74,656.88,1308.51
+CUST-01434,Male,35-44,46,Two year,Mailed check,61.21,2836.71,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2836.71
+CUST-00960,Male,35-44,17,Month-to-month,Mailed check,35.41,559.08,,0,Stayed,Not churned,13-24 months,0.0,0.0,559.08
+CUST-01429,Male,45-54,18,Month-to-month,Electronic check,70.32,1200.51,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1200.51
+CUST-00284,Female,45-54,70,Two year,Credit card,30.04,2080.28,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2080.28
+CUST-00798,Male,18-24,18,Month-to-month,Bank transfer,51.27,917.26,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,917.26
+CUST-00226,Female,18-24,47,Two year,Credit card,45.59,2169.14,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2169.14
+CUST-00027,Female,25-34,25,Two year,Electronic check,18.99,528.95,,3,Churned,Moved location,25-48 months,18.99,227.88,528.95
+CUST-00438,Male,55-64,33,One year,Bank transfer,60.19,1989.11,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1989.11
+CUST-01478,Male,18-24,13,Month-to-month,Credit card,88.19,1194.19,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1194.19
+CUST-00230,Male,45-54,5,Month-to-month,Credit card,73.19,434.79,Fiber optic,2,Churned,Price too high,0-6 months,73.19,878.28,434.79
+CUST-00038,Female,45-54,46,Two year,Electronic check,18.99,914.13,,0,Stayed,Not churned,25-48 months,0.0,0.0,914.13
+CUST-00750,Male,25-34,14,Two year,Bank transfer,56.52,775.7,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,775.7
+CUST-01046,Male,35-44,8,Month-to-month,Credit card,63.74,516.7,Fiber optic,1,Churned,Competitor offer,7-12 months,63.74,764.88,516.7
+CUST-00470,Male,18-24,1,Month-to-month,Bank transfer,61.87,113.6,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,113.6
+CUST-01470,Male,35-44,59,Two year,Electronic check,66.07,3932.59,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,3932.59
+CUST-01493,Female,35-44,23,One year,Bank transfer,87.66,1988.26,Fiber optic,2,Churned,Competitor offer,13-24 months,87.66,1051.92,1988.26
+CUST-00688,Female,45-54,20,Month-to-month,Bank transfer,70.48,1423.02,Fiber optic,0,Churned,Competitor offer,13-24 months,70.48,845.76,1423.02
+CUST-01398,Female,25-34,10,Month-to-month,Bank transfer,53.04,503.71,,0,Churned,Price too high,7-12 months,53.04,636.48,503.71
+CUST-00640,Female,55-64,12,Month-to-month,Mailed check,80.79,967.38,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,967.38
+CUST-01314,Male,25-34,47,Two year,Credit card,71.57,3368.4,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,3368.4
+CUST-01219,Male,55-64,27,One year,Credit card,18.99,526.45,,0,Stayed,Not churned,25-48 months,0.0,0.0,526.45
+CUST-01159,Male,25-34,60,Two year,Mailed check,72.44,4390.93,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4390.93
+CUST-00801,Male,55-64,41,Month-to-month,Electronic check,88.85,3698.09,Fiber optic,3,Churned,Price too high,25-48 months,88.85,1066.2,3698.09
+CUST-00161,Female,45-54,20,Month-to-month,Bank transfer,64.48,1375.73,Fiber optic,3,Churned,Price too high,13-24 months,64.48,773.76,1375.73
+CUST-00957,Male,35-44,34,Two year,Bank transfer,32.84,1177.6,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1177.6
+CUST-01187,Male,25-34,6,Month-to-month,Bank transfer,18.99,135.29,DSL,1,Churned,Price too high,0-6 months,18.99,227.88,135.29
+CUST-00822,Female,45-54,38,Month-to-month,Credit card,50.48,1925.88,DSL,0,Churned,Price too high,25-48 months,50.48,605.76,1925.88
+CUST-01290,Female,65+,72,Two year,Credit card,25.15,1877.33,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,1877.33
+CUST-00878,Male,45-54,70,Two year,Bank transfer,60.26,4202.38,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4202.38
+CUST-00914,Female,18-24,51,Two year,Credit card,52.24,2622.45,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,2622.45
+CUST-00153,Female,25-34,45,One year,Bank transfer,57.61,2560.71,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2560.71
+CUST-01393,Female,45-54,12,One year,Bank transfer,50.14,610.29,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,610.29
+CUST-00510,Male,35-44,11,Month-to-month,Bank transfer,35.88,394.0,DSL,1,Churned,Competitor offer,7-12 months,35.88,430.56,394.0
+CUST-01136,Female,45-54,11,Month-to-month,Credit card,46.31,569.26,DSL,2,Churned,Temporary need ended,7-12 months,46.31,555.72,569.26
+CUST-01251,Male,35-44,11,Month-to-month,Credit card,58.63,598.85,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,598.85
+CUST-01277,Female,18-24,8,Month-to-month,Electronic check,82.35,710.3,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,710.3
+CUST-00104,Female,35-44,27,Month-to-month,Bank transfer,18.99,530.27,,0,Churned,Price too high,25-48 months,18.99,227.88,530.27
+CUST-00587,Female,25-34,15,Month-to-month,Electronic check,54.97,846.64,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,846.64
+CUST-01348,Female,25-34,7,One year,Electronic check,74.34,461.85,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,461.85
+CUST-01144,Male,45-54,36,Two year,Bank transfer,31.41,1133.96,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1133.96
+CUST-00054,Male,55-64,18,Month-to-month,Electronic check,69.64,1281.23,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1281.23
+CUST-00152,Female,25-34,27,Month-to-month,Electronic check,44.71,1197.3,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1197.3
+CUST-00404,Male,18-24,13,Month-to-month,Credit card,26.08,400.7,,2,Stayed,Not churned,13-24 months,0.0,0.0,400.7
+CUST-01475,Female,35-44,19,One year,Credit card,60.84,1136.77,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1136.77
+CUST-00208,Male,25-34,17,One year,Credit card,60.67,1045.77,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1045.77
+CUST-01437,Female,45-54,26,Month-to-month,Electronic check,83.63,2147.97,Fiber optic,1,Churned,Price too high,25-48 months,83.63,1003.56,2147.97
+CUST-01123,Male,35-44,27,One year,Electronic check,53.45,1408.06,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1408.06
+CUST-01492,Female,55-64,29,One year,Bank transfer,60.88,1715.2,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1715.2
+CUST-00009,Male,45-54,9,One year,Bank transfer,44.4,429.39,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,429.39
+CUST-01015,Male,45-54,35,One year,Unknown,56.11,1936.29,DSL,2,Churned,Competitor offer,25-48 months,56.11,673.32,1936.29
+CUST-01363,Male,65+,17,One year,Credit card,18.99,279.66,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,279.66
+CUST-01061,Male,45-54,9,Month-to-month,Bank transfer,35.25,300.0,,2,Stayed,Not churned,7-12 months,0.0,0.0,300.0
+CUST-00453,Female,45-54,20,One year,Bank transfer,64.72,1345.69,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1345.69
+CUST-00254,Female,25-34,15,Month-to-month,Bank transfer,56.93,859.52,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,859.52
+CUST-00897,Female,25-34,13,Month-to-month,Credit card,46.24,602.17,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,602.17
+CUST-01328,Male,25-34,49,Two year,Unknown,44.29,2248.45,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2248.45
+CUST-00881,Female,55-64,1,Month-to-month,Credit card,46.48,46.48,DSL,0,Churned,Price too high,0-6 months,46.48,557.76,46.48
+CUST-00624,Female,35-44,29,Two year,Bank transfer,57.63,1729.05,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1729.05
+CUST-00346,Male,25-34,15,One year,Bank transfer,68.79,1039.57,Fiber optic,0,Churned,Product dissatisfaction,13-24 months,68.79,825.48,1039.57
+CUST-01306,Male,65+,7,Month-to-month,Credit card,44.36,364.47,,1,Stayed,Not churned,7-12 months,0.0,0.0,364.47
+CUST-00263,Female,25-34,3,Month-to-month,Electronic check,77.01,259.33,Fiber optic,0,Churned,Price too high,0-6 months,77.01,924.12,259.33
+CUST-00151,Male,18-24,12,One year,Credit card,33.81,429.78,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,429.78
+CUST-00473,Female,25-34,38,One year,Bank transfer,51.01,1954.83,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1954.83
+CUST-00641,Female,55-64,26,Month-to-month,Bank transfer,56.42,1471.29,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1471.29
+CUST-01430,Male,35-44,72,Two year,Electronic check,37.72,2755.57,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2755.57
+CUST-00551,Male,35-44,25,Two year,Credit card,71.44,1727.51,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1727.51
+CUST-00929,Male,25-34,47,One year,Electronic check,39.3,1885.97,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1885.97
+CUST-00489,Male,35-44,11,Month-to-month,Electronic check,77.34,821.08,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,821.08
+CUST-01376,Male,35-44,9,Month-to-month,Credit card,74.45,632.71,Fiber optic,0,Churned,Price too high,7-12 months,74.45,893.4,632.71
+CUST-01172,Male,35-44,72,Two year,Credit card,18.99,1378.56,,3,Stayed,Not churned,49+ months,0.0,0.0,1378.56
+CUST-00147,Male,25-34,72,Two year,Electronic check,51.62,3731.55,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3731.55
+CUST-00403,Female,45-54,72,Two year,Credit card,65.79,4795.08,Fiber optic,0,Stayed,Not churned,49+ months,0.0,0.0,4795.08
+CUST-00955,Female,35-44,41,Month-to-month,Electronic check,62.99,2612.16,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2612.16
+CUST-01425,Male,35-44,16,Month-to-month,Credit card,54.52,930.4,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,930.4
+CUST-00660,Male,45-54,28,Two year,Credit card,80.02,2272.61,Fiber optic,1,Churned,Product dissatisfaction,25-48 months,80.02,960.24,2272.61
+CUST-00464,Male,35-44,27,One year,Electronic check,79.87,2212.21,Fiber optic,1,Churned,Product dissatisfaction,25-48 months,79.87,958.44,2212.21
+CUST-00187,Male,55-64,16,Month-to-month,Credit card,60.58,961.1,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,961.1
+CUST-01148,Male,35-44,17,Month-to-month,Electronic check,74.23,1282.31,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1282.31
+CUST-01225,Female,35-44,41,One year,Credit card,21.9,854.28,,0,Stayed,Not churned,25-48 months,0.0,0.0,854.28
+CUST-00609,Female,25-34,23,Two year,Electronic check,18.99,446.2,,0,Stayed,Not churned,13-24 months,0.0,0.0,446.2
+CUST-00144,Female,45-54,13,Month-to-month,Credit card,26.9,387.17,,1,Stayed,Not churned,13-24 months,0.0,0.0,387.17
+CUST-00752,Male,55-64,64,Two year,Mailed check,28.3,1793.8,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,1793.8
+CUST-00982,Male,55-64,51,Two year,Credit card,48.43,2528.58,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2528.58
+CUST-00198,Male,25-34,57,Two year,Bank transfer,58.05,3328.41,DSL,1,Churned,Competitor offer,49+ months,58.05,696.6,3328.41
+CUST-00884,Female,35-44,24,Month-to-month,Credit card,80.97,2018.02,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,2018.02
+CUST-00280,Male,55-64,52,Two year,Credit card,74.69,3877.78,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3877.78
+CUST-00294,Female,45-54,7,One year,Credit card,68.93,474.98,Fiber optic,0,Churned,Competitor offer,7-12 months,68.93,827.16,474.98
+CUST-01384,Female,18-24,51,One year,Mailed check,40.51,2089.71,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2089.71
+CUST-00401,Female,35-44,7,Month-to-month,Credit card,54.9,354.52,DSL,3,Stayed,Not churned,7-12 months,0.0,0.0,354.52
+CUST-00123,Female,35-44,16,Month-to-month,Credit card,69.23,1106.23,Fiber optic,1,Churned,Price too high,13-24 months,69.23,830.76,1106.23
+CUST-01208,Female,25-34,23,One year,Credit card,71.0,1634.27,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1634.27
+CUST-00203,Female,25-34,13,Month-to-month,Electronic check,18.99,277.64,,1,Churned,Competitor offer,13-24 months,18.99,227.88,277.64
+CUST-00836,Female,35-44,24,Month-to-month,Mailed check,71.59,1726.51,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1726.51
+CUST-00247,Female,18-24,18,Month-to-month,Credit card,80.38,1462.82,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1462.82
+CUST-01442,Female,45-54,26,Two year,Credit card,53.76,1401.62,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1401.62
+CUST-01428,Male,65+,57,Month-to-month,Electronic check,61.55,3560.04,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3560.04
+CUST-01154,Male,18-24,4,Month-to-month,Bank transfer,45.16,193.7,,0,Churned,Temporary need ended,0-6 months,45.16,541.92,193.7
+CUST-00385,Male,25-34,27,Month-to-month,Credit card,91.83,2407.75,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2407.75
+CUST-01342,Female,45-54,9,Month-to-month,Credit card,67.83,521.43,Fiber optic,1,Churned,Price too high,7-12 months,67.83,813.96,521.43
+CUST-00855,Female,45-54,50,One year,Bank transfer,74.89,3756.04,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,3756.04
+CUST-00220,Male,25-34,5,One year,Mailed check,49.08,244.98,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,244.98
+CUST-00642,Female,35-44,26,Two year,Credit card,52.09,1325.01,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1325.01
+CUST-00002,Male,35-44,55,Two year,Bank transfer,76.95,4175.72,Fiber optic,3,Stayed,Not churned,49+ months,0.0,0.0,4175.72
+CUST-00113,Male,35-44,28,One year,Bank transfer,28.49,783.41,,0,Stayed,Not churned,25-48 months,0.0,0.0,783.41
+CUST-00699,Female,35-44,18,Two year,Bank transfer,34.59,646.86,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,646.86
+CUST-01451,Female,55-64,32,Month-to-month,Credit card,50.23,1626.85,DSL,3,Stayed,Not churned,25-48 months,0.0,0.0,1626.85
+CUST-00952,Male,65+,63,Two year,Credit card,31.4,2030.14,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,2030.14
+CUST-01337,Female,65+,27,One year,Electronic check,59.61,1575.85,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1575.85
+CUST-01292,Female,65+,7,Month-to-month,Electronic check,52.58,357.77,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,357.77
+CUST-01373,Male,55-64,21,Month-to-month,Electronic check,88.3,1900.98,Fiber optic,5,Stayed,Not churned,13-24 months,0.0,0.0,1900.98
+CUST-00442,Male,35-44,38,Month-to-month,Bank transfer,56.78,2132.42,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2132.42
+CUST-01137,Male,65+,29,One year,Bank transfer,53.57,1563.13,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1563.13
+CUST-01257,Female,35-44,34,Two year,Electronic check,59.85,1987.37,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1987.37
+CUST-00664,Female,55-64,8,Month-to-month,Bank transfer,31.37,287.6,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,287.6
+CUST-01392,Female,45-54,12,One year,Bank transfer,83.42,1051.82,Fiber optic,1,Churned,Competitor offer,7-12 months,83.42,1001.04,1051.82
+CUST-01258,Female,55-64,23,Month-to-month,Bank transfer,63.67,1467.18,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1467.18
+CUST-01351,Male,45-54,35,One year,Credit card,74.31,2570.56,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2570.56
+CUST-00318,Female,45-54,12,Month-to-month,Electronic check,60.94,753.75,DSL,0,Churned,Price too high,7-12 months,60.94,731.28,753.75
+CUST-00649,Male,35-44,4,One year,Electronic check,39.79,123.5,DSL,0,Stayed,Not churned,0-6 months,0.0,0.0,123.5
+CUST-00710,Male,55-64,52,Two year,Credit card,28.03,1453.64,,0,Stayed,Not churned,49+ months,0.0,0.0,1453.64
+CUST-01283,Male,65+,26,Month-to-month,Bank transfer,47.65,1239.41,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1239.41
+CUST-00973,Male,55-64,27,Month-to-month,Credit card,70.59,1960.8,Fiber optic,4,Stayed,Not churned,25-48 months,0.0,0.0,1960.8
+CUST-00628,Male,25-34,55,Two year,Credit card,57.44,3107.08,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,3107.08
+CUST-00633,Male,35-44,39,Month-to-month,Credit card,52.03,2014.46,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2014.46
+CUST-01307,Male,45-54,43,Month-to-month,Bank transfer,64.58,2777.25,DSL,4,Churned,Poor customer support,25-48 months,64.58,774.96,2777.25
+CUST-01249,Male,55-64,32,One year,Mailed check,70.79,2212.25,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2212.25
+CUST-01482,Female,25-34,14,Month-to-month,Credit card,89.57,1226.25,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1226.25
+CUST-01255,Male,55-64,27,Month-to-month,Mailed check,99.27,2707.04,Fiber optic,7,Churned,Poor customer support,25-48 months,99.27,1191.24,2707.04
+CUST-01403,Female,18-24,16,Month-to-month,Credit card,26.53,395.89,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,395.89
+CUST-00796,Male,18-24,8,One year,Credit card,64.36,514.64,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,514.64
+CUST-00646,Male,55-64,20,Month-to-month,Electronic check,49.13,975.43,Fiber optic,0,Churned,Temporary need ended,13-24 months,49.13,589.56,975.43
+CUST-01013,Male,35-44,21,One year,Electronic check,81.9,1758.77,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1758.77
+CUST-00557,Female,35-44,6,Month-to-month,Bank transfer,95.45,557.51,Fiber optic,3,Churned,Competitor offer,0-6 months,95.45,1145.4,557.51
+CUST-00682,Female,25-34,9,Month-to-month,Electronic check,62.9,549.83,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,549.83
+CUST-00578,Male,35-44,7,Month-to-month,Credit card,94.96,619.68,Fiber optic,3,Churned,Temporary need ended,7-12 months,94.96,1139.52,619.68
+CUST-01110,Female,18-24,32,One year,Bank transfer,84.4,2748.38,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2748.38
+CUST-01267,Female,35-44,38,One year,Credit card,61.9,2400.78,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2400.78
+CUST-01184,Male,35-44,19,Month-to-month,Credit card,51.54,1011.62,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,1011.62
+CUST-00525,Male,35-44,9,Month-to-month,Mailed check,72.3,661.28,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,661.28
+CUST-01060,Male,35-44,48,Two year,Electronic check,35.84,1725.47,,0,Stayed,Not churned,25-48 months,0.0,0.0,1725.47
+CUST-00541,Male,55-64,11,Month-to-month,Electronic check,68.23,792.53,Fiber optic,1,Churned,Price too high,7-12 months,68.23,818.76,792.53
+CUST-01195,Female,65+,50,One year,Electronic check,53.08,2656.64,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2656.64
+CUST-00749,Male,45-54,28,Month-to-month,Bank transfer,18.99,514.54,,1,Stayed,Not churned,25-48 months,0.0,0.0,514.54
+CUST-01406,Female,18-24,26,One year,Electronic check,82.67,2119.42,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2119.42
+CUST-00485,Male,25-34,19,One year,Bank transfer,63.16,1233.07,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1233.07
+CUST-00096,Female,35-44,29,One year,Electronic check,18.99,572.17,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,572.17
+CUST-01021,Male,45-54,31,Month-to-month,Electronic check,37.15,1138.05,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1138.05
+CUST-00564,Female,35-44,13,Month-to-month,Credit card,35.95,457.38,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,457.38
+CUST-01265,Female,25-34,17,One year,Electronic check,76.82,1310.7,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1310.7
+CUST-00743,Male,35-44,30,One year,Bank transfer,47.04,1417.43,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1417.43
+CUST-00864,Female,35-44,3,Month-to-month,Electronic check,50.58,174.68,Fiber optic,1,Churned,Price too high,0-6 months,50.58,606.96,174.68
+CUST-00892,Male,25-34,13,Month-to-month,Bank transfer,18.99,268.53,,0,Stayed,Not churned,13-24 months,0.0,0.0,268.53
+CUST-01039,Female,45-54,47,One year,Bank transfer,49.15,2326.97,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2326.97
+CUST-00207,Female,45-54,45,Two year,Electronic check,81.11,3582.26,Fiber optic,4,Churned,Technical issues,25-48 months,81.11,973.32,3582.26
+CUST-00393,Female,55-64,34,Two year,Bank transfer,55.43,1910.81,DSL,0,Churned,Competitor offer,25-48 months,55.43,665.16,1910.81
+CUST-00795,Female,18-24,7,Month-to-month,Electronic check,64.86,449.51,Fiber optic,3,Stayed,Not churned,7-12 months,0.0,0.0,449.51
+CUST-00871,Female,45-54,11,Month-to-month,Bank transfer,29.05,381.76,DSL,1,Churned,Competitor offer,7-12 months,29.05,348.6,381.76
+CUST-00398,Female,25-34,44,Two year,Credit card,91.53,4054.71,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,4054.71
+CUST-00767,Male,45-54,5,One year,Credit card,18.99,111.24,,0,Stayed,Not churned,0-6 months,0.0,0.0,111.24
+CUST-01396,Male,55-64,38,Two year,Credit card,54.85,2118.27,Fiber optic,1,Churned,Moved location,25-48 months,54.85,658.2,2118.27
+CUST-01242,Male,25-34,18,Month-to-month,Bank transfer,44.81,752.21,,3,Stayed,Not churned,13-24 months,0.0,0.0,752.21
+CUST-01029,Female,18-24,37,One year,Bank transfer,61.09,2266.3,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2266.3
+CUST-00643,Female,45-54,26,Month-to-month,Bank transfer,56.02,1506.47,DSL,1,Churned,Price too high,25-48 months,56.02,672.24,1506.47
+CUST-00613,Male,25-34,40,Month-to-month,Bank transfer,97.77,3861.59,Fiber optic,2,Churned,Competitor offer,25-48 months,97.77,1173.24,3861.59
+CUST-00961,Female,65+,29,One year,Electronic check,46.78,1352.51,DSL,0,Churned,Moved location,25-48 months,46.78,561.36,1352.51
+CUST-00726,Male,35-44,25,Two year,Credit card,65.18,1643.02,Fiber optic,3,Churned,Product dissatisfaction,25-48 months,65.18,782.16,1643.02
+CUST-00684,Male,25-34,16,Month-to-month,Mailed check,77.31,1256.77,Fiber optic,4,Churned,Poor customer support,13-24 months,77.31,927.72,1256.77
+CUST-00099,Female,18-24,24,Month-to-month,Bank transfer,79.67,1884.75,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1884.75
+CUST-00805,Female,55-64,20,Month-to-month,Bank transfer,72.58,1485.97,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,1485.97
+CUST-00407,Female,65+,24,Two year,Mailed check,41.12,998.51,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,998.51
+CUST-00503,Female,55-64,16,Two year,Electronic check,55.99,913.84,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,913.84
+CUST-01072,Female,55-64,34,One year,Credit card,47.54,1663.59,Fiber optic,0,Churned,Moved location,25-48 months,47.54,570.48,1663.59
+CUST-01057,Male,35-44,53,Two year,Credit card,38.4,2023.73,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,2023.73
+CUST-00930,Female,55-64,17,Month-to-month,Electronic check,34.19,622.39,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,622.39
+CUST-00780,Male,18-24,42,Two year,Bank transfer,55.55,2341.02,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2341.02
+CUST-00201,Male,65+,40,One year,Credit card,41.28,1709.9,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1709.9
+CUST-00135,Male,55-64,32,Month-to-month,Credit card,73.03,2364.95,Fiber optic,2,Churned,Competitor offer,25-48 months,73.03,876.36,2364.95
+CUST-01052,Male,25-34,37,One year,Bank transfer,59.5,2169.91,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,2169.91
+CUST-00041,Female,45-54,11,Month-to-month,Credit card,60.7,683.4,DSL,0,Churned,Price too high,7-12 months,60.7,728.4,683.4
+CUST-01018,Male,35-44,33,Two year,Electronic check,64.31,2109.69,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2109.69
+CUST-00231,Male,25-34,14,Month-to-month,Credit card,65.08,948.66,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,948.66
+CUST-00379,Male,25-34,32,Month-to-month,Bank transfer,18.99,652.45,,2,Stayed,Not churned,25-48 months,0.0,0.0,652.45
+CUST-00289,Female,18-24,33,Two year,Bank transfer,21.21,627.56,,0,Stayed,Not churned,25-48 months,0.0,0.0,627.56
+CUST-00419,Male,35-44,14,Month-to-month,Electronic check,46.79,713.17,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,713.17
+CUST-00392,Female,35-44,17,Two year,Credit card,58.39,947.62,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,947.62
+CUST-00593,Female,25-34,31,One year,Electronic check,51.09,1629.12,Fiber optic,2,Churned,Product dissatisfaction,25-48 months,51.09,613.08,1629.12
+CUST-01163,Female,25-34,44,One year,Electronic check,56.49,2503.93,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,2503.93
+CUST-01087,Male,18-24,22,Month-to-month,Bank transfer,36.58,763.91,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,763.91
+CUST-00648,Male,35-44,11,Month-to-month,Electronic check,19.32,196.45,,0,Stayed,Not churned,7-12 months,0.0,0.0,196.45
+CUST-01153,Male,35-44,16,One year,Credit card,18.99,203.76,,1,Stayed,Not churned,13-24 months,0.0,0.0,203.76
+CUST-01368,Male,45-54,15,Month-to-month,Credit card,54.13,814.35,DSL,1,Stayed,Not churned,13-24 months,0.0,0.0,814.35
+CUST-00521,Male,65+,11,Month-to-month,Electronic check,71.8,785.78,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,785.78
+CUST-00065,Female,55-64,37,One year,Credit card,86.39,3185.4,Fiber optic,4,Churned,Poor customer support,25-48 months,86.39,1036.68,3185.4
+CUST-00015,Female,25-34,34,One year,Bank transfer,54.96,1818.4,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1818.4
+CUST-01181,Male,25-34,34,Month-to-month,Credit card,81.65,2779.98,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2779.98
+CUST-01065,Female,35-44,72,Two year,Mailed check,56.8,4076.96,Fiber optic,1,Stayed,Not churned,49+ months,0.0,0.0,4076.96
+CUST-00493,Female,45-54,41,Two year,Bank transfer,61.37,2534.75,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,2534.75
+CUST-00380,Female,35-44,9,One year,Electronic check,23.68,237.0,,1,Stayed,Not churned,7-12 months,0.0,0.0,237.0
+CUST-00188,Male,35-44,36,Month-to-month,Credit card,91.32,3332.69,Fiber optic,4,Churned,Poor customer support,25-48 months,91.32,1095.84,3332.69
+CUST-00764,Male,35-44,7,Month-to-month,Credit card,58.43,357.84,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,357.84
+CUST-00217,Female,18-24,27,Month-to-month,Bank transfer,95.31,2521.6,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2521.6
+CUST-00792,Male,25-34,34,Month-to-month,Credit card,71.06,2362.9,Fiber optic,2,Churned,Temporary need ended,25-48 months,71.06,852.72,2362.9
+CUST-01077,Female,65+,9,Month-to-month,Electronic check,51.8,429.15,DSL,0,Stayed,Not churned,7-12 months,0.0,0.0,429.15
+CUST-00879,Female,35-44,49,One year,Electronic check,46.21,2304.99,DSL,3,Stayed,Not churned,49+ months,0.0,0.0,2304.99
+CUST-00338,Male,35-44,29,One year,Bank transfer,63.09,1868.84,Fiber optic,0,Churned,Competitor offer,25-48 months,63.09,757.08,1868.84
+CUST-00720,Male,25-34,15,Month-to-month,Credit card,81.09,1210.88,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1210.88
+CUST-00296,Male,18-24,9,Month-to-month,Credit card,35.52,371.94,,0,Churned,Competitor offer,7-12 months,35.52,426.24,371.94
+CUST-01017,Female,18-24,45,Two year,Electronic check,66.58,3019.39,Fiber optic,2,Churned,Moved location,25-48 months,66.58,798.96,3019.39
+CUST-01276,Female,35-44,23,One year,Bank transfer,25.02,605.73,,1,Stayed,Not churned,13-24 months,0.0,0.0,605.73
+CUST-00456,Female,55-64,11,Month-to-month,Electronic check,86.63,980.72,Fiber optic,2,Churned,Competitor offer,7-12 months,86.63,1039.56,980.72
+CUST-00816,Male,25-34,27,One year,Bank transfer,65.06,1754.87,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,1754.87
+CUST-00270,Female,35-44,42,One year,Bank transfer,42.16,1814.85,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1814.85
+CUST-00996,Female,35-44,10,Month-to-month,Bank transfer,18.99,238.37,DSL,0,Churned,Price too high,7-12 months,18.99,227.88,238.37
+CUST-00202,Female,35-44,14,Month-to-month,Credit card,106.68,1485.82,Fiber optic,1,Churned,Price too high,13-24 months,106.68,1280.16,1485.82
+CUST-00162,Male,35-44,44,Month-to-month,Bank transfer,74.37,3250.64,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3250.64
+CUST-00730,Female,25-34,38,One year,Bank transfer,31.89,1197.67,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1197.67
+CUST-00402,Male,18-24,10,Month-to-month,Bank transfer,37.86,441.87,,0,Stayed,Not churned,7-12 months,0.0,0.0,441.87
+CUST-00703,Female,35-44,18,Month-to-month,Electronic check,72.78,1273.95,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1273.95
+CUST-01130,Female,35-44,19,Month-to-month,Credit card,44.58,869.63,,2,Stayed,Not churned,13-24 months,0.0,0.0,869.63
+CUST-00566,Male,45-54,21,One year,Credit card,61.4,1261.49,Fiber optic,1,Stayed,Not churned,13-24 months,0.0,0.0,1261.49
+CUST-01414,Female,65+,34,One year,Bank transfer,59.05,2018.87,DSL,2,Churned,Competitor offer,25-48 months,59.05,708.6,2018.87
+CUST-01022,Female,25-34,16,Month-to-month,Bank transfer,48.07,727.29,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,727.29
+CUST-01026,Female,25-34,59,Two year,Credit card,32.21,1938.5,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,1938.5
+CUST-01412,Female,18-24,15,Month-to-month,Mailed check,59.98,872.03,Fiber optic,0,Churned,Competitor offer,13-24 months,59.98,719.76,872.03
+CUST-01105,Male,18-24,27,Month-to-month,Credit card,68.2,1840.4,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1840.4
+CUST-00206,Female,25-34,32,Two year,Bank transfer,28.25,887.28,,0,Stayed,Not churned,25-48 months,0.0,0.0,887.28
+CUST-00035,Male,35-44,22,Month-to-month,Bank transfer,47.87,1046.03,DSL,0,Stayed,Not churned,13-24 months,0.0,0.0,1046.03
+CUST-00776,Female,45-54,15,Two year,Credit card,59.95,914.93,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,914.93
+CUST-00509,Male,18-24,67,Two year,Credit card,41.82,2830.86,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2830.86
+CUST-01452,Male,45-54,16,One year,Credit card,59.72,963.35,Fiber optic,0,Churned,Competitor offer,13-24 months,59.72,716.64,963.35
+CUST-01496,Male,55-64,10,One year,Electronic check,70.13,727.21,Fiber optic,1,Churned,Product dissatisfaction,7-12 months,70.13,841.56,727.21
+CUST-01391,Female,35-44,45,Month-to-month,Electronic check,41.82,1861.48,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1861.48
+CUST-00092,Male,65+,9,Two year,Credit card,47.03,405.08,DSL,1,Stayed,Not churned,7-12 months,0.0,0.0,405.08
+CUST-01364,Male,35-44,45,Month-to-month,Bank transfer,56.09,2484.17,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2484.17
+CUST-00898,Male,18-24,41,Two year,Bank transfer,81.13,3374.96,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3374.96
+CUST-00565,Female,18-24,6,Month-to-month,Electronic check,57.77,295.6,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,295.6
+CUST-01370,Female,35-44,22,Month-to-month,Bank transfer,53.01,1197.42,,0,Churned,Temporary need ended,13-24 months,53.01,636.12,1197.42
+CUST-00777,Female,45-54,38,Two year,Credit card,29.69,1112.11,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1112.11
+CUST-00242,Male,45-54,6,Month-to-month,Credit card,82.16,466.37,Fiber optic,2,Stayed,Not churned,0-6 months,0.0,0.0,466.37
+CUST-00014,Female,18-24,25,Month-to-month,Electronic check,40.02,1018.66,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,1018.66
+CUST-00316,Male,65+,41,One year,Mailed check,35.17,1474.71,,0,Stayed,Not churned,25-48 months,0.0,0.0,1474.71
+CUST-00601,Female,55-64,22,Month-to-month,Bank transfer,33.69,720.29,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,720.29
+CUST-00388,Female,25-34,42,One year,Electronic check,56.46,2427.88,DSL,2,Stayed,Not churned,25-48 months,0.0,0.0,2427.88
+CUST-01298,Female,45-54,54,Month-to-month,Mailed check,56.53,3045.53,DSL,0,Stayed,Not churned,49+ months,0.0,0.0,3045.53
+CUST-00167,Female,25-34,46,Two year,Credit card,67.77,3088.06,Fiber optic,0,Stayed,Not churned,25-48 months,0.0,0.0,3088.06
+CUST-00841,Female,45-54,7,Month-to-month,Electronic check,20.97,120.86,,1,Churned,Competitor offer,7-12 months,20.97,251.64,120.86
+CUST-00021,Male,18-24,8,Month-to-month,Electronic check,75.84,635.43,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,635.43
+CUST-00647,Male,35-44,25,Month-to-month,Electronic check,31.51,813.31,,0,Churned,Competitor offer,25-48 months,31.51,378.12,813.31
+CUST-01155,Male,45-54,12,Month-to-month,Credit card,78.59,976.86,Fiber optic,2,Stayed,Not churned,7-12 months,0.0,0.0,976.86
+CUST-00832,Female,18-24,66,Two year,Unknown,50.94,3352.36,Fiber optic,2,Stayed,Not churned,49+ months,0.0,0.0,3352.36
+CUST-01268,Female,25-34,9,Month-to-month,Credit card,63.62,613.29,Fiber optic,0,Stayed,Not churned,7-12 months,0.0,0.0,613.29
+CUST-00563,Female,55-64,28,Month-to-month,Bank transfer,54.12,1580.61,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1580.61
+CUST-01481,Male,35-44,37,Month-to-month,Electronic check,86.19,3162.85,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,3162.85
+CUST-00687,Male,55-64,40,Two year,Electronic check,62.45,2498.0,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2498.0
+CUST-00958,Female,45-54,11,Month-to-month,Bank transfer,36.39,382.78,DSL,2,Churned,Temporary need ended,7-12 months,36.39,436.68,382.78
+CUST-00190,Female,45-54,23,One year,Mailed check,72.82,1627.12,Fiber optic,2,Churned,Competitor offer,13-24 months,72.82,873.84,1627.12
+CUST-00976,Female,55-64,48,Two year,Bank transfer,99.15,4758.42,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,4758.42
+CUST-00700,Female,35-44,10,Month-to-month,Credit card,59.97,594.44,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,594.44
+CUST-00511,Male,18-24,16,Month-to-month,Credit card,79.68,1239.03,Fiber optic,2,Stayed,Not churned,13-24 months,0.0,0.0,1239.03
+CUST-01083,Female,35-44,23,One year,Electronic check,79.75,1839.37,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1839.37
+CUST-00475,Male,25-34,55,Two year,Credit card,42.23,2306.72,DSL,3,Stayed,Not churned,49+ months,0.0,0.0,2306.72
+CUST-00857,Female,55-64,17,Month-to-month,Credit card,36.23,625.17,DSL,2,Churned,Competitor offer,13-24 months,36.23,434.76,625.17
+CUST-00748,Male,55-64,14,Month-to-month,Electronic check,67.0,974.92,Fiber optic,0,Stayed,Not churned,13-24 months,0.0,0.0,974.92
+CUST-00253,Male,18-24,3,One year,Electronic check,58.62,157.75,Fiber optic,1,Stayed,Not churned,0-6 months,0.0,0.0,157.75
+CUST-00022,Female,55-64,26,Month-to-month,Bank transfer,48.65,1336.76,DSL,1,Stayed,Not churned,25-48 months,0.0,0.0,1336.76
+CUST-01338,Male,18-24,33,Two year,Bank transfer,53.73,1848.35,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,1848.35
+CUST-00460,Female,45-54,44,One year,Electronic check,84.28,3671.33,Fiber optic,4,Stayed,Not churned,25-48 months,0.0,0.0,3671.33
+CUST-01185,Female,35-44,2,Month-to-month,Credit card,79.79,205.11,Fiber optic,1,Churned,Price too high,0-6 months,79.79,957.48,205.11
+CUST-00277,Male,45-54,26,Two year,Credit card,79.12,2036.69,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2036.69
+CUST-00956,Female,25-34,46,Two year,Credit card,78.65,3630.89,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,3630.89
+CUST-01216,Female,25-34,36,Two year,Credit card,53.9,1964.29,DSL,0,Stayed,Not churned,25-48 months,0.0,0.0,1964.29
+CUST-00386,Male,35-44,19,Two year,Electronic check,54.6,1022.26,DSL,2,Stayed,Not churned,13-24 months,0.0,0.0,1022.26
+CUST-00806,Male,35-44,49,Two year,Bank transfer,45.41,2235.24,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,2235.24
+CUST-01438,Male,35-44,34,One year,Credit card,81.64,2814.51,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,2814.51
+CUST-00344,Female,45-54,6,Month-to-month,Credit card,61.67,344.51,DSL,3,Stayed,Not churned,0-6 months,0.0,0.0,344.51
+CUST-00770,Male,35-44,38,Month-to-month,Credit card,63.89,2383.47,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2383.47
+CUST-01333,Female,25-34,12,Month-to-month,Electronic check,37.88,506.54,,0,Churned,Competitor offer,7-12 months,37.88,454.56,506.54
+CUST-00131,Female,45-54,37,Two year,Unknown,61.22,2274.52,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2274.52
+CUST-00872,Female,55-64,8,Month-to-month,Bank transfer,72.55,607.8,Fiber optic,1,Churned,Price too high,7-12 months,72.55,870.6,607.8
+CUST-01124,Male,55-64,67,Two year,Electronic check,43.78,2994.31,,0,Stayed,Not churned,49+ months,0.0,0.0,2994.31
+CUST-01397,Female,35-44,4,Month-to-month,Mailed check,61.88,253.16,Fiber optic,0,Churned,Price too high,0-6 months,61.88,742.56,253.16
+CUST-00088,Male,35-44,9,Month-to-month,Credit card,80.12,699.08,Fiber optic,1,Stayed,Not churned,7-12 months,0.0,0.0,699.08
+CUST-01483,Male,45-54,38,One year,Mailed check,67.1,2567.41,Fiber optic,2,Stayed,Not churned,25-48 months,0.0,0.0,2567.41
+CUST-00331,Female,65+,24,One year,Electronic check,78.27,1905.89,Fiber optic,3,Stayed,Not churned,13-24 months,0.0,0.0,1905.89
+CUST-01239,Male,65+,64,One year,Credit card,29.1,1866.65,DSL,1,Stayed,Not churned,49+ months,0.0,0.0,1866.65
+CUST-00467,Female,25-34,10,Month-to-month,Mailed check,56.46,533.77,DSL,2,Stayed,Not churned,7-12 months,0.0,0.0,533.77
+CUST-00122,Male,18-24,10,Month-to-month,Electronic check,64.85,625.0,Fiber optic,1,Churned,Price too high,7-12 months,64.85,778.2,625.0
+CUST-01045,Male,18-24,13,Month-to-month,Electronic check,26.82,330.23,,5,Churned,Technical issues,13-24 months,26.82,321.84,330.23
+CUST-01096,Female,45-54,14,Month-to-month,Bank transfer,47.7,661.76,DSL,0,Churned,Price too high,13-24 months,47.7,572.4,661.76
+CUST-01131,Male,45-54,13,Month-to-month,Electronic check,77.83,947.86,Fiber optic,1,Churned,Competitor offer,13-24 months,77.83,933.96,947.86
+CUST-01295,Male,35-44,48,Month-to-month,Bank transfer,65.75,3194.44,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,3194.44
+CUST-00861,Male,18-24,36,Two year,Bank transfer,50.27,1823.81,Fiber optic,1,Stayed,Not churned,25-48 months,0.0,0.0,1823.81
+CUST-01460,Male,55-64,18,One year,Electronic check,69.9,1236.25,Fiber optic,0,Churned,Competitor offer,13-24 months,69.9,838.8,1236.25
+CUST-01127,Female,18-24,26,One year,Bank transfer,84.15,2137.74,Fiber optic,3,Stayed,Not churned,25-48 months,0.0,0.0,2137.74

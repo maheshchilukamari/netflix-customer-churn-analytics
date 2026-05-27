@@ -1,0 +1,16 @@
+contract_type,tenure_group,churned_customers,monthly_revenue_loss,annual_revenue_loss,avg_lost_monthly_revenue
+Month-to-month,0-6 months,78,4847.6,58171.2,35.64
+Month-to-month,13-24 months,79,4808.95,57707.4,17.81
+Month-to-month,25-48 months,56,3502.42,42029.04,21.1
+Month-to-month,49+ months,6,397.24,4766.88,26.48
+Month-to-month,7-12 months,101,6200.64,74407.68,28.31
+One year,0-6 months,9,431.8,5181.6,17.99
+One year,13-24 months,21,1193.87,14326.44,11.16
+One year,25-48 months,38,2107.82,25293.84,10.43
+One year,49+ months,1,27.68,332.16,1.11
+One year,7-12 months,8,590.34,7084.08,15.14
+Two year,0-6 months,0,0.0,0.0,0.0
+Two year,13-24 months,1,47.74,572.88,1.91
+Two year,25-48 months,20,1197.98,14375.76,8.56
+Two year,49+ months,5,293.24,3518.88,2.31
+Two year,7-12 months,1,18.99,227.88,4.75
